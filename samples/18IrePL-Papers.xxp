@@ -1,0 +1,789 @@
+company:
+
+  _:
+    token_1_text_text: Free
+
+  index:
+    minor1:
+      _:
+        long_name_text_text: |
+            Minor 1
+        short_name_text_text: "1"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor1_pres:
+      _:
+        long_name_text_text: |
+            Minor 1
+        short_name_text_text: "1"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor2:
+      _:
+        long_name_text_text: |
+            Minor 2
+        short_name_text_text: "2"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor2_pres:
+      _:
+        long_name_text_text: |
+            Minor 2
+        short_name_text_text: "2"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor3:
+      _:
+        long_name_text_text: |
+            Minor 3
+        short_name_text_text: "3"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor3_pres:
+      _:
+        long_name_text_text: |
+            Minor 3
+        short_name_text_text: "3"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor4:
+      _:
+        long_name_text_text: |
+            Minor 4
+        short_name_text_text: "4"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor4_pres:
+      _:
+        long_name_text_text: |
+            Minor 4
+        short_name_text_text: "4"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor5:
+      _:
+        long_name_text_text: |
+            Minor 5
+        short_name_text_text: "5"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor5_pres:
+      _:
+        long_name_text_text: |
+            Minor 5
+        short_name_text_text: "5"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor6:
+      _:
+        long_name_text_text: |
+            Minor 6
+        short_name_text_text: "6"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor6_pres:
+      _:
+        long_name_text_text: |
+            Minor 6
+        short_name_text_text: "6"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor7:
+      _:
+        long_name_text_text: |
+            Minor 7
+        short_name_text_text: "7"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor7_pres:
+      _:
+        long_name_text_text: |
+            Minor 7
+        short_name_text_text: "7"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor8:
+      _:
+        long_name_text_text: |
+            Minor 8
+        short_name_text_text: "8"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor8_pres:
+      _:
+        long_name_text_text: |
+            Minor 8
+        short_name_text_text: "8"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor9:
+      _:
+        long_name_text_text: |
+            Minor 9
+        short_name_text_text: "9"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor9_pres:
+      _:
+        long_name_text_text: |
+            Minor 9
+        short_name_text_text: "9"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor10:
+      _:
+        long_name_text_text: |
+            Minor 10
+        short_name_text_text: "10"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor10_pres:
+      _:
+        long_name_text_text: |
+            Minor 10
+        short_name_text_text: "10"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor11:
+      _:
+        long_name_text_text: |
+            Minor 11
+        short_name_text_text: "11"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor11_pres:
+      _:
+        long_name_text_text: |
+            Minor 11
+        short_name_text_text: "11"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor12:
+      _:
+        long_name_text_text: |
+            Minor 12
+        short_name_text_text: "12"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor12_pres:
+      _:
+        long_name_text_text: |
+            Minor 12
+        short_name_text_text: "12"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor13:
+      _:
+        long_name_text_text: |
+            Minor 13
+        short_name_text_text: "13"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor13_pres:
+      _:
+        long_name_text_text: |
+            Minor 13
+        short_name_text_text: "13"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
+
+    minor14:
+      _:
+        long_name_text_text: |
+            Minor 14
+        short_name_text_text: "14"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      share:
+        _:
+          share_num_text_text: 1 Share
+          share_pct_text_text: 20%
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          share_desc_text_suppress: True
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+      token:
+        index: $[index_of (1)]
+    minor14_pres:
+      _:
+        long_name_text_text: |
+            Minor 14
+        short_name_text_text: "14"
+        _major_fill: ${colour/wikipedia/white}
+        _minor_fill: ${colour/wikipedia/white}
+        _related_fill: ${colour/wikipedia/light_gray}
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 40%
+          token_1_embed_suppress: True
+          token_2a_embed_suppress: False
+          token_2b_embed_suppress: False
+          type_bar_box_suppress: True
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+        index:
+          "1":
+
