@@ -1,0 +1,13 @@
+xxpaper:
+  typefaces:
+    - LibreBaskerville-Bold.ttf
+    - LibreBaskerville-Italic.ttf
+    - LibreBaskerville-Regular.ttf
+
+DEFAULT:
+  typeface: "LibreBaskerville-Regular"
+  typeface_bold: "LibreBaskerville-Bold"
+  typeface_bold_italic: "LibreBaskerville-Bold"
+  typeface_bold_oblique: ${DEFAULT/typeface_bold_italic}
+  typeface_italic: "LibreBaskerville-Italic"
+  typeface_oblique: ${DEFAULT/typeface_italic}
