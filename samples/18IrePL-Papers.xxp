@@ -2,27 +2,72 @@ private:
 
   index:
 
-    SV:
+    P1:
       _:
         long_name_text_text: |
-            Schuykill Valley
-            Railroad
-        power_text_text: "Blocks: G15"
+            Wrocław-Oława Railroad
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
-    C&StL:
+    P2:
       _:
         long_name_text_text: |
-            Champlain & St Larence
-            Railway
+            Industrialisation of Łódź
         power_text_text: |
-            Blocks: B20.
-            Owning corporation may place a free,
-            track tile at B20 in addition to
-            its normal track tile lay.
+            Owning company may place
+            a +$10 token in Łódź (G13).
+            Increases the value of the city
+            for all companies.
         cost_text_text: "Cost: $40"
         revenue_text_text: "Revenue: $10"
+
+    P3:
+      _:
+        long_name_text_text: |
+            Local Railroad
+        power_text_text: |
+            Owning company has access
+            to the green town tile (IPL1).
+        cost_text_text: "Cost: $60"
+        revenue_text_text: "Revenue: $15"
+
+    P4:
+      _:
+        long_name_text_text: |
+            Bridge Company
+        power_text_text: |
+            Owning company ignores
+            river costs.
+        cost_text_text: "Cost: $80"
+        revenue_text_text: "Revenue: $20"
+
+    P5:
+      _:
+        long_name_text_text: |
+            Baltic Shipping
+        power_text_text: |
+            Owning company may place
+            a $20 token in any port
+            (B4, E1, G3). Owning company
+            may use it as a stop.
+        cost_text_text: "Cost: $100"
+        revenue_text_text: "Revenue: $25"
+
+    P6:
+      _:
+        long_name_text_text: |
+            Warsaw-Radom Railroad
+        power_text_text: |
+            Owning player immediately takes
+            the presidency of Minor 8, places its
+            home station (I11), and puts the bid
+            into its treasury. Par price is the 
+            highest yellow par value that is <= 
+            half the bid. Minor 8 buys a train
+            and Warsaw-Radom Railroad closes.
+        cost_text_text: "Cost: $120"
+        revenue_text_text: "Revenue: $0"
+
 
 company:
 
