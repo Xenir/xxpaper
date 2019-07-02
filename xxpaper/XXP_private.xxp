@@ -17,7 +17,7 @@ private:
     CUT_ELEMENT: cutline_box
 
   _:
-    closes_text_text: "Closes: In BROWN phase"
+    closes_text_text: "Closes in brown phase"
     long_name_text_text: ""
     power_text_text: ""
     cost_text_text: "Cost: £XXX"

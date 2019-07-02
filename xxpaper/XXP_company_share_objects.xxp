@@ -68,17 +68,17 @@ share_pct_text:
   y: 1.5
   h_center: 0
   v_center: -1
-  typeface: ${DEFAULT/typeface_italic}
-  size: 11
+  typeface: ${DEFAULT/typeface_regular}
+  size: 12
   fill: $[black_or_white (${_/_related_fill})]
 
 share_desc_text:
-  text: Director
-  x: 64
+  text: President
+  x: 65
   y: 1.5
   h_center: 0
   v_center: 1
-  typeface: ${DEFAULT/typeface_italic}
+  typeface: ${DEFAULT/typeface_regular}
   size: 11
   suppress: True
 
