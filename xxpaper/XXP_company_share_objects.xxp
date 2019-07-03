@@ -58,7 +58,7 @@ share_num_text:
   y: 1.5
   h_center: -1
   v_center: 1
-  typeface: ${DEFAULT/typeface_italic}
+  typeface: ${DEFAULT/typeface_regular}
   size: 11
   text: 1 Share
 

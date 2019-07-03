@@ -77,6 +77,32 @@ company:
     token_1_text_text: Free
 
   index:
+    PKP:
+      _:
+        long_name_text_text: |
+            PKP
+        short_name_text_text: PKP
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2)]
+        short_name_text_size: 14
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/hollasch/sky_blue_deep}
+        _minor_fill: ${colour/hollasch/sky_blue_deep}
+        _related_fill: ${colour/hollasch/sky_blue_light}
+        comment_text_text: |
+            Polskie Koleje Państwowe
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Polskie Koleje Państwowe"
+
+      token:
+        index: $[index_of (5)]
+
+
     minor1:
       _:
         long_name_text_text: |
@@ -111,7 +137,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor1_pres:
       _:
         long_name_text_text: |
@@ -177,7 +203,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor2_pres:
       _:
         long_name_text_text: |
@@ -239,7 +265,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor3_pres:
       _:
         long_name_text_text: |
@@ -301,7 +327,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor4_pres:
       _:
         long_name_text_text: |
@@ -363,7 +389,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor5_pres:
       _:
         long_name_text_text: |
@@ -425,7 +451,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor6_pres:
       _:
         long_name_text_text: |
@@ -487,7 +513,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor7_pres:
       _:
         long_name_text_text: |
@@ -549,7 +575,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor8_pres:
       _:
         long_name_text_text: |
@@ -611,7 +637,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor9_pres:
       _:
         long_name_text_text: |
@@ -673,7 +699,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor10_pres:
       _:
         long_name_text_text: |
@@ -735,7 +761,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor11_pres:
       _:
         long_name_text_text: |
@@ -797,7 +823,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor12_pres:
       _:
         long_name_text_text: |
@@ -863,7 +889,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor13_pres:
       _:
         long_name_text_text: |
@@ -925,7 +951,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minor14_pres:
       _:
         long_name_text_text: |
@@ -984,7 +1010,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minorA_pres:
       _:
         long_name_text_text: |
@@ -1047,7 +1073,7 @@ company:
           "2":
           "3":
       token:
-        index: $[index_of (1)]
+        index: $[index_of (3)]
     minorB_pres:
       _:
         long_name_text_text: |
