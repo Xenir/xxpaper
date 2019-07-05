@@ -82,22 +82,69 @@ company:
         long_name_text_text: |
             PKP
         short_name_text_text: PKP
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2)]
-        short_name_text_size: 14
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_size: 12
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
         _major_fill: ${colour/hollasch/sky_blue_deep}
         _minor_fill: ${colour/hollasch/sky_blue_deep}
         _related_fill: ${colour/hollasch/sky_blue_light}
-        comment_text_text: |
-            Polskie Koleje Państwowe
       share:
         _:
           side_bar_lsplit_box_suppress: True
           side_bar_rsplit_box_suppress: True
           type_bar_box_suppress: True
           comment_text_text: "Polskie Koleje Państwowe"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
+    KKG:
+      _:
+        long_name_text_text: |
+            KKG
+        short_name_text_text: KKG
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_size: 12
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/scale/purple_5}
+        _minor_fill: ${colour/scale/purple_5}
+        _related_fill: ${colour/hollasch/orchid}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Kolej Krakowsko-Górnośląska"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
+    TKG:
+      _:
+        long_name_text_text: |
+            TKG
+        short_name_text_text: TKG
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_size: 12
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/scale/orange_4}
+        _minor_fill: ${colour/scale/orange_4}
+        _related_fill: ${colour/scale/orange_2}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Towarzystwo Kolei Górnośląskiej"
+          comment_text_y: 70
 
       token:
         index: $[index_of (5)]
@@ -136,6 +183,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor1_pres:
@@ -177,9 +230,12 @@ company:
         _minor_fill: ${colour/wikipedia/white}
         _related_fill: ${colour/wikipedia/light_gray}
       charter:
+        index:
+      minor_charter:
         _:
           comment_text_text: |
-            Ignores the river cost on its home hex (F4)
+            Ignores the river cost on its home hex (F4).
+        index: $[index_of (1)]
       share:
         _:
           share_num_text_text: 1 Share
@@ -202,8 +258,6 @@ company:
               suppress: True
           "2":
           "3":
-      token:
-        index: $[index_of (3)]
     minor2_pres:
       _:
         long_name_text_text: |
@@ -264,6 +318,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor3_pres:
@@ -326,6 +386,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor4_pres:
@@ -388,6 +454,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor5_pres:
@@ -450,6 +522,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor6_pres:
@@ -512,6 +590,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor7_pres:
@@ -574,6 +658,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor8_pres:
@@ -636,6 +726,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor9_pres:
@@ -698,6 +794,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor10_pres:
@@ -760,6 +862,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor11_pres:
@@ -822,6 +930,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor12_pres:
@@ -863,9 +977,12 @@ company:
         _minor_fill: ${colour/wikipedia/white}
         _related_fill: ${colour/wikipedia/light_gray}
       charter:
+        index:
+      minor_charter:
         _:
           comment_text_text: |
-            Ignores the river cost on its home hex (H18)
+            Ignores the river cost on its home hex (H18).
+        index: $[index_of (1)]
       share:
         _:
           share_num_text_text: 1 Share
@@ -950,6 +1067,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minor14_pres:
@@ -957,6 +1080,9 @@ company:
         long_name_text_text: |
             Minor 14
         short_name_text_text: "14"
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+        short_name_text_size: 24
+        name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
         _related_fill: ${colour/wikipedia/light_gray}
@@ -1009,6 +1135,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minorA_pres:
@@ -1016,6 +1148,9 @@ company:
         long_name_text_text: |
             Minor A
         short_name_text_text: "A"
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+        short_name_text_size: 24
+        name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
         _related_fill: ${colour/wikipedia/light_gray}
@@ -1072,6 +1207,12 @@ company:
               suppress: True
           "2":
           "3":
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       token:
         index: $[index_of (3)]
     minorB_pres:
