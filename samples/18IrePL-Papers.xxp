@@ -15,7 +15,7 @@ private:
             Industrialisation of Łódź
         power_text_text: |
             Owning company may place
-            a +$10 token in Łódź (G13).
+            a +$20 token in Łódź (G13).
             Increases the value of the city
             for all companies.
         cost_text_text: "Cost: $40"
@@ -26,18 +26,21 @@ private:
         long_name_text_text: |
             Local Railroad
         power_text_text: |
-            Owning company has access
-            to the green town tile (IPL1).
+            Owning company may upgrade
+            a yellow town using an IPL1 tile.
+            This is in addition to its
+            normal tile placement.
         cost_text_text: "Cost: $60"
         revenue_text_text: "Revenue: $15"
 
     P4:
       _:
+        closes_text_text: "Closes in: see below"
         long_name_text_text: |
             Bridge Company
         power_text_text: |
             Owning company ignores
-            river costs.
+            terrain costs.
         cost_text_text: "Cost: $80"
         revenue_text_text: "Revenue: $20"
 
@@ -73,6 +76,18 @@ private:
 
 company:
 
+  charter:
+    _:
+      outside_box_radius: 0
+      outside_box_width: 2
+      title_box_width: 2
+
+  minor_charter:
+    _:
+      outside_box_radius: 0
+      outside_box_width: 2
+      title_box_width: 2
+
   _:
     token_1_text_text: Free
 
@@ -82,7 +97,7 @@ company:
         long_name_text_text: |
             PKP
         short_name_text_text: PKP
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
         short_name_text_size: 12
         name_stripe_box_suppress: True
         token_2_text_text: $50
@@ -106,14 +121,16 @@ company:
         long_name_text_text: |
             KKG
         short_name_text_text: KKG
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
         short_name_text_size: 12
+        short_name_text_fill: ${colour/xxp/WHITE}
+        share_pct_text_fill: ${colour/xxp/WHITE}
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
-        _major_fill: ${colour/scale/purple_5}
-        _minor_fill: ${colour/scale/purple_5}
-        _related_fill: ${colour/hollasch/orchid}
+        _major_fill: ${colour/hollasch/blue_violet}
+        _minor_fill: ${colour/hollasch/blue_violet}
+        _related_fill: ${colour/hollasch/orchid_medium}
       share:
         _:
           side_bar_lsplit_box_suppress: True
@@ -130,7 +147,7 @@ company:
         long_name_text_text: |
             TKG
         short_name_text_text: TKG
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1]
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
         short_name_text_size: 12
         name_stripe_box_suppress: True
         token_2_text_text: $50
@@ -148,6 +165,106 @@ company:
 
       token:
         index: $[index_of (5)]
+
+
+    KWP:
+      _:
+        long_name_text_text: |
+            KWP
+        short_name_text_text: KWP
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
+        short_name_text_size: 12
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/scale/colour_00_4}
+        _minor_fill: ${colour/scale/colour_00_4}
+        _related_fill: ${colour/scale/colour_00_2}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Kolej Warszawsko-Petersburska"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
+    CMK:
+      _:
+        long_name_text_text: |
+            CMK
+        short_name_text_text: CMK
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
+        short_name_text_size: 12
+        short_name_text_fill: ${colour/xxp/WHITE}
+        share_pct_text_fill: ${colour/xxp/WHITE}
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/hollasch/sepia}
+        _minor_fill: ${colour/hollasch/sepia}
+        _related_fill: ${colour/hollasch/sienna}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Centralna Magistrala Kolejowa"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
+    MW:
+      _:
+        long_name_text_text: |
+            MW
+        short_name_text_text: MW
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
+        short_name_text_size: 12
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/scale/yellow_4}
+        _minor_fill: ${colour/scale/yellow_4}
+        _related_fill: ${colour/scale/yellow_2}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Magistrala Węglowa"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
+    LHS:
+      _:
+        long_name_text_text: |
+            LHS
+        short_name_text_text: LHS
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
+        short_name_text_size: 12
+        name_stripe_box_suppress: True
+        token_2_text_text: $50
+        token_3_text_text: $50
+        _major_fill: ${colour/hollasch/lime_green}
+        _minor_fill: ${colour/hollasch/lime_green}
+        _related_fill: ${colour/hollasch/green_pale}
+      share:
+        _:
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          comment_text_text: "Linia Hutniczo-Siarkowa"
+          comment_text_y: 70
+
+      token:
+        index: $[index_of (5)]
+
 
 
     minor1:
@@ -234,7 +351,7 @@ company:
       minor_charter:
         _:
           comment_text_text: |
-            Ignores the river cost on its home hex (F4).
+            Ignores the terrain cost on its home hex (F4).
         index: $[index_of (1)]
       share:
         _:
@@ -526,7 +643,8 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: |
+            May lay two yellow tiles (instead of one) on its first OR.
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -798,7 +916,8 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: |
+            May lay two yellow tiles (instead of one) on its first OR.
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -981,7 +1100,7 @@ company:
       minor_charter:
         _:
           comment_text_text: |
-            Ignores the river cost on its home hex (H18).
+            Ignores the terrain cost on its home hex (H18).
         index: $[index_of (1)]
       share:
         _:
@@ -1184,7 +1303,7 @@ company:
       charter:
         _:
           comment_text_text: |
-            Ignores the river cost on its home hex (H18)
+            Ignores the terrain cost on its home hex (H18)
       share:
         _:
           share_num_text_text: 1 Share
