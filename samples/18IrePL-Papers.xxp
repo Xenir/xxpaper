@@ -1426,6 +1426,11 @@ train:
         cost_text_text_p: $770
         rusted_text_text: Permanent
         rusted_text_size: 14
+        note_text_text: |
+          Possible to trade in 
+          one train and pay 
+          the difference.
+        note_text_size: 9
       model:
         index: $[index_of (8)]
 
