@@ -51,7 +51,7 @@ private:
         power_text_text: |
             Owning company may place a $40
             token in any port (B4, E1, G3).
-            Owning company may use it
+            This company may use it
             as a stop for its trains.
         cost_text_text: "Cost: $100"
         revenue_text_text: "Revenue: $25"
