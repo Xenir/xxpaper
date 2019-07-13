@@ -1,14 +1,6 @@
 private:
 
   index:
-
-    P1:
-      _:
-        long_name_text_text: |
-            Wrocław-Oława Railroad
-        cost_text_text: "Cost: $20"
-        revenue_text_text: "Revenue: $5"
-
     P2:
       _:
         long_name_text_text: |
@@ -55,24 +47,6 @@ private:
             as a stop for its trains.
         cost_text_text: "Cost: $100"
         revenue_text_text: "Revenue: $25"
-
-    P6:
-      _:
-        closes_text_text: "Closes immediately"
-        long_name_text_text: |
-            Warsaw-Radom Railroad
-        power_text_text: |
-            Owning player immediately takes the
-            presidency of Minor 8, places its home
-            station (I11), and puts the bid into its
-            treasury.
-            Par price is the highest yellow par 
-            value that is not more than half the bid. 
-            Then Minor 8 buys a train.
-        power_text_size: 8
-        cost_text_text: "Cost: $120"
-        revenue_text_text: "Revenue: $0"
-
 
 company:
 
@@ -1372,7 +1346,7 @@ train:
         long_name_text_text: "2"
         cost_text_text_p: $80
       model:
-        index: $[index_of (8)]
+        index: $[index_of (7)]
 
     3T:
       _:
@@ -1383,7 +1357,7 @@ train:
         long_name_text_text: "3"
         cost_text_text_p: $180
       model:
-        index: $[index_of (6)]
+        index: $[index_of (5)]
 
     4T:
       _:
@@ -1418,12 +1392,13 @@ train:
       model:
         index: $[index_of (2)]
 
-    Diesel:
+    4D:
       _:
         asset_interior_box_fill_p: BROWN
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "D"
-        cost_text_text_p: $770
+        long_name_text_text: "4D"
+        long_name_text_size: 60
+        cost_text_text_p: $700
         rusted_text_text: Permanent
         rusted_text_size: 14
         note_text_text: |
@@ -1432,5 +1407,4 @@ train:
           the difference.
         note_text_size: 9
       model:
-        index: $[index_of (8)]
-
+        index: $[index_of (5)]
