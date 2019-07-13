@@ -34,7 +34,6 @@ private:
 
     P4:
       _:
-        closes_text_text: "Closes in: see below"
         long_name_text_text: |
             Bridge Company
         power_text_text: |
