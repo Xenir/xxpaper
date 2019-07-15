@@ -347,6 +347,7 @@ company:
         index:
       minor_charter:
         _:
+          comment_text_text: ""
         index: $[index_of (1)]
       share:
         _:
@@ -1094,6 +1095,8 @@ company:
         index:
       minor_charter:
         _:
+          comment_text_text: ""
+        index: $[index_of (1)]
       share:
         _:
           share_num_text_text: 1 Share
@@ -1373,7 +1376,7 @@ train:
         long_name_text_text: "3"
         cost_text_text_p: $180
       model:
-        index: $[index_of (5)]
+        index: $[index_of (4)]
 
     4T:
       _:
@@ -1384,7 +1387,7 @@ train:
         long_name_text_text: "4"
         cost_text_text_p: $300
       model:
-        index: $[index_of (4)]
+        index: $[index_of (3)]
 
     5T:
       _:
@@ -1395,7 +1398,7 @@ train:
         rusted_text_text: Permanent
         rusted_text_size: 14
       model:
-        index: $[index_of (3)]
+        index: $[index_of (2)]
 
     6T:
       _:
@@ -1424,3 +1427,200 @@ train:
         note_text_size: 9
       model:
         index: $[index_of (5)]
+
+
+marker:
+  index:
+
+    minor1_stock_back:
+      token:
+        _:
+          short_name_text_text: "1"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor2_stock_back:
+      token:
+        _:
+          short_name_text_text: "2"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor3_stock_back:
+      token:
+        _:
+          short_name_text_text: "3"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor4_stock_back:
+      token:
+        _:
+          short_name_text_text: "4"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor5_stock_back:
+      token:
+        _:
+          short_name_text_text: "5"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor6_stock_back:
+      token:
+        _:
+          short_name_text_text: "6"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor7_stock_back:
+      token:
+        _:
+          short_name_text_text: "7"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor8_stock_back:
+      token:
+        _:
+          short_name_text_text: "8"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor9_stock_back:
+      token:
+        _:
+          short_name_text_text: "9"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor10_stock_back:
+      token:
+        _:
+          short_name_text_text: "10"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor11_stock_back:
+      token:
+        _:
+          short_name_text_text: "11"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor12_stock_back:
+      token:
+        _:
+          short_name_text_text: "12"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor13_stock_back:
+      token:
+        _:
+          short_name_text_text: "13"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minor14_stock_back:
+      token:
+        _:
+          short_name_text_text: "14"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minorA_stock_back:
+      token:
+        _:
+          short_name_text_text: "A"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    minorB_stock_back:
+      token:
+        _:
+          short_name_text_text: "B"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/white}
+          short_name_text_size: 24
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/black}
+          _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
