@@ -23,22 +23,24 @@ private:
     P3:
       _:
         long_name_text_text: |
-            Local Railroad
+            Bridge Company
         power_text_text: |
-            Owning company may upgrade
-            a yellow town using an IPL1 tile.
-            This is in addition to its
-            normal tile placement.
+            Owning company ignores
+            all terrain costs.
         cost_text_text: "Cost: $60"
         revenue_text_text: "Revenue: $15"
 
     P4:
       _:
         long_name_text_text: |
-            Bridge Company
+            Wilhelmsbahn
         power_text_text: |
-            Owning company ignores
-            all terrain costs.
+            When Wilhelmsbahn is purchased
+            by a company, that company may
+            immediately place a yellow track.
+            Once per game, owning company
+            may pay $20 to place an additional
+            yellow track.
         cost_text_text: "Cost: $80"
         revenue_text_text: "Revenue: $20"
 
