@@ -641,8 +641,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: |
-            May lay two yellow tiles (instead of one) on its first OR.
+          comment_text_text: ""
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -914,8 +913,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: |
-            May lay two yellow tiles (instead of one) on its first OR.
+          comment_text_text: ""
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -1624,5 +1622,41 @@ marker:
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
+        index: $[index_of (1)]
+
+    plus_10_marker:
+      token:
+        _:
+          short_name_text_text: "+10"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/black}
+          short_name_text_size: 16
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/white}
+          _minor_fill: ${colour/wikipedia/white}
+        index: $[index_of (1)]
+
+    plus_20_marker:
+      token:
+        _:
+          short_name_text_text: "+20"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/black}
+          short_name_text_size: 16
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/white}
+          _minor_fill: ${colour/wikipedia/white}
+        index: $[index_of (1)]
+
+    port_50_marker:
+      token:
+        _:
+          short_name_text_text: "50"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_fill: ${colour/wikipedia/black}
+          short_name_text_size: 18
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/white}
+          _minor_fill: ${colour/wikipedia/white}
         index: $[index_of (1)]
 
