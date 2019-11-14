@@ -49,10 +49,10 @@ private:
         long_name_text_text: |
             Baltic Shipping
         power_text_text: |
-            Owning company may place a $40
+            Owning company may place a $50
             token in any port (B4, E1, G3).
-            This company may use it
-            as a stop for its trains.
+            This company may use it as a
+            revenue center for its trains.
         cost_text_text: "Cost: $100"
         revenue_text_text: "Revenue: $25"
 
@@ -64,7 +64,7 @@ private:
         power_text_text: |
             Owning player immediately takes the
             presidency of Minor 8, places its home
-            station (I11), and puts the bid into its
+            station (H10), and puts the bid into its
             treasury.
             Par price is the highest yellow par 
             value that is not more than half the bid. 
