@@ -1660,3 +1660,18 @@ marker:
           _minor_fill: ${colour/wikipedia/white}
         index: $[index_of (1)]
 
+    round:
+      token:
+        _:
+          short_name_text_text: "Round"
+          short_name_text_fill: ${colour/wikipedia/black}
+          short_name_text_size: 8
+          name_stripe_box_suppress: False
+          _major_fill_1: ${colour/wikipedia/red}
+          _major_fill_2: ${colour/hollasch/white}
+          _minor_fill_1: ${colour/hollasch/white}
+          _minor_fill_2: ${colour/wikipedia/red}
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        index: $[index_of (1)]
+
+
