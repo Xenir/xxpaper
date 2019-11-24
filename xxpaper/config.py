@@ -54,7 +54,7 @@ def black_or_white (colour):
   brightness = math.sqrt (colour[0] ** 2 * 0.299
                           + colour[1] ** 2 * 0.587
                           + colour[2] ** 2 * 0.114)
-  return "${colour/xxp/" + ("BLACK}" if brightness > 0.6 else "WHITE}")
+  return "${colour/xxp/" + ("BLACK}" if brightness > 0.57 else "WHITE}")
 
 #
 # Config
