@@ -1,11 +1,10 @@
 private:
-
   index:
     P1:
       _:
         long_name_text_text: |
-            Wrocław-Oława Railroad
-        cost_text_text: "Cost: $20"
+            Wrocław–Oława Railway
+        cost_text_text: "Cost: $22"
         revenue_text_text: "Revenue: $5"
 
     P2:
@@ -14,7 +13,7 @@ private:
             Industrialisation of Łódź
         power_text_text: |
             Owning company may place
-            a +$20 token in Łódź (G13).
+            a +$22 marker in Łódź (F12).
             Increases the value of the city
             for all companies.
         cost_text_text: "Cost: $40"
@@ -39,10 +38,10 @@ private:
             by a company, that company may
             immediately place a yellow track.
             Once per game, owning company
-            may pay $20 to place an additional
+            may pay $22 to place an additional
             yellow track.
         cost_text_text: "Cost: $80"
-        revenue_text_text: "Revenue: $20"
+        revenue_text_text: "Revenue: $22"
 
     P5:
       _:
@@ -50,8 +49,8 @@ private:
             Baltic Shipping
         power_text_text: |
             Owning company may place a $50
-            token in any port (B4, E1, G3).
-            This company may use it as a
+            marker in any port (A3, C1, F2).
+            That company may use it as a
             revenue center for its trains.
         cost_text_text: "Cost: $100"
         revenue_text_text: "Revenue: $25"
@@ -60,7 +59,7 @@ private:
       _:
         closes_text_text: "Closes immediately"
         long_name_text_text: |
-            Warsaw-Radom Railroad
+            Warszawa–Radom Railway
         power_text_text: |
             Owning player immediately takes the
             presidency of Minor 8, places its home
@@ -70,7 +69,7 @@ private:
             value that is not more than half the bid. 
             Then Minor 8 buys a train.
         power_text_size: 8
-        cost_text_text: "Cost: $120"
+        cost_text_text: "Cost: $122"
         revenue_text_text: "Revenue: $0"
 
 company:
@@ -96,8 +95,8 @@ company:
         long_name_text_text: |
             PKP
         short_name_text_text: PKP
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
@@ -120,8 +119,8 @@ company:
         long_name_text_text: |
             KKG
         short_name_text_text: KKG
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         short_name_text_fill: ${colour/xxp/WHITE}
         share_pct_text_fill: ${colour/xxp/WHITE}
         name_stripe_box_suppress: True
@@ -146,8 +145,8 @@ company:
         long_name_text_text: |
             TKG
         short_name_text_text: TKG
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
@@ -171,8 +170,8 @@ company:
         long_name_text_text: |
             KWP
         short_name_text_text: KWP
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
@@ -195,8 +194,8 @@ company:
         long_name_text_text: |
             CMK
         short_name_text_text: CMK
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         short_name_text_fill: ${colour/xxp/WHITE}
         share_pct_text_fill: ${colour/xxp/WHITE}
         name_stripe_box_suppress: True
@@ -221,8 +220,8 @@ company:
         long_name_text_text: |
             MW
         short_name_text_text: MW
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
@@ -245,8 +244,8 @@ company:
         long_name_text_text: |
             LHS
         short_name_text_text: LHS
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 1.6]
-        short_name_text_size: 12
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
+        short_name_text_size: 10
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
@@ -271,8 +270,8 @@ company:
         long_name_text_text: |
             Minor 1
         short_name_text_text: "1"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -303,7 +302,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Gdynia (D2)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -312,8 +311,8 @@ company:
         long_name_text_text: |
             Minor 1
         short_name_text_text: "1"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -339,8 +338,8 @@ company:
         long_name_text_text: |
             Minor 2
         short_name_text_text: "2"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -349,7 +348,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Gdańsk (E3)"
         index: $[index_of (1)]
       share:
         _:
@@ -378,8 +377,8 @@ company:
         long_name_text_text: |
             Minor 2
         short_name_text_text: "2"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -405,8 +404,8 @@ company:
         long_name_text_text: |
             Minor 3
         short_name_text_text: "3"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -437,7 +436,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Szczecin (A5)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -446,8 +445,8 @@ company:
         long_name_text_text: |
             Minor 3
         short_name_text_text: "3"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -473,8 +472,8 @@ company:
         long_name_text_text: |
             Minor 4
         short_name_text_text: "4"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -505,7 +504,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Olsztyn (G5)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -514,8 +513,8 @@ company:
         long_name_text_text: |
             Minor 4
         short_name_text_text: "4"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -541,8 +540,8 @@ company:
         long_name_text_text: |
             Minor 5
         short_name_text_text: "5"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -573,7 +572,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Bydgoszcz (D6)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -582,8 +581,8 @@ company:
         long_name_text_text: |
             Minor 5
         short_name_text_text: "5"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -609,8 +608,8 @@ company:
         long_name_text_text: |
             Minor 6
         short_name_text_text: "6"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -641,7 +640,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Białystok (K7)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -650,8 +649,8 @@ company:
         long_name_text_text: |
             Minor 6
         short_name_text_text: "6"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -677,8 +676,8 @@ company:
         long_name_text_text: |
             Minor 7
         short_name_text_text: "7"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -709,7 +708,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Poznań (C9)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -718,8 +717,8 @@ company:
         long_name_text_text: |
             Minor 7
         short_name_text_text: "7"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -745,8 +744,8 @@ company:
         long_name_text_text: |
             Minor 8
         short_name_text_text: "8"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -777,7 +776,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Warszawa (H10)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -786,8 +785,8 @@ company:
         long_name_text_text: |
             Minor 8
         short_name_text_text: "8"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -813,8 +812,8 @@ company:
         long_name_text_text: |
             Minor 9
         short_name_text_text: "9"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -845,7 +844,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Łódź (F12)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -854,8 +853,8 @@ company:
         long_name_text_text: |
             Minor 9
         short_name_text_text: "9"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -881,8 +880,8 @@ company:
         long_name_text_text: |
             Minor 10
         short_name_text_text: "10"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -913,7 +912,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Wrocław (C13)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -922,8 +921,8 @@ company:
         long_name_text_text: |
             Minor 10
         short_name_text_text: "10"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -949,8 +948,8 @@ company:
         long_name_text_text: |
             Minor 11
         short_name_text_text: "11"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -981,7 +980,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Lublin (K13)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -990,8 +989,8 @@ company:
         long_name_text_text: |
             Minor 11
         short_name_text_text: "11"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1017,8 +1016,8 @@ company:
         long_name_text_text: |
             Minor 12
         short_name_text_text: "12"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1049,7 +1048,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Katowice (F16)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -1058,8 +1057,8 @@ company:
         long_name_text_text: |
             Minor 12
         short_name_text_text: "12"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1085,8 +1084,8 @@ company:
         long_name_text_text: |
             Minor 13
         short_name_text_text: "13"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1095,7 +1094,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Kraków (G13)"
         index: $[index_of (1)]
       share:
         _:
@@ -1126,8 +1125,8 @@ company:
         long_name_text_text: |
             Minor 13
         short_name_text_text: "13"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1153,8 +1152,8 @@ company:
         long_name_text_text: |
             Minor 14
         short_name_text_text: "14"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1185,7 +1184,7 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: "Home station in Rzeszów (I14)"
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -1194,8 +1193,8 @@ company:
         long_name_text_text: |
             Minor 14
         short_name_text_text: "14"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1221,8 +1220,8 @@ company:
         long_name_text_text: |
             Minor A
         short_name_text_text: "A"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1253,7 +1252,10 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: |
+            Home station in the first offboard connection
+            found when going from Germany along the 
+            game border in counter–clockwise order
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -1262,8 +1264,8 @@ company:
         long_name_text_text: |
             Minor A
         short_name_text_text: "A"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1289,8 +1291,8 @@ company:
         long_name_text_text: |
             Minor B
         short_name_text_text: "B"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1323,7 +1325,10 @@ company:
         index:
       minor_charter:
         _:
-          comment_text_text: ""
+          comment_text_text: |
+            Home station in the second offboard connection
+            found when going from Germany along the 
+            game border in counter–clockwise order
         index: $[index_of (1)]
       token:
         index: $[index_of (3)]
@@ -1332,8 +1337,8 @@ company:
         long_name_text_text: |
             Minor B
         short_name_text_text: "B"
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
-        short_name_text_size: 24
+        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+        short_name_text_size: 22
         name_stripe_box_suppress: True
         _major_fill: ${colour/wikipedia/white}
         _minor_fill: ${colour/wikipedia/white}
@@ -1358,62 +1363,73 @@ train:
   index:
     2T:
       _:
-        asset_interior_box_fill_p: YELLOW
-        rust_bar_box_fill_p: GREEN
+        asset_interior_box_fill: ${colour/galatolol/yellow}
+        rust_bar_box_fill: ${colour/galatolol/green}
         rusted_text_text: "Rusted by 4"
         rusted_text_size: 14
         long_name_text_text: "2"
         cost_text_text_p: $80
+        #rusted_text_fill: ${colour/wikipedia/black}
       model:
         index: $[index_of (7)]
 
     3T:
       _:
-        asset_interior_box_fill_p: GREEN
-        rust_bar_box_fill_p: BROWN
+        asset_interior_box_fill: ${colour/galatolol/green}
+        rust_bar_box_fill: ${colour/galatolol/brown}
         rusted_text_text: "Rusted by 6"
         rusted_text_size: 14
         long_name_text_text: "3"
         cost_text_text_p: $180
+        #long_name_text_fill: ${colour/wikipedia/black}
+        #cost_text_fill: ${colour/wikipedia/black}
+        #rusted_text_fill: ${colour/wikipedia/black}
       model:
         index: $[index_of (4)]
 
     4T:
       _:
-        asset_interior_box_fill_p: GREEN
-        rust_bar_box_fill_p: BROWN
-        rusted_text_text: "Rusted by D"
+        asset_interior_box_fill: ${colour/galatolol/green}
+        rust_bar_box_fill: ${colour/galatolol/brown}
+        rusted_text_text: "Rusted by 4D"
         rusted_text_size: 14
         long_name_text_text: "4"
         cost_text_text_p: $300
+        #long_name_text_fill: ${colour/wikipedia/black}
+        #cost_text_fill: ${colour/wikipedia/black}
+        #rusted_text_fill: ${colour/wikipedia/black}
       model:
         index: $[index_of (3)]
 
     5T:
       _:
-        asset_interior_box_fill_p: BROWN
+        asset_interior_box_fill: ${colour/galatolol/brown}
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "5"
         cost_text_text_p: $440
         rusted_text_text: Permanent
         rusted_text_size: 14
+        #long_name_text_fill: ${colour/wikipedia/black}
+        #cost_text_fill: ${colour/wikipedia/black}
       model:
         index: $[index_of (2)]
 
     6T:
       _:
-        asset_interior_box_fill_p: BROWN
+        asset_interior_box_fill: ${colour/galatolol/brown}
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6"
         cost_text_text_p: $550
         rusted_text_text: Permanent
         rusted_text_size: 14
+        #long_name_text_fill: ${colour/wikipedia/black}
+        #cost_text_fill: ${colour/wikipedia/black}
       model:
         index: $[index_of (2)]
 
     4D:
       _:
-        asset_interior_box_fill_p: BROWN
+        asset_interior_box_fill: ${colour/galatolol/brown}
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "4D"
         long_name_text_size: 60
@@ -1422,9 +1438,12 @@ train:
         rusted_text_size: 14
         note_text_text: |
           Possible to trade in 
-          one train and pay 
+          a train and pay 
           the difference.
         note_text_size: 9
+        #long_name_text_fill: ${colour/wikipedia/black}
+        #cost_text_fill: ${colour/wikipedia/black}
+        #note_text_fill: ${colour/wikipedia/black} 
       model:
         index: $[index_of (5)]
 
@@ -1436,9 +1455,9 @@ marker:
       token:
         _:
           short_name_text_text: "1"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1448,9 +1467,9 @@ marker:
       token:
         _:
           short_name_text_text: "2"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1460,9 +1479,9 @@ marker:
       token:
         _:
           short_name_text_text: "3"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1472,9 +1491,9 @@ marker:
       token:
         _:
           short_name_text_text: "4"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1484,9 +1503,9 @@ marker:
       token:
         _:
           short_name_text_text: "5"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1496,9 +1515,9 @@ marker:
       token:
         _:
           short_name_text_text: "6"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1508,9 +1527,9 @@ marker:
       token:
         _:
           short_name_text_text: "7"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1520,9 +1539,9 @@ marker:
       token:
         _:
           short_name_text_text: "8"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1532,9 +1551,9 @@ marker:
       token:
         _:
           short_name_text_text: "9"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1544,9 +1563,9 @@ marker:
       token:
         _:
           short_name_text_text: "10"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1556,9 +1575,9 @@ marker:
       token:
         _:
           short_name_text_text: "11"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1568,9 +1587,9 @@ marker:
       token:
         _:
           short_name_text_text: "12"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1580,9 +1599,9 @@ marker:
       token:
         _:
           short_name_text_text: "13"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1592,9 +1611,9 @@ marker:
       token:
         _:
           short_name_text_text: "14"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1604,9 +1623,9 @@ marker:
       token:
         _:
           short_name_text_text: "A"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1616,9 +1635,9 @@ marker:
       token:
         _:
           short_name_text_text: "B"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/white}
-          short_name_text_size: 24
+          short_name_text_size: 22
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/black}
           _minor_fill: ${colour/wikipedia/black}
@@ -1628,21 +1647,21 @@ marker:
       token:
         _:
           short_name_text_text: "+10"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/black}
-          short_name_text_size: 16
+          short_name_text_size: 15
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/white}
           _minor_fill: ${colour/wikipedia/white}
         index: $[index_of (1)]
 
-    plus_20_marker:
+    plus_22_marker:
       token:
         _:
-          short_name_text_text: "+20"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_text: "+22"
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/black}
-          short_name_text_size: 16
+          short_name_text_size: 15
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/white}
           _minor_fill: ${colour/wikipedia/white}
@@ -1652,9 +1671,9 @@ marker:
       token:
         _:
           short_name_text_text: "50"
-          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 2]
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/black}
-          short_name_text_size: 18
+          short_name_text_size: 17
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/white}
           _minor_fill: ${colour/wikipedia/white}
@@ -1665,7 +1684,7 @@ marker:
         _:
           short_name_text_text: "Round"
           short_name_text_fill: ${colour/wikipedia/black}
-          short_name_text_size: 8
+          short_name_text_size: 7
           name_stripe_box_suppress: False
           _major_fill_1: ${colour/wikipedia/red}
           _major_fill_2: ${colour/hollasch/white}

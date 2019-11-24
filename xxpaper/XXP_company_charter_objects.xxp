@@ -108,8 +108,9 @@ token_1_circle:
 token_1_text:
   suppress: $["${token_1_text/text}" == ""]
   typeface: ${DEFAULT/typeface}
+  size: 12
   x: 42
-  y: 228
+  y: 202
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_1_circle/fill})]
@@ -126,6 +127,7 @@ token_2_circle:
 token_2_text:
   suppress: $["${token_2_text/text}" == ""]
   typeface: ${DEFAULT/typeface}
+  size: 12
   x: 42
   y: $[${token_5_text/y} + ((${token_1_text/y} - ${token_5_text/y}) * 3.0 / 4.0)]
   h_center: 0
@@ -144,6 +146,7 @@ token_3_circle:
 token_3_text:
   suppress: $["${token_3_text/text}" == ""]
   typeface: ${DEFAULT/typeface}
+  size: 12
   x: 42
   y: $[${token_5_text/y} + ((${token_1_text/y} - ${token_5_text/y}) * 2.0 / 4.0)]
   h_center: 0
@@ -171,7 +174,7 @@ token_4_text:
 token_5_circle:
   suppress: $["${token_5_text/text}" == ""]
   x: 42
-  y: 42
+  y: 10
   radius: 18
   width: 0.5
   stroke: ${colour/xxp/BLACK}
@@ -181,7 +184,7 @@ token_5_text:
   suppress: $["${token_5_text/text}" == ""]
   typeface: ${DEFAULT/typeface}
   x: 42
-  y: 36
+  y: -20
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_5_circle/fill})]
