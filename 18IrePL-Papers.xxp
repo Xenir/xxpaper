@@ -66,8 +66,7 @@ private:
             station (H10), and puts the bid into its
             treasury.
             Par price is the highest yellow par 
-            value that is not more than half the bid. 
-            Then Minor 8 buys a train.
+            value that is not more than half the bid.
         power_text_size: 8
         cost_text_text: "Cost: $122"
         revenue_text_text: "Revenue: $0"
@@ -1655,10 +1654,10 @@ marker:
           _minor_fill: ${colour/wikipedia/white}
         index: $[index_of (1)]
 
-    plus_22_marker:
+    plus_20_marker:
       token:
         _:
-          short_name_text_text: "+22"
+          short_name_text_text: "+20"
           short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
           short_name_text_fill: ${colour/wikipedia/black}
           short_name_text_size: 15
