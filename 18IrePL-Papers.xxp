@@ -163,31 +163,6 @@ company:
       token:
         index: $[index_of (5)]
 
-
-    KWP:
-      _:
-        long_name_text_text: |
-            KWP
-        short_name_text_text: KWP
-        short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) + 3]
-        short_name_text_size: 10
-        name_stripe_box_suppress: True
-        token_2_text_text: $50
-        token_3_text_text: $50
-        _major_fill: ${colour/scale/colour_00_4}
-        _minor_fill: ${colour/scale/colour_00_4}
-        _related_fill: ${colour/scale/colour_00_2}
-      share:
-        _:
-          side_bar_lsplit_box_suppress: True
-          side_bar_rsplit_box_suppress: True
-          type_bar_box_suppress: True
-          comment_text_text: "Kolej Warszawsko-Petersburska"
-          comment_text_y: 70
-
-      token:
-        index: $[index_of (5)]
-
     CMK:
       _:
         long_name_text_text: |
@@ -200,9 +175,9 @@ company:
         name_stripe_box_suppress: True
         token_2_text_text: $50
         token_3_text_text: $50
-        _major_fill: ${colour/hollasch/sepia}
-        _minor_fill: ${colour/hollasch/sepia}
-        _related_fill: ${colour/hollasch/sienna}
+        _major_fill: ${colour/scale/colour_00_4}
+        _minor_fill: ${colour/scale/colour_00_4}
+        _related_fill: ${colour/scale/colour_00_2}
       share:
         _:
           side_bar_lsplit_box_suppress: True
@@ -1398,7 +1373,7 @@ train:
         #cost_text_fill: ${colour/wikipedia/black}
         #rusted_text_fill: ${colour/wikipedia/black}
       model:
-        index: $[index_of (3)]
+        index: $[index_of (4)]
 
     5T:
       _:
@@ -1432,7 +1407,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "4D"
         long_name_text_size: 60
-        cost_text_text_p: $700
+        cost_text_text_p: $770
         rusted_text_text: Permanent
         rusted_text_size: 14
         note_text_text: |
