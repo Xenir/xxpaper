@@ -1,0 +1,53 @@
+train:
+
+  index:
+    2B:
+      _:
+        asset_interior_box_fill: ${colour/galatolol/yellow}
+        rust_bar_box_fill: ${colour/galatolol/green}
+        rusted_text_text: "Rusted by 4"
+        rusted_text_size: 14
+        long_name_text_text: "2"
+        cost_text_h_center: -1
+        cost_text_text: |
+            OR1: $100
+            OR2: $75
+            OR3: $50
+      model:
+        index: $[index_of (2)]
+
+    2B_5:
+      _:
+        asset_interior_box_fill: ${colour/galatolol/yellow}
+        rust_bar_box_fill: ${colour/galatolol/green}
+        rusted_text_text: "Rusted by 4"
+        rusted_text_size: 14
+        long_name_text_text: "2"
+        cost_text_text: |
+            OR1: $100
+            OR2: $75
+            OR3: $50
+        note_text_text: |
+          5 players
+        note_text_size: 9
+      model:
+        index: $[index_of (2)]
+
+    D:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "D"
+        long_name_text_size: 60
+        cost_text_text_p: $770
+        rusted_text_text: Permanent
+        rusted_text_size: 14
+        note_text_text: |
+          Possible to trade in 
+          a train and pay 
+          the difference.
+        note_text_size: 9
+      model:
+        index: $[index_of (10)]
+
+
