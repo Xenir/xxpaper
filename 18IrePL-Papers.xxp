@@ -4,7 +4,7 @@ private:
       _:
         long_name_text_text: |
             Wrocław–Oława Railway
-        cost_text_text: "Cost: $22"
+        cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
     P2:
@@ -13,9 +13,9 @@ private:
             Industrialisation of Łódź
         power_text_text: |
             Owning company may place
-            a +$22 marker in Łódź (F12).
-            Increases the value of the city
-            for all companies.
+            a +$20 marker in Łódź (F12).
+            Permanently increases the value
+            of the city for all companies.
         cost_text_text: "Cost: $40"
         revenue_text_text: "Revenue: $10"
 
@@ -25,7 +25,8 @@ private:
             Bridge Company
         power_text_text: |
             Owning company ignores
-            all terrain costs.
+            all terrain costs Until
+            the end of the game.
         cost_text_text: "Cost: $60"
         revenue_text_text: "Revenue: $15"
 
@@ -38,10 +39,10 @@ private:
             by a company, that company may
             immediately place a yellow track.
             Once per game, owning company
-            may pay $22 to place an additional
+            may pay $20 to place an additional
             yellow track.
         cost_text_text: "Cost: $80"
-        revenue_text_text: "Revenue: $22"
+        revenue_text_text: "Revenue: $20"
 
     P5:
       _:
@@ -50,8 +51,9 @@ private:
         power_text_text: |
             Owning company may place a $50
             marker in any port (A3, C1, F2).
-            That company may use it as a
-            revenue center for its trains.
+            For the rest of the game, that
+            company may use it as a revenue
+            center for its trains.
         cost_text_text: "Cost: $100"
         revenue_text_text: "Revenue: $25"
 
@@ -68,7 +70,7 @@ private:
             Par price is the highest yellow par 
             value that is not more than half the bid.
         power_text_size: 8
-        cost_text_text: "Cost: $122"
+        cost_text_text: "Cost: $120"
         revenue_text_text: "Revenue: $0"
 
 company:
@@ -1345,7 +1347,7 @@ train:
         cost_text_text_p: $80
         #rusted_text_fill: ${colour/wikipedia/black}
       model:
-        index: $[index_of (7)]
+        index: $[index_of (6)]
 
     3T:
       _:
@@ -1359,7 +1361,7 @@ train:
         #cost_text_fill: ${colour/wikipedia/black}
         #rusted_text_fill: ${colour/wikipedia/black}
       model:
-        index: $[index_of (4)]
+        index: $[index_of (5)]
 
     4T:
       _:
@@ -1651,7 +1653,22 @@ marker:
           name_stripe_box_suppress: True
           _major_fill: ${colour/wikipedia/white}
           _minor_fill: ${colour/wikipedia/white}
-        index: $[index_of (1)]
+        index: $[index_of (2)]
+
+    no_terrain_cost_marker:
+      token:
+        _:
+          short_name_text_text: |
+            No
+            terrain
+            cost
+          short_name_text_y: $[(${token_interior_box/y} / 2) - (${short_name/size} / 2) - 1.5]
+          short_name_text_fill: ${colour/wikipedia/black}
+          short_name_text_size: 10
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/white}
+          _minor_fill: ${colour/wikipedia/white}
+        index: $[index_of (2)]       
 
     round:
       token:
@@ -1666,5 +1683,3 @@ marker:
           _minor_fill_2: ${colour/wikipedia/red}
         ELEMENTS: ${TEMPLATE_chequer/.}
         index: $[index_of (1)]
-
-
