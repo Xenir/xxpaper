@@ -13,8 +13,28 @@ private:
       - money_bar_box
       - cost_text
       - revenue_text
+      - token_embed
 
     CUT_ELEMENT: cutline_box
+
+  private_token:
+    CUT_ELEMENT: cutline_circle
+
+    ELEMENTS:
+      - token_interior_box
+      - top_half_box
+      - bottom_half_box
+      - name_stripe_box
+      - short_name_text
+
+    EMBED_ELEMENTS:
+      - top_half_box
+      - bottom_half_box
+      - name_stripe_box
+      - short_name_text
+
+  _include_:
+    - XXP_token_objects.xxp
 
   _:
     closes_text_text: "Closes in brown phase"
@@ -47,7 +67,7 @@ private:
     fill: $[black_or_white (${close_bar_box/fill})]
 
   long_name_text:
-    size: 11
+    size: 12
     x: 86
     y: 78
     fill: $[black_or_white (${asset_interior_box/fill})]
@@ -64,7 +84,7 @@ private:
 
   money_bar_box:
     x: ${asset_interior_box/y}
-    y: 13
+    y: 11
     fill: ${colour/xxp/L_RED}
 
   cost_text:
@@ -84,3 +104,10 @@ private:
     typeface: ${DEFAULT/typeface_bold_italic}
     size: 11
     fill: $[black_or_white (${money_bar_box/fill})]
+
+  token_embed:
+    suppress: True
+    typ: token
+    x_inset: 130
+    y_inset: 30
+

@@ -1,0 +1,367 @@
+company:
+  _:
+    token_1_text_text: Free
+    token_2_text_text: $40
+  charter:
+    _:
+      #long_name_text_size: 15
+      token_1_text_y: 202
+      token_5_circle_y: 10
+      token_5_text_y: -20
+      token_1_text_size: 12
+      token_2_text_size: 12
+      token_3_text_size: 12
+      token_4_text_size: 12
+      comment_text_text: ""
+  share:
+    _:
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
+      #long_name_text_size: 3
+      type_bar_box_y: 13
+      side_bar_lsplit_box_suppress: True
+      side_bar_rsplit_box_suppress: True
+  token:
+    _:
+      short_name_text_size: 8
+
+  index:
+
+    B&M:
+      _:
+        long_name_text_text: |
+            Boston & Maine
+        short_name_text_text: BM
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_\_major_fill}
+        _related_fill: ${colour/hollasch/brick}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 13
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
+
+    B&O:
+      _:
+        long_name_text_text: |
+            Baltimore
+            & Ohio
+        short_name_text_text: BO
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/blue_ryb}
+        _major_fill_2: ${colour/wikipedia/banana_yellow}
+        _minor_fill_2: ${_/_major_fill_2}
+        _related_fill: ${colour/hollasch/steel_blue}
+      token:
+        ELEMENTS: ${TEMPLATE_stripey/.}
+        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
+        index: $[index_of (6)]
+
+    CPR:
+      _:
+        long_name_text_text: |
+            Canada Pacific
+            Railroad
+        short_name_text_text: CPR
+        token_3_text_text: $100
+        token_4_text_text: $100
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${_/_major_fill}
+        #_minor_fill: ${colour/wikipedia/coral_pink}
+        _related_fill: ${colour/hollasch/tomato}
+      token:
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        vertical stripe_box:
+          fill: ${colour/xxp/BLACK}
+        index: $[index_of (7)]
+
+    C&O:
+      _:
+        long_name_text_text: |
+            Chesapeake 
+            & Ohio
+        short_name_text_text: CO
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/powder_blue}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 13
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (6)]
+
+    ERIE:
+      _:
+        long_name_text_text: |
+            Erie Railroad
+        short_name_text_text: Erie
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 13
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (7)]
+        #ELEMENTS: ${TEMPLATE_cross/.}
+        #EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        #vertical stripe_box:
+        #  fill: ${colour/xxp/BLACK}
+        index: "$[index_of (6)]"
+
+    NYNH:
+      _:
+        long_name_text_text: |
+            New York
+            New Haven
+        short_name_text_text: NYNH
+        _major_fill: ${colour/wikipedia/carrot_orange}
+        _minor_fill: ${colour/x11/orangered}
+        _related_fill: ${colour/wikipedia/pink_orange}
+        #name_stripe_box_suppress: True
+      token:
+        #_:
+        #  short_name_text_fill: $[black_or_white (${_/_major_fill})]
+        #  short_name_text_size: 9
+        #  short_name_text_x_inset: 0
+        #  short_name_text_y_inset: -1
+        #ELEMENTS: ${TEMPLATE_solid/.}
+        #EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
+
+    NYC:
+      _:
+        long_name_text_text: |
+            New York
+            Central
+        short_name_text_text: NYC
+        token_3_text_text: $100
+        token_4_text_text: $100
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/x11/gray43}
+        _share_pct_text_fill_x: ${colour/xxp/WHITE}
+      token:
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        vertical stripe_box:
+          fill: ${colour/xxp/WHITE}
+        index: "$[index_of (7)]"
+
+    PRR:
+      _:
+        long_name_text_text: |
+             Pennsylvania
+             Railroad
+        short_name_text_text: PRR
+        token_3_text_text: $100
+        token_4_text_text: $100
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 13
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (7)]
+
+marker:
+  index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/xxp/M_RED}
+
+      middle_circle:
+        fill: ${colour/xxp/WHITE}
+
+      inner_circle:
+        fill: ${colour/xxp/M_BLUE}
+
+private:
+  _:
+    long_name_text_size: 11
+    money_bar_box_y: 13
+    closes_text_size: 7
+    power_text_size: 8
+
+  index:
+
+    SV:
+      _:
+        long_name_text_text: |
+            Schuykill Valley
+            Railroad
+        power_text_text: "Blocks: G15"
+        cost_text_text: "Cost: $20"
+        revenue_text_text: "Revenue: $5"
+
+    C&StL:
+      _:
+        long_name_text_text: |
+            Champlain & St Larence
+            Railway
+        power_text_text: |
+            Blocks: B20.
+            Owning corporation may place a free,
+            track tile at B20 in addition to
+            its normal track tile lay.
+        cost_text_text: "Cost: $40"
+        revenue_text_text: "Revenue: $10"
+
+    D&H:
+      _:
+        long_name_text_text: |
+            Delaware & Hudson
+            Railroad
+        power_text_text: |
+            Blocks: F16.
+            Owning corporation may place a yellow
+            track tile, or a yellow tile and station
+            marker (must be both) at F16 for $120.
+        cost_text_text: "Cost: $70"
+        revenue_text_text: "Revenue: $15"
+
+    M&H:
+      _:
+        closes_text_text: "Closes in brown phase or when power used"
+        long_name_text_text: |
+            Mohawk & Hudson
+            Railroad
+        power_text_text: |
+            Blocks: D18.
+            Owning player may exchange for
+            a share of NYC from bank or IPO.
+            
+        cost_text_text: "Cost: $110"
+        revenue_text_text: "Revenue: $20"
+        private_token:
+          ELEMENTS: ${TEMPLATE_cross/.}
+          EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+          vertical stripe_box:
+            fill: ${colour/xxp/WHITE}
+        token_embed_suppress: False
+
+    C&A:
+      _:
+        long_name_text_text: |
+            Camden & Amboy
+            Railroad
+        power_text_text: |
+            Blocks: H18.
+            Purchaser receives 10% PRR share.
+        cost_text_text: "Cost: $160"
+        revenue_text_text: "Revenue: $25"
+
+    B&O:
+      _:
+        closes_text_text: "Closes in brown phase or when BO buys train"
+        long_name_text_text: |
+            Baltimore & Ohio
+            Railroad
+        power_text_text: |
+            Blocks: I13 & I15.
+            Purchaser receives BO presidency
+            and sets par price. 
+            May not be sold.
+        cost_text_text: "Cost: $200"
+        revenue_text_text: "Revenue: $30"
+
+train:
+
+  index:
+    2T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        long_name_text_text: "2"
+        cost_text_text_p: $80
+      model:
+        index: $[index_of (6)]
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        long_name_text_text: "3"
+        cost_text_text_p: $180
+      model:
+        index: $[index_of (5)]
+
+    4T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        long_name_text_text: "4"
+        cost_text_text_p: $300
+        note_text_text: |
+            To DIESEL: $800
+      model:
+        index: $[index_of (4)]
+
+    5T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "5"
+        cost_text_text_p: $450
+        rusted_text_text: PERMANENT
+      model:
+        index: $[index_of (3)]
+
+    6T:
+      _:
+        asset_interior_box_fill_p: RED
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "6"
+        cost_text_text_p: $630
+        rusted_text_text: PERMANENT
+      model:
+        index:
+          "1":
+            note_text:
+              text: Optional
+          "2":
+          "3":
+
+    Diesel:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "Diesel"
+        cost_text_text_p: $1,100
+        rusted_text_text: PERMANENT
+      long_name_text:
+        size: 32
+      model:
+        index: $[index_of (8)]
