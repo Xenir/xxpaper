@@ -47,12 +47,6 @@ CATALOGUE:
     typ: -missing-
     name_index: private/index
     instance_index:
-  private_token:
-    tile_type: token_tile
-    klass: private
-    typ: token
-    name_index: private/index
-    instance_index: private_token/index  
   share:
     tile_type: asset_tile
     klass: company

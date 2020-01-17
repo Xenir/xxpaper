@@ -6,6 +6,7 @@ TEMPLATE_concession_default:
   - top_bar_box
   - closes_text
   - long_name_text
+  - power_text
   - comment_text
   - bottom_bar_box
   - cost_text
@@ -58,6 +59,16 @@ long_name_text:
   size: 14
   x: $[(${asset_interior_box/y} - ${side_bar_box/x} - ${side_bar_box/x_inset}) / 2.0 + ${side_bar_box/x} + ${side_bar_box/x_inset}]
   y: 70
+  fill: $[black_or_white (${asset_interior_box/fill})]
+
+power_text:
+  h_center: 0
+  v_center: -1
+  size: 9
+  x_inset: 86
+  y_inset: 16
+  x: 0
+  y: 0
   fill: $[black_or_white (${asset_interior_box/fill})]
 
 comment_text:
