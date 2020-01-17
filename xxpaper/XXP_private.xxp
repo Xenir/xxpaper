@@ -47,7 +47,7 @@ private:
     fill: $[black_or_white (${close_bar_box/fill})]
 
   long_name_text:
-    size: 12
+    size: 11
     x: 86
     y: 78
     fill: $[black_or_white (${asset_interior_box/fill})]
@@ -64,7 +64,7 @@ private:
 
   money_bar_box:
     x: ${asset_interior_box/y}
-    y: 11
+    y: 13
     fill: ${colour/xxp/L_RED}
 
   cost_text:

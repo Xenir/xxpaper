@@ -131,7 +131,7 @@ token_1_text:
   typeface: ${DEFAULT/typeface}
   size: 14
   x: 42
-  y: 228
+  y: 202
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_1_circle/fill})]
@@ -196,7 +196,7 @@ token_4_text:
 token_5_circle:
   suppress: $["${token_5_text/text}" == ""]
   x: 42
-  y: 42
+  y: 10
   radius: 18
   width: 0.5
   stroke: ${colour/xxp/BLACK}
@@ -207,7 +207,7 @@ token_5_text:
   typeface: ${DEFAULT/typeface}
   size: 14
   x: 42
-  y: 36
+  y: -20
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_5_circle/fill})]
