@@ -38,9 +38,9 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 13
+          short_name_text_size: 12
           short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
+          short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (5)]
@@ -96,9 +96,9 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 13
+          short_name_text_size: 12
           short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
+          short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (6)]
@@ -116,9 +116,9 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 13
+          short_name_text_size: 10
           short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
+          #short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (7)]
@@ -133,19 +133,12 @@ company:
         long_name_text_text: |
             New York
             New Haven
-        short_name_text_text: NYNH
+        short_name_text_text: NYH
         _major_fill: ${colour/wikipedia/carrot_orange}
         _minor_fill: ${colour/x11/orangered}
         _related_fill: ${colour/wikipedia/pink_orange}
         #name_stripe_box_suppress: True
       token:
-        #_:
-        #  short_name_text_fill: $[black_or_white (${_/_major_fill})]
-        #  short_name_text_size: 9
-        #  short_name_text_x_inset: 0
-        #  short_name_text_y_inset: -1
-        #ELEMENTS: ${TEMPLATE_solid/.}
-        #EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (5)]
 
     NYC:
@@ -204,15 +197,16 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 13
+          short_name_text_size: 10
           short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
+          #short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (7)]
 
 marker:
   index:
+
     round:
       token:
         ELEMENTS:
@@ -222,15 +216,12 @@ marker:
           - inner_circle
 
         index: $[index_of (1)]
-
       outer_circle:
-        fill: ${colour/xxp/M_RED}
-
+        fill: ${colour/galatolol/yellow}
       middle_circle:
-        fill: ${colour/xxp/WHITE}
-
+        fill: ${colour/galatolol/green}
       inner_circle:
-        fill: ${colour/xxp/M_BLUE}
+        fill: ${colour/galatolol/brown}
 
 private:
   _:
@@ -378,10 +369,8 @@ train:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "Diesel"
+        long_name_text_text: "D"
         cost_text_text_p: $1,100
         rusted_text_text: PERMANENT
-      long_name_text:
-        size: 32
       model:
         index: $[index_of (8)]
