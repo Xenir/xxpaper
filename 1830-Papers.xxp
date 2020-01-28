@@ -72,14 +72,12 @@ company:
         token_3_text_text: $100
         token_4_text_text: $100
         _major_fill: ${colour/x11/red}
-        _minor_fill: ${_/_major_fill}
+        _minor_fill: ${colour/xxp/BLACK}
         #_minor_fill: ${colour/wikipedia/coral_pink}
         _related_fill: ${colour/hollasch/tomato}
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        vertical stripe_box:
-          fill: ${colour/xxp/BLACK}
         index: $[index_of (7)]
 
     C&O:
@@ -149,7 +147,6 @@ company:
         short_name_text_text: NYC
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/xxp/BLACK}
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
