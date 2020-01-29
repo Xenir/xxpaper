@@ -132,11 +132,16 @@ company:
             New York
             New Haven
         short_name_text_text: NYH
-        _major_fill: ${colour/wikipedia/carrot_orange}
-        _minor_fill: ${colour/x11/orangered}
+        #_major_fill: ${colour/wikipedia/carrot_orange}
+        #_minor_fill: ${colour/x11/orangered}
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}        
         _related_fill: ${colour/wikipedia/pink_orange}
-        #name_stripe_box_suppress: True
       token:
+        _:
+          inner_circle_fill: ${_/_major_fill}
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
 
     NYC:
