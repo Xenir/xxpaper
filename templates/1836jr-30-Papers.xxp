@@ -1,0 +1,400 @@
+company:
+  _:
+    token_1_text_text: Free
+    token_2_text_text: F40
+  charter:
+    _:
+      token_1_text_y: 202
+      token_5_circle_y: 10
+      token_5_text_y: -20
+      token_1_text_size: 12
+      token_2_text_size: 12
+      token_3_text_size: 12
+      token_4_text_size: 12
+      comment_text_text: ""
+
+  share:
+    share_num_text:
+        typeface: ${DEFAULT/typeface}
+    share_pct_text:
+        typeface: ${DEFAULT/typeface}
+    share_desc_text:
+        typeface: ${DEFAULT/typeface}
+    comment_text:
+        typeface: ${DEFAULT/typeface}
+
+    _:
+      side_bar_lsplit_box_suppress: True
+      side_bar_rsplit_box_suppress: True
+
+  index:
+    NFL:
+      _:
+        long_name_text_text: |
+          Noord-Friesche Locaal
+        short_name_text_text: NFL
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/brick}
+        name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          text: |
+            Noord-Friesche
+            Locaal
+          size: 13
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
+
+    NORD:
+      _:
+        long_name_text_text: |
+            Chemin de Fer du Nord
+        short_name_text_text: NORD
+        token_3_text_text: F100
+        _major_fill: ${colour/wikipedia/blue_ryb}
+        _major_fill_2: ${colour/wikipedia/banana_yellow}
+        _minor_fill: ${_/_major_fill}
+        _minor_fill_2: ${_/_major_fill_2}
+        _related_fill: ${colour/hollasch/steel_blue}
+      share:
+        long_name_text:
+          size: 13
+          text: |
+            Chemin de Fer
+            du Nord
+      token:
+        ELEMENTS: ${TEMPLATE_stripey/.}
+        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
+        index: $[index_of (6)]
+
+    NBDS:
+      _:
+        long_name_text_text: |
+            Noord-Brabantsch
+            -Duitsche
+            Spoorweg-Maatschappij
+        short_name_text_text: NBDS
+        token_3_text_text: F100
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
+        name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          size: 12
+      token:
+        _:
+            short_name_text_fill: $[black_or_white (${_/_major_fill})]
+            short_name_text_size: 12
+            short_name_text_x_inset: 0
+            short_name_text_y_inset: -1
+        index: $[index_of (6)]
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+
+    HSM:
+      _:
+        long_name_text_text: |
+            Hollandsche IJzeren
+            Spoorweg Maatschappij
+        short_name_text_text: HSM
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}
+        _related_fill: ${colour/hollasch/tan}
+      share:
+        long_name_text:
+          size: 12
+      token:
+        _:
+          outer_circle_fill: ${_/_major_fill}
+          middle_circle_fill: ${_/_minor_fill}
+          inner_circle_fill: ${_/_major_fill}
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (5)]
+
+    BELGE:
+      _:
+        long_name_text_text: |
+            Chemins de Fer
+            de L'Etat Belge
+        short_name_text_text: BELGE
+        token_3_text_text: F100
+        token_4_text_text: F100
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray43}
+        _share_pct_text_fill_x: ${colour/xxp/WHITE}
+      token:
+        #_:
+        #  short_name_text_size: 8
+        #  short_name_text_x_inset: 0
+        #  short_name_text_y_inset: 1
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (7)]
+
+    GCL:
+      _:
+        long_name_text_text: |
+            Grande Compagnie
+            du Luxembourg
+        short_name_text_text: GCL
+        token_3_text_text: F100
+        token_4_text_text: F100
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (7)]
+
+marker:
+  index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/x11/gold}
+      middle_circle:
+        fill: ${colour/x11/limegreen}
+      inner_circle:
+        fill: ${colour/x11/sienna3}
+
+private:
+  closes_text:
+    typeface: ${DEFAULT/typeface}
+  cost_text:
+    typeface: ${DEFAULT/typeface}
+  revenue_text:
+    typeface: ${DEFAULT/typeface}
+  _:
+    closes_text_text: "Closes in BROWN"
+
+  index:
+    ACC:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Amsterdam Canal
+            Company
+        power_text_text: "Blocks: D6"
+        cost_text_text: "Cost: F20"
+        revenue_text_text: "Revenue: F5"
+
+    E-SF:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Enkuizen-Stavoren
+            Ferry
+        power_text_text: |
+            Blocks: B8.
+            Owning corporation may place a free
+            track tile at B8 in addition to
+            its normal track tile lay.
+        cost_text_text: "Cost: F40"
+        revenue_text_text: "Revenue: F10"
+
+    CdH:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Charbonnages
+            du Hainaut
+        power_text_text: |
+            Blocks: J8.
+            Owning corporation may place a yellow
+            track tile, or a yellow tile and station
+            marker (must be both) at J8 for F120.
+        cost_text_text: "Cost: F70"
+        revenue_text_text: "Revenue: F15"
+
+    GCB:
+      _:
+        asset_interior_box_fill: ${colour/scale/gray_1}
+        closes_text_text: "Closes in BROWN or when power used"
+        long_name_text_text: |
+            Grand Central
+            Belge
+        power_text_text: |
+            Blocks: G7, G9 & H10.
+            Owning player may exchange for
+            a share of BELGE from bank or IPO.
+        cost_text_text: "Cost: F110"
+        revenue_text_text: "Revenue: F20"
+
+    CFL:
+      _:
+        asset_interior_box_fill: ${colour/scale/green_0}
+        long_name_text_text: |
+            Chemins de Fer
+            Luxembourgeois
+        power_text_text: |
+            Blocks: J12 & K11.
+            Purchaser receives a 10% GCL share.
+        cost_text_text: "Cost: F160"
+        revenue_text_text: "Revenue: F25"
+
+    CFLV:
+      _:
+        asset_interior_box_fill: ${colour/scale/azure_0}
+        closes_text_text: "Closes in BROWN or when NORD buys a train"
+        long_name_text_text: |
+            Chemin de Fer de Lille
+            à Valenciennes
+        power_text_text: |
+            Blocks: I3 & J4.
+            Purchaser receives NORD presidency and
+            sets par price. May not be sold to
+            a public company.
+        cost_text_text: "Cost: F220"
+        revenue_text_text: "Revenue: F30"
+
+train:
+
+  index:
+    2T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        long_name_text_text: "2"
+        cost_text_text_p: F80
+      model:
+        index: $[index_of (5)]
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        long_name_text_text: "3"
+        cost_text_text_p: F180
+      model:
+        index: $[index_of (4)]
+
+    4T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        long_name_text_text: "4"
+        cost_text_text_p: F300
+        note_text_text: |
+            To Diesel: F800
+        note_text_size: 12
+      model:
+        index: $[index_of (3)]
+
+    5T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "5"
+        cost_text_text_p: F450
+        rusted_text_text: PERMANENT
+        note_text_text: |
+            To Diesel: F800
+        note_text_size: 12
+      model:
+        index: $[index_of (2)]
+
+    6T:
+      _:
+        asset_interior_box_fill_p: RED
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "6"
+        cost_text_text_p: F630
+        rusted_text_text: PERMANENT
+        note_text_text: |
+            To Diesel: F800
+        note_text_size: 12
+      model:
+        index: $[index_of (2)]
+
+    Diesel:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "Diesel"
+        cost_text_text_p: F1,100
+        rusted_text_text: PERMANENT
+        note_text_text: |
+            From 4/5/6: F800
+        note_text_size: 12
+      long_name_text:
+        size: 32
+      model:
+        index: $[index_of (8)]
+
+    P1:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "1"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P2:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "2"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P3:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "3"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P4:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "4"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
