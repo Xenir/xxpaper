@@ -31,7 +31,8 @@ company:
     NFL:
       _:
         long_name_text_text: |
-          Noord-Friesche Locaal
+            Noord-Friesche
+            Locaal
         short_name_text_text: NFL
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
@@ -39,9 +40,6 @@ company:
         name_stripe_box_suppress: True
       share:
         long_name_text:
-          text: |
-            Noord-Friesche
-            Locaal
           size: 13
       token:
         _:
@@ -56,7 +54,8 @@ company:
     NORD:
       _:
         long_name_text_text: |
-            Chemin de Fer du Nord
+            Chemin de Fer
+            du Nord
         short_name_text_text: NORD
         token_3_text_text: F100
         _major_fill: ${colour/wikipedia/blue_ryb}
@@ -67,9 +66,6 @@ company:
       share:
         long_name_text:
           size: 13
-          text: |
-            Chemin de Fer
-            du Nord
       token:
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
@@ -87,9 +83,17 @@ company:
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/wikipedia/icterine}
         name_stripe_box_suppress: True
+      charter:
+        long_name_text:
+          size: 14
       share:
         long_name_text:
           size: 12
+          text: |
+            Noord-Brabantsch
+            -Duitsche
+            Spoorweg
+            -Maatschappij
       token:
         _:
             short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -109,9 +113,16 @@ company:
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
         _related_fill: ${colour/hollasch/tan}
+      charter:
+        long_name_text:
+          size: 14
       share:
         long_name_text:
           size: 12
+          text: |
+            Hollandsche IJzeren
+            Spoorweg
+            Maatschappij
       token:
         _:
           outer_circle_fill: ${_/_major_fill}
@@ -134,10 +145,6 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
-        #_:
-        #  short_name_text_size: 8
-        #  short_name_text_x_inset: 0
-        #  short_name_text_y_inset: 1
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -154,6 +161,9 @@ company:
         _minor_fill: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          size: 13
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -267,8 +277,8 @@ private:
             à Valenciennes
         power_text_text: |
             Blocks: I3 & J4.
-            Purchaser receives NORD presidency and
-            sets par price. May not be sold to
+            Purchaser receives NORD presidency
+            and sets par price. May not be sold to
             a public company.
         cost_text_text: "Cost: F220"
         revenue_text_text: "Revenue: F30"
@@ -343,7 +353,7 @@ train:
             From 4/5/6: F800
         note_text_size: 12
       long_name_text:
-        size: 32
+        size: 30
       model:
         index: $[index_of (8)]
 

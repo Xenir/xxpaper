@@ -83,11 +83,11 @@ company:
          # fill: ${colour/xxp/BLACK}
         index: $[index_of (7)]
 
-    C&O:
+    CO:
       _:
         long_name_text_text: |
-            Chesapeake & Ohio
-            Railway
+            Chesapeake
+            & Ohio Railway
         short_name_text_text: CO
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/light_sky_blue}
