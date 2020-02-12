@@ -32,6 +32,7 @@ company:
       _:
         long_name_text_text: |
           Boston & Maine
+          Railroad
         short_name_text_text: BM
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
