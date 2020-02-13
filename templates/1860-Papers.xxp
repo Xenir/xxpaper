@@ -34,9 +34,9 @@ company:
           Cowes & Newport
           Railway
         short_name_text_text: CN
-        _major_fill: ${colour/hollasch/brown_ochre}
+        _major_fill: ${colour/wikipedia/light_sky_blue}
         _minor_fill: ${_/_major_fill}
-        _related_fill: ${colour/hollasch/brick}
+        _related_fill: ${colour/hollasch/powder_blue}
         name_stripe_box_suppress: True
       token:
         _:
@@ -55,14 +55,12 @@ company:
           Railway
         short_name_text_text: IOW
         token_3_text_text: $100
-        _major_fill: ${colour/wikipedia/blue_ryb}
-        _major_fill_2: ${colour/wikipedia/banana_yellow}
-        _minor_fill: ${_/_major_fill}
-        _minor_fill_2: ${_/_major_fill_2}
-        _related_fill: ${colour/hollasch/steel_blue}
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/hollasch/tomato}
       token:
-        ELEMENTS: ${TEMPLATE_stripey/.}
-        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
 
     IWNJ:
@@ -74,14 +72,13 @@ company:
         short_name_text_text: IWNJ
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/x11/red}
-        _minor_fill: ${colour/xxp/BLACK}
-        _related_fill: ${colour/hollasch/tomato}
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray43}
+        _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        #vertical stripe_box:
-         # fill: ${colour/xxp/BLACK}
         index: $[index_of (6)]
 
     FYN:
@@ -91,9 +88,9 @@ company:
             & Newport Railway
         short_name_text_text: FYN
         token_3_text_text: $100
-        _major_fill: ${colour/wikipedia/light_sky_blue}
-        _minor_fill: ${_/_major_fill}
-        _related_fill: ${colour/hollasch/powder_blue}
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
         name_stripe_box_suppress: True
       token:
         _:
@@ -121,7 +118,7 @@ company:
             short_name_text_size: 12
             short_name_text_x_inset: 0
             short_name_text_y_inset: -1
-        index: $[index_of (5)]
+        index: $[index_of (6)]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
 
@@ -132,19 +129,18 @@ company:
             Improvement
             & Railway
         short_name_text_text: BHIR
-        _major_fill: ${colour/wikipedia/amber_sae_ece}
-        _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
-      share:
-        long_name_text:
-          size: 12
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/brick}
+        name_stripe_box_suppress: True
       token:
         _:
-          outer_circle_fill: ${_/_major_fill}
-          middle_circle_fill: ${_/_minor_fill}
-          inner_circle_fill: ${_/_major_fill}
-        ELEMENTS: ${TEMPLATE_bullseye/.}
-        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (5)]
 
     SC:
@@ -155,17 +151,14 @@ company:
         short_name_text_text: SC
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/xxp/BLACK}
-        _minor_fill: ${colour/xxp/WHITE}
-        _related_fill: ${colour/x11/gray43}
-        _share_pct_text_fill_x: ${colour/xxp/WHITE}
+        _major_fill: ${colour/wikipedia/blue_ryb}
+        _major_fill_2: ${colour/wikipedia/banana_yellow}
+        _minor_fill: ${_/_major_fill}
+        _minor_fill_2: ${_/_major_fill_2}
+        _related_fill: ${colour/hollasch/steel_blue}
       token:
-        #_:
-        #  short_name_text_size: 8
-        #  short_name_text_x_inset: 0
-        #  short_name_text_y_inset: 1
-        ELEMENTS: ${TEMPLATE_cross/.}
-        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        ELEMENTS: ${TEMPLATE_stripey/.}
+        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (5)]
 
     VYSC:
@@ -177,18 +170,16 @@ company:
         short_name_text_text: VYSC
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
-        name_stripe_box_suppress: True
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}
+        _related_fill: ${colour/hollasch/tan}
       token:
         _:
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+          outer_circle_fill: ${_/_major_fill}
+          middle_circle_fill: ${_/_minor_fill}
+          inner_circle_fill: ${_/_major_fill}
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
 
 marker:
