@@ -31,7 +31,8 @@ company:
     CN:
       _:
         long_name_text_text: |
-          Cowes & Newport Railway
+          Cowes & Newport
+          Railway
         short_name_text_text: CN
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
@@ -62,7 +63,7 @@ company:
       token:
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (7)]
 
     IWNJ:
       _:
@@ -107,8 +108,8 @@ company:
     NGSL:
       _:
         long_name_text_text: |
-            Newport, Fodshill
-            & St. Lawrence Railway
+            Newport, Fodshill &
+            St. Lawrence Railway
         short_name_text_text: NGSL
         _major_fill: ${colour/wikipedia/canary_yellow}
         _minor_fill: ${_/_major_fill}
@@ -165,7 +166,7 @@ company:
         #  short_name_text_y_inset: 1
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: $[index_of (7)]
+        index: $[index_of (5)]
 
     VYSC:
       _:
@@ -188,7 +189,7 @@ company:
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (7)]
+        index: $[index_of (5)]
 
 marker:
   index:
