@@ -79,8 +79,6 @@ company:
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        #vertical stripe_box:
-         # fill: ${colour/xxp/BLACK}
         index: $[index_of (7)]
 
     CO:
@@ -158,10 +156,6 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
-        #_:
-        #  short_name_text_size: 8
-        #  short_name_text_x_inset: 0
-        #  short_name_text_y_inset: 1
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
