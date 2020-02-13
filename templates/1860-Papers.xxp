@@ -363,7 +363,7 @@ train:
 
     7+4T:
       _:
-        asset_interior_box_fill_p: TAN
+        asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "7+4"
         cost_text_text_p: £600
@@ -378,7 +378,7 @@ train:
 
     8+4T:
       _:
-        asset_interior_box_fill_p: AQUA
+        asset_interior_box_fill_p: PURPLE
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "8+4"
         cost_text_text_p: £700
