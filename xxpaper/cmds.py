@@ -51,7 +51,7 @@ def lookup (**kwargs):
   description = "Make artfile for a game",
   inherits = OPTIONS)
 @clip.flag ("-c", "--cutline", name = "cutline",
-            default = True, help = "Draw cutlines")
+            default = False, help = "Draw cutlines")
 @clip.opt ("-f", "--filter", name = "filter",
            help = "Only these asset-types")
 @clip.opt ("-p", "--paper", name = "paper",
