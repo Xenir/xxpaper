@@ -176,9 +176,9 @@ company:
              & South Coast
              Railway
         short_name_text_text: VYSC
-        _major_fill: ${colour/wikipedia/amber_sae_ece}
-        _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
+        _major_fill: ${colour/wikipedia/yellow_green}
+        _minor_fill: ${colour/wikipedia/lemon_lime}
+        _related_fill: ${colour/wikipedia/green_yellow}
       token:
         _:
           outer_circle_fill: ${_/_major_fill}
