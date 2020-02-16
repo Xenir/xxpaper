@@ -278,7 +278,7 @@ private:
 
     B&O:
       _:
-        asset_interior_box_fill: ${colour/scale/azure_0}
+        asset_interior_box_fill: ${colour/scale/azure_2}
         closes_text_text: "Closes in BROWN or when BO buys a train"
         long_name_text_text: |
             Baltimore & Ohio
