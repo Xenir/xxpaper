@@ -92,6 +92,13 @@ company:
         _minor_fill: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          text: |
+            Freshwater,
+            Yarmouth
+            & Newport
+            Railway
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -105,8 +112,9 @@ company:
     NGSL:
       _:
         long_name_text_text: |
-            Newport, Fodshill &
-            St. Lawrence Railway
+            Newport, Fodshill
+            & St. Lawrence
+            Railway
         short_name_text_text: NGSL
         _major_fill: ${colour/wikipedia/canary_yellow}
         _minor_fill: ${_/_major_fill}
