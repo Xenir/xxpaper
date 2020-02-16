@@ -139,9 +139,9 @@ company:
             Improvement
             & Railway
         short_name_text_text: BHIR
-        _major_fill: ${colour/hollasch/brown_ochre}
+        _major_fill: ${colour/hollasch/purple}
         _minor_fill: ${_/_major_fill}
-        _related_fill: ${colour/hollasch/brick}
+        _related_fill: ${colour/hollasch/plum}
         name_stripe_box_suppress: True
       token:
         _:
