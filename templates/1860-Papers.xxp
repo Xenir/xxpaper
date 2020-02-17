@@ -63,7 +63,7 @@ company:
            comment_text:
              fill: ${colour/wikipedia/red}
              text: |
-               Reserved for exchange
+               While in IPO: reserved for exchange
                for the CMH private company
 
     IOW:
@@ -95,7 +95,7 @@ company:
            comment_text:
              fill: ${colour/wikipedia/red}
              text: |
-               Reserved for exchange
+               While in IPO: reserved for exchange
                for the RP&SC private company
 
     IWNJ:
@@ -122,9 +122,9 @@ company:
             & Newport Railway
         short_name_text_text: FYN
         token_3_text_text: £100
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/brick}
         name_stripe_box_suppress: True
       token:
         _:
@@ -155,7 +155,7 @@ company:
            comment_text:
              fill: ${colour/wikipedia/red}
              text: |
-               Reserved for exchange
+               While in IPO: reserved for exchange
                for the YHC private company
 
     NGSL:
@@ -213,7 +213,7 @@ company:
            comment_text:
              fill: ${colour/wikipedia/red}
              text: |
-               Reserved for exchange
+               While in IPO: reserved for exchange
                for the BHC private company
 
     SC:
@@ -239,16 +239,18 @@ company:
              & South Coast
              Railway
         short_name_text_text: VYSC
-        _major_fill: ${colour/wikipedia/yellow_green}
-        _minor_fill: ${colour/wikipedia/lemon_lime}
-        _related_fill: ${colour/wikipedia/green_yellow}
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
       token:
         _:
-          outer_circle_fill: ${_/_major_fill}
-          middle_circle_fill: ${_/_minor_fill}
-          inner_circle_fill: ${_/_major_fill}
-        ELEMENTS: ${TEMPLATE_bullseye/.}
-        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (5)]
 
 marker:
@@ -295,7 +297,7 @@ private:
 
     YHC:
       _:
-        asset_interior_box_fill: ${colour/scale/green_0}
+        asset_interior_box_fill: ${colour/resene/Viola}
         long_name_text_text: |
             Yarmouth Harbour Company
         power_text_text: |
