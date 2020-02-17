@@ -49,6 +49,22 @@ company:
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (7)]
+      share:
+        index:
+         "1":
+         "2":
+         "3":
+         "4":
+         "5":
+         "6":
+         "7":
+         "8":
+         "9":
+           comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Reserved for exchange
+               for the CMH private company
 
     IOW:
       _:
@@ -65,6 +81,22 @@ company:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
+      share:
+        index:
+         "1":
+         "2":
+         "3":
+         "4":
+         "5":
+         "6":
+         "7":
+         "8":
+         "9":
+           comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Reserved for exchange
+               for the RP&SC private company
 
     IWNJ:
       _:
@@ -94,13 +126,6 @@ company:
         _minor_fill: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         name_stripe_box_suppress: True
-      share:
-        long_name_text:
-          text: |
-            Freshwater,
-            Yarmouth
-            & Newport
-            Railway
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -110,6 +135,28 @@ company:
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (6)]
+      share:
+        long_name_text:
+          text: |
+            Freshwater,
+            Yarmouth
+            & Newport
+            Railway
+        index:
+         "1":
+         "2":
+         "3":
+         "4":
+         "5":
+         "6":
+         "7":
+         "8":
+         "9":
+           comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Reserved for exchange
+               for the YHC private company
 
     NGSL:
       _:
@@ -152,6 +199,22 @@ company:
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (5)]
+      share:
+        index:
+         "1":
+         "2":
+         "3":
+         "4":
+         "5":
+         "6":
+         "7":
+         "8":
+         "9":
+           comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Reserved for exchange
+               for the BHC private company
 
     SC:
       _:
