@@ -270,7 +270,7 @@ private:
     FFC:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
-        closes_text_text: "Operates till the end of the game"
+        closes_text_text: "Operates until the end of the game"
         long_name_text_text: |
             Fishbourne Ferry Company
         power_text_text: |
@@ -415,11 +415,7 @@ train:
       long_name_text:
         size: 42
       model:
-        index:
-          "1":
-            note_text:
-              text: Optional
-          "2":
+        index: $[index_of (2)]
 
     7+4T:
       _:
@@ -435,6 +431,7 @@ train:
           "1":
             note_text:
               text: Optional
+          "2":
 
     8+4T:
       _:
