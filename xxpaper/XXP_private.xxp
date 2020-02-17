@@ -85,3 +85,5 @@ private:
     size: 11
     fill: $[black_or_white (${money_bar_box/fill})]
 
+  count:
+    index: $[index_of (1)]
