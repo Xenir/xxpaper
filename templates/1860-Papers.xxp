@@ -283,7 +283,7 @@ private:
   long_name_text:
     typeface: ${DEFAULT/typeface}
   _:
-    closes_text_text: "Closes upon purchase of FFC or when power used"
+    closes_text_text: "Closes when FFC bought or power used"
 
   index:
     BHC:
