@@ -29,12 +29,14 @@ train:
 
   long_name_text:
     fill: $[black_or_white (${asset_interior_box/fill})]
+    typeface: ${DEFAULT/typeface_bold}
     size: 72
     x: 50
     y: 100
 
   cost_text:
     fill: $[black_or_white (${asset_interior_box/fill})]
+    typeface: ${DEFAULT/typeface}
     size: 14
     h_center: 0
     v_center: 0
@@ -59,6 +61,7 @@ train:
 
   rusted_text:
     fill: $[black_or_white (${rust_bar_box/fill})]
+    typeface: ${DEFAULT/typeface}
     size: 11
     h_center: 0
     v_center: -1

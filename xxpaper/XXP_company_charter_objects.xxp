@@ -96,6 +96,7 @@ long_name_text:
   size: 16
   x: $[(${token_embed/x_inset} * 2) + (${outside_box/x} - ${token_embed/x_inset}) / 2]
   y: 305
+  typeface: ${DEFAULT/typeface_bold}
   fill: $[black_or_white (${_/_related_fill})]
 
 type_text:
