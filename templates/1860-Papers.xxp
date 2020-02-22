@@ -30,10 +30,10 @@ company:
         typeface: ${DEFAULT/typeface}
     long_name_text:
         typeface: ${DEFAULT/typeface}
-
     _:
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
 
   index:
     CN:
@@ -405,7 +405,7 @@ private:
         power_text_text: |
             NO DIRECTOR
             
-            
+            May not build track nor stations.
             Company withholds the revenue.
         cost_text_text: ""
         revenue_text_text: ""
@@ -422,6 +422,7 @@ private:
         long_name_text_text: |
             INSOLVENT
         power_text_text: |
+            May not build stations nor costly track.
             Company must withhold the revenue
             to pay for the next train.
             Leases the smallest available train
