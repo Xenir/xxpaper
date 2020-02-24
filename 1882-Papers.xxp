@@ -41,7 +41,7 @@ company:
       token:
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (4)]
 
     CPR:
       _:
@@ -83,7 +83,7 @@ company:
           short_name_text_size: 12
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
-        index: $[index_of (6)]
+        index: $[index_of (3)]
 
     QL:
       _:
@@ -111,7 +111,7 @@ company:
         #EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         #vertical stripe_box:
         #  fill: ${colour/xxp/BLACK}
-        index: "$[index_of (6)]"
+        index: "$[index_of (5)]"
 
     HB:
       _:
@@ -123,8 +123,6 @@ company:
         token_3_text_text: $100
         token_4_text_text: Neutral
         token_4_circle_fill: ${colour/wikipedia/lavender_gray}
-        #_major_fill: ${colour/wikipedia/carrot_orange}
-        #_minor_fill: ${colour/x11/orangered}
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}        
         _related_fill: ${colour/wikipedia/pink_orange}
@@ -133,7 +131,7 @@ company:
           inner_circle_fill: ${_/_major_fill}
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
-        index: $[index_of (5)]
+        index: $[index_of (6)]
 
     GTP:
       _:
@@ -150,33 +148,10 @@ company:
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-      concession:
-        _:
-          closes_text_text: "Closes in brown phase or when power used"
-          long_name_text_text: |
-              Mohawk & Hudson
-              Railroad
-          power_text_text: |
-              Blocks: D18.
-              Owning player may exchange for
-              a share of NYC from bank or IPO.
-          cost_text_text: "Cost: $110"
-          bid_text_text: "Revenue: $20"
-          bid_text_x: 168
-          long_name_text_size: 11
-          long_name_text_x: 86
-          long_name_text_y: 78
-          bottom_bar_box_y: 13
-          closes_text_size: 7
-          power_text_size: 8
-          token_embed_x_inset: 130
-          token_embed_y_inset: 30
-          asset_interior_box_fill: ${colour/xxp/H_BROWN}
-        index: "$[index_of (1)]"
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: "$[index_of (7)]"
+        index: "$[index_of (6)]"
 
     CNor:
       _:
@@ -220,7 +195,23 @@ marker:
       middle_circle:
         fill: ${colour/galatolol/green}
       inner_circle:
-        fill: ${colour/galatolol/brown}
+        fill: ${colour/galatolol/brown}    
+
+    neural:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (6)]
+      outer_circle:
+        fill: ${colour/wikipedia/lavender_gray}
+      middle_circle:
+        fill: ${colour/wikipedia/lavender_gray}
+      inner_circle:
+        fill: ${colour/wikipedia/lavender_gray}
 
 private:
   _:
@@ -232,80 +223,75 @@ private:
 
   index:
 
-    SV:
+    HB:
       _:
+        closes_text_text: "Closed by 5"
         long_name_text_text: |
-            Schuykill Valley
-            Railroad
-        power_text_text: "Blocks: G15"
+            Hudson Bay
+        power_text_text: "Blocks K3."
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
-    C&StL:
+    SC:
       _:
+        closes_text_text: "Closed by 6 or when power used"
         long_name_text_text: |
-            Champlain & St Larence
-            Railway
+            Saskatchewan Central
         power_text_text: |
-            Blocks: B20.
-            Owning corporation may place a free,
-            track tile at B20 in addition to
-            its normal track tile lay.
-        cost_text_text: "Cost: $40"
+            Blocks D8.
+            May convert to Saskatchewan Central
+            public company.
+        cost_text_text: "Cost: $50"
         revenue_text_text: "Revenue: $10"
 
-    D&H:
+    NWR:
       _:
+        closes_text_text: "Closed by 5"
         long_name_text_text: |
-            Delaware & Hudson
-            Railroad
+            North West Rebellion
         power_text_text: |
-            Blocks: F16.
-            Owning corporation may place a yellow
-            track tile, or a yellow tile and station
-            marker (must be both) at F16 for $120.
-        cost_text_text: "Cost: $70"
+            Move one of company's on-map 
+            stations to an NWE hex city and
+            optionally perform lay or upgrade 
+            action on the destination.								
+        cost_text_text: "Cost: $80"
         revenue_text_text: "Revenue: $15"
 
-    M&H:
+    TB:
       _:
-        closes_text_text: "Closes in brown phase or when power used"
+        closes_text_text: "Closed by 5"
         long_name_text_text: |
-            Mohawk & Hudson
-            Railroad
+            Trestle Bridge
         power_text_text: |
-            Blocks: D18.
-            Owning player may exchange for
-            a share of NYC from bank or IPO.
-            
-        cost_text_text: "Cost: $110"
-        revenue_text_text: "Revenue: $20"
+            Blocks I7.
+            Revenue of $10 from bank for each
+            newly established river crossing.
+        cost_text_text: "Cost: $140"
+        revenue_text_text: "Revenue: ?"
 
-    C&A:
+    CP:
       _:
+        closes_text_text: "Closed by 5 or when CP buys train"
         long_name_text_text: |
-            Camden & Amboy
-            Railroad
+            Canadian Pacific
         power_text_text: |
-            Blocks: H18.
-            Purchaser receives 10% PRR share.
-        cost_text_text: "Cost: $160"
+        cost_text_text: "Cost: $180"
         revenue_text_text: "Revenue: $25"
 
-    B&O:
+    NWR_card:
       _:
-        closes_text_text: "Closes in brown phase or when BO buys train"
-        closes_text_x_inset: -1
+        close_bar_box_suppress: True
+        money_bar_box_suppress: True
         long_name_text_text: |
-            Baltimore & Ohio
-            Railroad
+            North West Rebellion
         power_text_text: |
-            Blocks: I13 & I15.
-            Purchaser receives BO presidency
-            and sets par price. 
-            May not be sold.
-        cost_text_text: "Cost: $200"
-        revenue_text_text: "Revenue: $30"
+            When revealed, remove all
+            yellow tiles from NWR-marked hexes. 
+            Stations remain.
+        closes_text_text: ""
+        cost_text_text: ""
+        revenue_text_text: ""
+        asset_interior_box_fill: ${colour/wikipedia/black}
 
 train:
   index:
