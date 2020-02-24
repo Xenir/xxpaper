@@ -6,6 +6,7 @@ xxpaper:
 
 DEFAULT:
   typeface: "LibreBaskerville-Regular"
+  typeface_regular: "${DEFAULT/typeface}"  
   typeface_bold: "LibreBaskerville-Bold"
   typeface_bold_italic: "LibreBaskerville-Bold"
   typeface_bold_oblique: ${DEFAULT/typeface_bold_italic}

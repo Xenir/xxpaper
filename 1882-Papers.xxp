@@ -10,6 +10,7 @@ company:
       token_3_text_size: 12
       token_4_text_size: 12
       comment_text_text: ""
+      comment_text_typeface: ${DEFAULT/typeface_regular}
   share:
     _:
       type_bar_box_fill: ${colour/wikipedia/golden_yellow}
@@ -22,33 +23,15 @@ company:
       short_name_text_size: 8
 
   index:
-
-    B&M:
+    SC:
       _:
         long_name_text_text: |
-            Boston & Maine
-        short_name_text_text: BM
-        _major_fill: ${colour/hollasch/brown_ochre}
-        _minor_fill: ${_\_major_fill}
-        _related_fill: ${colour/hollasch/brick}
-        name_stripe_box_suppress: True
-      token:
-        _:
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (5)]
-
-    B&O:
-      _:
-        long_name_text_text: |
-            Baltimore
-            & Ohio
-        short_name_text_text: BO
-        token_3_text_text: $100
+            Saskatchewan
+            Central
+        short_name_text_text: SC
+        token_1_text_text: Free
+        token_2_text_text: Neutral
+        token_2_circle_fill: ${colour/wikipedia/lavender_gray}
         _major_fill: ${colour/wikipedia/blue_ryb}
         _major_fill_2: ${colour/wikipedia/banana_yellow}
         _minor_fill_2: ${_/_major_fill_2}
@@ -85,26 +68,32 @@ company:
             Canadian
             National
         short_name_text_text: CN
-        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _major_fill: ${colour/wikipedia/red_pigment}
         _minor_fill: ${colour/wikipedia/lavender_gray}
         _related_fill: ${colour/wikipedia/lavender_gray}
         name_stripe_box_suppress: True
+        middle_box_fill: ${colour/wikipedia/dark_gray}
+      charter:
+        _:
+          comment_text_text: Uses neutral stations as its own.
       token:
         ELEMENTS: ${TEMPLATE_boxes/.}
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
         _:
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
           short_name_text_size: 12
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
         index: $[index_of (6)]
 
-    ERIE:
+    QL:
       _:
         long_name_text_text: |
-            Erie Railroad
-        short_name_text_text: Erie
-        token_3_text_text: $100
+            Qu'appelle
+        short_name_text_text: QL
+        token_1_text_text: Free
+        token_2_text_text: $40  
+        token_3_text_text: Neutral
+        token_3_circle_fill: ${colour/wikipedia/lavender_gray}
         _major_fill: ${colour/wikipedia/canary_yellow}
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/wikipedia/icterine}
@@ -124,12 +113,16 @@ company:
         #  fill: ${colour/xxp/BLACK}
         index: "$[index_of (6)]"
 
-    NYNH:
+    HB:
       _:
         long_name_text_text: |
-            New York
-            New Haven
-        short_name_text_text: NYH
+            Hudson Bay
+        short_name_text_text: HB
+        token_1_text_text: Free
+        token_2_text_text: $40  
+        token_3_text_text: $100
+        token_4_text_text: Neutral
+        token_4_circle_fill: ${colour/wikipedia/lavender_gray}
         #_major_fill: ${colour/wikipedia/carrot_orange}
         #_minor_fill: ${colour/x11/orangered}
         _major_fill: ${colour/wikipedia/amber_sae_ece}
@@ -142,14 +135,17 @@ company:
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
 
-    NYC:
+    GTP:
       _:
         long_name_text_text: |
-            New York
-            Central
-        short_name_text_text: NYC
+            Grand Trunk
+            Pacific
+        short_name_text_text: GT
+        token_1_text_text: Free
+        token_2_text_text: $40  
         token_3_text_text: $100
-        token_4_text_text: $100
+        token_4_text_text: Neutral
+        token_4_circle_fill: ${colour/wikipedia/lavender_gray}
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
@@ -312,12 +308,12 @@ private:
         revenue_text_text: "Revenue: $30"
 
 train:
-
   index:
     2T:
       _:
         asset_interior_box_fill_p: YELLOW
         rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by 4
         long_name_text_text: "2"
         cost_text_text_p: $80
       model:
@@ -327,21 +323,37 @@ train:
       _:
         asset_interior_box_fill_p: GREEN
         rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by 6
         long_name_text_text: "3"
         cost_text_text_p: $180
       model:
-        index: $[index_of (5)]
+        index:
+          "1":
+            note_text:
+              text: Additional
+          "2":
+          "3":
+          "4":
+          "5":
 
     4T:
       _:
         asset_interior_box_fill_p: BLUE
         rust_bar_box_fill_p: GRAY
+        rusted_text_text: Rusted by D
         long_name_text_text: "4"
         cost_text_text_p: $300
-        note_text_text: |
-            To DIESEL: $800
+        note_text_text: "To D: $800"
       model:
-        index: $[index_of (4)]
+        index:
+          "1":
+            note_text:
+              text: |
+                Additional
+                To D: $800
+          "2":
+          "3":
+          "4":
 
     5T:
       _:
@@ -349,9 +361,17 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "5"
         cost_text_text_p: $450
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
+        note_text_text: "To D: $800"
       model:
-        index: $[index_of (3)]
+        index:
+          "1":
+            note_text:
+              text: |
+                Additional
+                To D: $800
+          "2":
+          "3":
 
     6T:
       _:
@@ -359,12 +379,15 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6"
         cost_text_text_p: $630
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
+        note_text_text: "To D: $800"
       model:
         index:
           "1":
             note_text:
-              text: Optional
+              text: |
+                Additional
+                To D: $800
           "2":
           "3":
 
@@ -373,7 +396,8 @@ train:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "D"
-        cost_text_text_p: $1,100
-        rusted_text_text: PERMANENT
+        cost_text_text_p: $1100
+        rusted_text_text: Permanent
+        note_text_text: $800
       model:
         index: $[index_of (8)]
