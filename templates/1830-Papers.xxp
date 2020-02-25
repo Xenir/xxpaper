@@ -130,7 +130,7 @@ company:
         short_name_text_text: NYNH
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
+        _related_fill: ${colour/wikipedia/pink_orange}
       share:
         long_name_text:
           size: 12
