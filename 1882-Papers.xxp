@@ -38,6 +38,11 @@ company:
         _minor_fill: ${_/_major_fill}
         _minor_fill_2: ${_/_major_fill_2}
         _related_fill: ${colour/hollasch/steel_blue}
+      charter:
+        _:
+          comment_text_text: |
+            Can be started only in the result of the conversion
+            of Saskatchewan Central private company.
       token:
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
@@ -75,7 +80,9 @@ company:
         middle_box_fill: ${colour/wikipedia/dark_gray}
       charter:
         _:
-          comment_text_text: Uses neutral stations as its own.
+          comment_text_text: |
+            Cannot be started if no neutral station on the board.
+            Uses neutral stations as its own.
       token:
         ELEMENTS: ${TEMPLATE_boxes/.}
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
@@ -138,7 +145,7 @@ company:
         long_name_text_text: |
             Grand Trunk
             Pacific
-        short_name_text_text: GT
+        short_name_text_text: GTP
         token_1_text_text: Free
         token_2_text_text: $40  
         token_3_text_text: $100
@@ -239,6 +246,7 @@ private:
             Saskatchewan Central
         power_text_text: |
             Blocks D8.
+
             May convert to Saskatchewan Central
             public company.
         cost_text_text: "Cost: $50"
@@ -251,7 +259,7 @@ private:
             North West Rebellion
         power_text_text: |
             Move one of company's on-map 
-            stations to an NWE hex city and
+            stations to an NWR hex city and
             optionally perform lay or upgrade 
             action on the destination.								
         cost_text_text: "Cost: $80"
@@ -264,6 +272,9 @@ private:
             Trestle Bridge
         power_text_text: |
             Blocks I7.
+
+            Comes with a 10% share of one of:
+            CNor, CP, GTP, HB, QL.
             Revenue of $10 from bank for each
             newly established river crossing.
         cost_text_text: "Cost: $140"
@@ -275,6 +286,9 @@ private:
         long_name_text_text: |
             Canadian Pacific
         power_text_text: |
+            Comes with the presidency of CPR.
+            
+            Cannot be sold to a public company.
         cost_text_text: "Cost: $180"
         revenue_text_text: "Revenue: $25"
 

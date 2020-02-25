@@ -131,7 +131,7 @@ company:
         long_name_text_text: |
             New York
             New Haven
-        short_name_text_text: NYH
+        short_name_text_text: NYNH
         #_major_fill: ${colour/wikipedia/carrot_orange}
         #_minor_fill: ${colour/x11/orangered}
         _major_fill: ${colour/wikipedia/amber_sae_ece}
@@ -163,7 +163,8 @@ company:
               Mohawk & Hudson
               Railroad
           power_text_text: |
-              Blocks: D18.
+              Blocks D18.
+
               Owning player may exchange for
               a share of NYC from bank or IPO.
           cost_text_text: "Cost: $110"
@@ -240,7 +241,7 @@ private:
         long_name_text_text: |
             Schuykill Valley
             Railroad
-        power_text_text: "Blocks: G15"
+        power_text_text: "Blocks G15."
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
@@ -251,6 +252,7 @@ private:
             Railway
         power_text_text: |
             Blocks: B20.
+
             Owning corporation may place a free,
             track tile at B20 in addition to
             its normal track tile lay.
@@ -264,9 +266,10 @@ private:
             Railroad
         power_text_text: |
             Blocks: F16.
+
             Owning corporation may place a yellow
             track tile, or a yellow tile and station
-            marker (must be both) at F16 for $120.
+            (must be both) at F16 for $120.
         cost_text_text: "Cost: $70"
         revenue_text_text: "Revenue: $15"
 
@@ -277,10 +280,10 @@ private:
             Mohawk & Hudson
             Railroad
         power_text_text: |
-            Blocks: D18.
-            Owning player may exchange for
-            a share of NYC from bank or IPO.
-            
+            Blocks D18.
+
+            May be exchanged for a 10% share
+            of NYC from bank or IPO.
         cost_text_text: "Cost: $110"
         revenue_text_text: "Revenue: $20"
 
@@ -290,8 +293,9 @@ private:
             Camden & Amboy
             Railroad
         power_text_text: |
-            Blocks: H18.
-            Purchaser receives 10% PRR share.
+            Blocks H18.
+
+            Comes with a 10% share of PRR.
         cost_text_text: "Cost: $160"
         revenue_text_text: "Revenue: $25"
 
@@ -303,10 +307,11 @@ private:
             Baltimore & Ohio
             Railroad
         power_text_text: |
-            Blocks: I13 & I15.
-            Purchaser receives BO presidency
-            and sets par price. 
-            May not be sold.
+            Blocks I13 and I15.
+
+            Comes with the presidency of BO.
+            
+            Cannot be sold to a public company.
         cost_text_text: "Cost: $200"
         revenue_text_text: "Revenue: $30"
 
