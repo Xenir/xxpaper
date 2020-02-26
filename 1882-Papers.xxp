@@ -41,7 +41,7 @@ company:
       charter:
         _:
           comment_text_text: |
-            Can be started only in the result of the conversion
+            Can be started only as the result of the conversion
             of Saskatchewan Central private company.
       token:
         ELEMENTS: ${TEMPLATE_stripey/.}
@@ -256,7 +256,7 @@ private:
       _:
         closes_text_text: "Closed by 5"
         long_name_text_text: |
-            North West Rebellion
+            North-West Rebellion
         power_text_text: |
             Move one of company's on-map 
             stations to an NWR hex city and
@@ -297,7 +297,7 @@ private:
         close_bar_box_suppress: True
         money_bar_box_suppress: True
         long_name_text_text: |
-            North West Rebellion
+            North-West Rebellion
         power_text_text: |
             When revealed, remove all
             yellow tiles from NWR-marked hexes. 
