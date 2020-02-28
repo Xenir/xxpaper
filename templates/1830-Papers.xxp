@@ -319,7 +319,7 @@ train:
         long_name_text_text: "4"
         cost_text_text_p: $300
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (4)]
@@ -332,7 +332,7 @@ train:
         cost_text_text_p: $450
         rusted_text_text: PERMANENT
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (3)]
@@ -345,23 +345,21 @@ train:
         cost_text_text_p: $630
         rusted_text_text: PERMANENT
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (2)]
 
-    Diesel:
+    D:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "Diesel"
+        long_name_text_text: "D"
         cost_text_text_p: $1,100
         rusted_text_text: PERMANENT
         note_text_text: |
             From 4/5/6: $800
         note_text_size: 12
-      long_name_text:
-        size: 30
       model:
         index: $[index_of (8)]
 
