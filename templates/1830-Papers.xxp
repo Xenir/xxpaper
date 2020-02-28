@@ -32,7 +32,6 @@ company:
       _:
         long_name_text_text: |
           Boston & Maine
-          Railroad
         short_name_text_text: BM
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
@@ -52,7 +51,6 @@ company:
       _:
         long_name_text_text: |
             Baltimore & Ohio
-            Railroad
         short_name_text_text: BO
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/blue_ryb}
@@ -64,7 +62,7 @@ company:
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (6)]
-        
+
     CPR:
       _:
         long_name_text_text: |
@@ -84,14 +82,18 @@ company:
     CO:
       _:
         long_name_text_text: |
-            Chesapeake
-            & Ohio Railway
+            Chesapeake & Ohio
         short_name_text_text: CO
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/light_sky_blue}
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/hollasch/powder_blue}
         name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          text: |
+            Chesapeake
+            & Ohio
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -147,7 +149,6 @@ company:
       _:
         long_name_text_text: |
             New York Central
-            Railroad
         short_name_text_text: NYC
         token_3_text_text: $100
         token_4_text_text: $100
@@ -212,7 +213,7 @@ private:
     closes_text_text: "Closes in BROWN"
 
   index:
-    SV:
+    SVR:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
         long_name_text_text: |
@@ -427,7 +428,7 @@ train:
         y: 50
       model:
         index:  "$[index_of (1)]"
-        
+
     P6:
       _:
         asset_interior_box_fill: ${colour/xxp/P_BLUE}
