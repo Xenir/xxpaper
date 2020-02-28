@@ -2,6 +2,11 @@ company:
   _:
     token_1_text_text: Free
     token_2_text_text: F40
+
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface}
+
   charter:
     _:
       token_1_text_y: 202
@@ -12,6 +17,7 @@ company:
       token_3_text_size: 12
       token_4_text_size: 12
       comment_text_text: ""
+      long_name_text_typeface: ${DEFAULT/typeface}
 
   share:
     share_num_text:
@@ -22,10 +28,12 @@ company:
         typeface: ${DEFAULT/typeface}
     comment_text:
         typeface: ${DEFAULT/typeface}
-
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
     _:
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
 
   index:
     NFL:
@@ -200,6 +208,8 @@ private:
     typeface: ${DEFAULT/typeface}
   revenue_text:
     typeface: ${DEFAULT/typeface}
+  long_name_text:
+    typeface: ${DEFAULT/typeface}
   _:
     closes_text_text: "Closes in BROWN"
 
@@ -284,6 +294,8 @@ private:
         revenue_text_text: "Revenue: F30"
 
 train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
 
   index:
     2T:
