@@ -308,16 +308,105 @@ private:
         asset_interior_box_fill: ${colour/wikipedia/black}
 
 train:
+  _:
+    cost_text_typeface: ${DEFAULT/typeface_mono}
+    cost_text_size: 12
+    long_name_text_size: 58
+    note_text_size: 10
+
   index:
     2T:
       _:
         asset_interior_box_fill_p: YELLOW
         rust_bar_box_fill_p: BLUE
-        rusted_text_text: Rusted by 4
+        rusted_text_text: Rusted by Blue
         long_name_text_text: "2"
-        cost_text_text_p: $80
+        cost_text_text: |
+            OR1: $100
+            OR2:  $75
+            OR3:  $50
       model:
-        index: $[index_of (6)]
+        index:
+          "1":
+            note_text:
+              text: 4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+
+    2P:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2P"
+        cost_text_size: 12
+        cost_text_text: |
+            OR1: $120
+            OR2:  $90
+            OR3:  $60
+        note_text_text: |
+            $10 per city
+            into company
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+                $10 per city
+                into company
+          "2":
+          "3":
+          "4":
+          "5":
+
+    2H:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2H"
+        cost_text_text: |
+            OR1: $120
+            OR2:  $90
+            OR3:  $60
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: 4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    2F:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2F"
+        cost_text_size: 12
+        cost_text_text: |
+            OR1: $120
+            OR2:  $90
+            OR3:  $60
+        note_text_text: |
+            may run
+            into offboards
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
 
     3T:
       _:
@@ -329,7 +418,7 @@ train:
       model:
         index:
           "1":
-            top_note_text:
+            note_text:
               text: Additional
           "2":
           "3":
@@ -347,9 +436,10 @@ train:
       model:
         index:
           "1":
-            top_note_text:
+            note_text:
               text: |
                 Additional
+                To D: $800
           "2":
           "3":
           "4":
@@ -365,9 +455,10 @@ train:
       model:
         index:
           "1":
-            top_note_text:
+            note_text:
               text: |
                 Additional
+                To D: $800
           "2":
           "3":
 
@@ -382,9 +473,10 @@ train:
       model:
         index:
           "1":
-            top_note_text:
+            note_text:
               text: |
                 Additional
+                To D: $800
           "2":
           "3":
 

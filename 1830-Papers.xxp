@@ -370,10 +370,9 @@ train:
       model:
         index:
           "1":
-            note_text:
+            top_note_text:
               text: |
                 Optional
-                To D: $800
           "2":
           "3":
 
