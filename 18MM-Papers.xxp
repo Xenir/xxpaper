@@ -312,7 +312,7 @@ train:
     cost_text_typeface: ${DEFAULT/typeface_mono}
     cost_text_size: 12
     long_name_text_size: 58
-    note_text_size: 10
+    note_text_size: 9
 
   index:
     2T:
@@ -328,13 +328,12 @@ train:
       model:
         index:
           "1":
-            note_text:
+            top_note_text:
               text: 4-player
           "2":
           "3":
           "4":
           "5":
-
 
     2P:
       _:
@@ -342,7 +341,6 @@ train:
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
         long_name_text_text: "2P"
-        cost_text_size: 12
         cost_text_text: |
             OR1: $120
             OR2:  $90
@@ -356,8 +354,6 @@ train:
             top_note_text: 
               text: |
                 4-player
-                $10 per city
-                into company
           "2":
           "3":
           "4":
@@ -373,6 +369,8 @@ train:
             OR1: $120
             OR2:  $90
             OR3:  $60
+        note_text_text: |
+            may run into offboards
       model:
         index:
           "1":
@@ -389,14 +387,13 @@ train:
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
         long_name_text_text: "2F"
-        cost_text_size: 12
         cost_text_text: |
             OR1: $120
             OR2:  $90
             OR3:  $60
         note_text_text: |
-            may run
-            into offboards
+            +$10 per coal marker
+            may run into offboards
       model:
         index:
           "1":
@@ -408,41 +405,270 @@ train:
           "4":
           "5":
 
-    3T:
+    2APlus:      
       _:
-        asset_interior_box_fill_p: GREEN
-        rust_bar_box_fill_p: RED
-        rusted_text_text: Rusted by 6
-        long_name_text_text: "3"
-        cost_text_text_p: $180
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2A/2+"
+        long_name_text_size: 30
+        cost_text_text: |
+            OR1: $120
+            OR2:  $90
+            OR3:  $60
+        note_text_text: |
+          immediately replace
+          by 2A or 2+
       model:
         index:
           "1":
-            note_text:
-              text: Additional
+            top_note_text: 
+              text: |
+                4-player
           "2":
           "3":
           "4":
           "5":
 
+    2A:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2H"
+        cost_text_text: |
+            OR1: $120
+            OR2:  $90
+            OR3:  $60
+        note_text_text: |
+          may be bought
+          before running
+      model:
+        index: $[index_of (5)]
+
+    2Plus:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        rusted_text_text: Rusted by Blue
+        long_name_text_text: "2+"
+        cost_text_text: |
+            OR1: $100
+            OR2:  $75
+            OR3:  $50
+        note_text_text: |
+            runs once more
+            before rusting
+      model:
+        index: $[index_of (5)]
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3"
+        cost_text_text: |
+            OR1: $200
+            OR2: $150
+            OR3: $100
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    3H:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3H"
+        cost_text_text: |
+            OR1: $240
+            OR2: $180
+            OR3: $120
+        note_text_text: |
+            may run into offboards
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    3P:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3P"
+        cost_text_text: |
+            OR1: $240
+            OR2: $180
+            OR3: $120
+        note_text_text: |
+            $10 per city
+            into company
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    3F:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3F"
+        cost_text_text: |
+            OR1: $240
+            OR2: $180
+            OR3: $120
+        note_text_text: |
+            +$10 per coal marker
+            may run into offboards
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":   
+
     4T:
       _:
         asset_interior_box_fill_p: BLUE
         rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by D
+        rusted_text_text: Rusted by Gray
         long_name_text_text: "4"
-        cost_text_text_p: $300
-        note_text_text: "To D: $800"
+        cost_text_text: |
+            OR1: $360
+            OR2: $270
+            OR3: $180
       model:
         index:
           "1":
-            note_text:
+            top_note_text: 
               text: |
-                Additional
-                To D: $800
+                4-player
           "2":
           "3":
           "4":
+          "5":
+
+    5H:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        rusted_text_text: Rusted by Gray
+        long_name_text_text: "4H"
+        cost_text_text: |
+            OR1: $400
+            OR2: $300
+            OR3: $100
+        note_text_text: |
+            may run into offboards
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    4P:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        rusted_text_text: Rusted by Gray
+        long_name_text_text: "4P"
+        cost_text_text: |
+            OR1: $400
+            OR2: $300
+            OR3: $100
+        note_text_text: |
+            $10 per city
+            into company
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":
+
+    4F:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        rusted_text_text: Rusted by Gray
+        long_name_text_text: "4F"
+        cost_text_text: |
+            OR1: $400
+            OR2: $300
+            OR3: $100
+        note_text_text: |
+            +$10 per coal marker
+            may run into offboards
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5":  
+
+    4Plus:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        rusted_text_text: Rusted by Gray
+        long_name_text_text: "4+"
+        cost_text_text: |
+            OR1: $400
+            OR2: $300
+            OR3: $100
+        note_text_text: |
+            runs once more
+            before rusting
+      model:
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+          "3":
+          "4":
+          "5": 
 
     5T:
       _:
