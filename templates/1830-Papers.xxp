@@ -79,8 +79,6 @@ company:
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        #vertical stripe_box:
-         # fill: ${colour/xxp/BLACK}
         index: $[index_of (7)]
 
     CO:
@@ -132,7 +130,7 @@ company:
         short_name_text_text: NYNH
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
+        _related_fill: ${colour/wikipedia/pink_orange}
       share:
         long_name_text:
           size: 12
@@ -158,10 +156,6 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
-        #_:
-        #  short_name_text_size: 8
-        #  short_name_text_x_inset: 0
-        #  short_name_text_y_inset: 1
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -284,7 +278,7 @@ private:
 
     B&O:
       _:
-        asset_interior_box_fill: ${colour/scale/azure_0}
+        asset_interior_box_fill: ${colour/scale/azure_2}
         closes_text_text: "Closes in BROWN or when BO buys a train"
         long_name_text_text: |
             Baltimore & Ohio

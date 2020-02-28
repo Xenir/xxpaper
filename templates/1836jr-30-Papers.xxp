@@ -112,7 +112,7 @@ company:
         short_name_text_text: HSM
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
+        _related_fill: ${colour/wikipedia/pink_orange}
       charter:
         long_name_text:
           size: 14
@@ -270,7 +270,7 @@ private:
 
     CFLV:
       _:
-        asset_interior_box_fill: ${colour/scale/azure_0}
+        asset_interior_box_fill: ${colour/scale/azure_2}
         closes_text_text: "Closes in BROWN or when NORD buys a train"
         long_name_text_text: |
             Chemin de Fer de Lille
