@@ -5,7 +5,7 @@ company:
 
   token:
     short_name_text:
-      typeface: ${DEFAULT/typeface}
+      typeface: ${DEFAULT/typeface_secondary}
 
   charter:
     _:
@@ -75,6 +75,8 @@ company:
         long_name_text:
           size: 13
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (6)]
@@ -105,7 +107,7 @@ company:
       token:
         _:
             short_name_text_fill: $[black_or_white (${_/_major_fill})]
-            short_name_text_size: 12
+            short_name_text_size: 11
             short_name_text_x_inset: 0
             short_name_text_y_inset: -1
         index: $[index_of (6)]
@@ -133,6 +135,7 @@ company:
             Maatschappij
       token:
         _:
+          short_name_text_size: 8
           outer_circle_fill: ${_/_major_fill}
           middle_circle_fill: ${_/_minor_fill}
           inner_circle_fill: ${_/_major_fill}
@@ -153,6 +156,8 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
