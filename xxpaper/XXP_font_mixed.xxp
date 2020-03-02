@@ -1,0 +1,16 @@
+xxpaper:
+  typefaces:
+    - Mirage.ttf
+    - Mirage-Bold.ttf
+    - Mirage-Bold-Italic.ttf
+    - Mirage-Italic.ttf
+    - ArbutusSlab-Regular.ttf
+
+DEFAULT:
+  typeface: "Mirage"
+  typeface_bold: "Mirage-Bold"
+  typeface_bold_italic: "Mirage-Bold-Italic"
+  typeface_bold_oblique: ${DEFAULT/typeface_bold_italic}
+  typeface_italic: "Mirage-Italic"
+  typeface_oblique: ${DEFAULT/typeface_italic}
+  typeface_secondary: "ArbutusSlab-Regular"
