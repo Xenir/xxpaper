@@ -2,6 +2,11 @@ company:
   _:
     token_1_text_text: Free
     token_2_text_text: F40
+
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface_secondary}
+
   charter:
     _:
       token_1_text_y: 202
@@ -12,6 +17,7 @@ company:
       token_3_text_size: 12
       token_4_text_size: 12
       comment_text_text: ""
+      long_name_text_typeface: ${DEFAULT/typeface}
 
   share:
     share_num_text:
@@ -22,10 +28,12 @@ company:
         typeface: ${DEFAULT/typeface}
     comment_text:
         typeface: ${DEFAULT/typeface}
-
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
     _:
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
 
   index:
     NFL:
@@ -67,6 +75,8 @@ company:
         long_name_text:
           size: 13
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (6)]
@@ -97,7 +107,7 @@ company:
       token:
         _:
             short_name_text_fill: $[black_or_white (${_/_major_fill})]
-            short_name_text_size: 12
+            short_name_text_size: 11
             short_name_text_x_inset: 0
             short_name_text_y_inset: -1
         index: $[index_of (6)]
@@ -125,6 +135,7 @@ company:
             Maatschappij
       token:
         _:
+          short_name_text_size: 8
           outer_circle_fill: ${_/_major_fill}
           middle_circle_fill: ${_/_minor_fill}
           inner_circle_fill: ${_/_major_fill}
@@ -145,6 +156,8 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -199,6 +212,8 @@ private:
   cost_text:
     typeface: ${DEFAULT/typeface}
   revenue_text:
+    typeface: ${DEFAULT/typeface}
+  long_name_text:
     typeface: ${DEFAULT/typeface}
   _:
     closes_text_text: "Closes in BROWN"
@@ -284,6 +299,8 @@ private:
         revenue_text_text: "Revenue: F30"
 
 train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
 
   index:
     2T:
