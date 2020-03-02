@@ -5,7 +5,7 @@ company:
 
   token:
     short_name_text:
-      typeface: ${DEFAULT/typeface}
+      typeface: ${DEFAULT/typeface_secondary}
 
   charter:
     _:
@@ -84,6 +84,8 @@ company:
         _minor_fill: ${colour/xxp/BLACK}
         _related_fill: ${colour/hollasch/tomato}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -116,6 +118,8 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (6)]
@@ -175,7 +179,7 @@ company:
       token:
         _:
             short_name_text_fill: $[black_or_white (${_/_major_fill})]
-            short_name_text_size: 12
+            short_name_text_size: 11
             short_name_text_x_inset: 0
             short_name_text_y_inset: -1
         index: $[index_of (6)]
@@ -196,7 +200,7 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
+          short_name_text_size: 11
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
@@ -230,6 +234,8 @@ company:
         _minor_fill_2: ${_/_major_fill_2}
         _related_fill: ${colour/hollasch/steel_blue}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (5)]
@@ -247,7 +253,7 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
+          short_name_text_size: 11
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
