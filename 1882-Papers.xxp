@@ -227,6 +227,7 @@ private:
     closes_text_size: 7
     power_text_size: 8
     revenue_text_x: 168
+    asset_interior_box_fill: ${colour/scale/yellow_0}
 
   index:
 

@@ -331,9 +331,10 @@ train:
             top_note_text:
               text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
-          "5":
 
     2P:
       _:
@@ -351,13 +352,13 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
-          "5":
 
     2H:
       _:
@@ -374,12 +375,9 @@ train:
       model:
         index:
           "1":
-            top_note_text:
-              text: 4-player
           "2":
           "3":
           "4":
-          "5":
 
     2F:
       _:
@@ -397,13 +395,13 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
-          "5":
 
     2APlus:      
       _:
@@ -422,10 +420,11 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
           "5":

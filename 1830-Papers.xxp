@@ -178,7 +178,8 @@ company:
           power_text_size: 8
           token_embed_x_inset: 130
           token_embed_y_inset: 30
-          asset_interior_box_fill: ${colour/xxp/H_BROWN}
+          asset_interior_box_fill: ${colour/scale/yellow_0}
+          #asset_interior_box_fill: ${colour/xxp/H_BROWN}
         index: "$[index_of (1)]"
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
@@ -209,7 +210,6 @@ company:
 
 marker:
   index:
-
     round:
       token:
         ELEMENTS:
@@ -233,6 +233,7 @@ private:
     closes_text_size: 7
     power_text_size: 8
     revenue_text_x: 168
+    asset_interior_box_fill: ${colour/scale/yellow_0}
 
   index:
 
@@ -249,11 +250,11 @@ private:
       _:
         long_name_text_text: |
             Champlain & St Larence
-            Railway
+            Railroad
         power_text_text: |
             Blocks: B20.
 
-            Owning corporation may place a free,
+            Owning corporation may place a free
             track tile at B20 in addition to
             its normal track tile lay.
         cost_text_text: "Cost: $40"
