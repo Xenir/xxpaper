@@ -154,6 +154,7 @@ company:
           outer_circle_fill: ${_/_major_fill}
           middle_circle_fill: ${_/_minor_fill}
           inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
