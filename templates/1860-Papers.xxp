@@ -193,18 +193,15 @@ company:
             Improvement
             & Railway
         short_name_text_text: BHIR
-        _major_fill: ${colour/hollasch/purple}
-        _minor_fill: ${_/_major_fill}
-        _related_fill: ${colour/hollasch/plum}
-        name_stripe_box_suppress: True
+        _major_fill: ${colour/wikipedia/violet_web}
+        _minor_fill: ${colour/wikipedia/black}
+        _related_fill: ${colour/wikipedia/plum_web}
       token:
         _:
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 11
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+          inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
       share:
         index:
