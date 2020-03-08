@@ -136,6 +136,7 @@ company:
       token:
         _:
           inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (6)]
