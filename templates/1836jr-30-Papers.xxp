@@ -218,6 +218,10 @@ private:
     typeface: ${DEFAULT/typeface}
   _:
     closes_text_text: "Closes in BROWN"
+    money_bar_box_y: 12
+    closes_text_size: 7
+    power_text_size: 8
+    revenue_text_x: 168
 
   index:
     ACC:
