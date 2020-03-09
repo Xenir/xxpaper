@@ -217,7 +217,7 @@ private:
   long_name_text:
     typeface: ${DEFAULT/typeface}
   _:
-    closes_text_text: "Closes in BROWN"
+    closes_text_text: "Closes in brown phase"
     money_bar_box_y: 12
     closes_text_size: 7
     power_text_size: 8
@@ -265,7 +265,7 @@ private:
     GCB:
       _:
         asset_interior_box_fill: ${colour/scale/gray_1}
-        closes_text_text: "Closes in BROWN or when power used"
+        closes_text_text: "Closes in brown phase or when power used"
         long_name_text_text: |
             Grand Central
             Belge
@@ -291,7 +291,7 @@ private:
     CFLV:
       _:
         asset_interior_box_fill: ${colour/scale/azure_2}
-        closes_text_text: "Closes in BROWN or when NORD buys a train"
+        closes_text_text: "Closes in brown phase or when NORD buys a train"
         long_name_text_text: |
             Chemin de Fer de Lille
             à Valenciennes
