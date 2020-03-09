@@ -447,6 +447,7 @@ train:
         asset_interior_box_fill_p: YELLOW
         rust_bar_box_fill_p: BLUE
         long_name_text_text: "2+1"
+        rusted_text_text: "Rusted by 4+2"
         cost_text_text_p: £250
       long_name_text:
         typeface: ${DEFAULT/typeface}
@@ -460,6 +461,7 @@ train:
         rust_bar_box_fill_p: RED
         long_name_text_text: "3+2"
         cost_text_text_p: £300
+        rusted_text_text: "Rusted by 6+3"
       long_name_text:
         size: 42
       model:
@@ -471,6 +473,7 @@ train:
         rust_bar_box_fill_p: GRAY
         long_name_text_text: "4+2"
         cost_text_text_p: £350
+        rusted_text_text: "Rusted by 7+4"
       long_name_text:
         size: 42
       model:
@@ -482,6 +485,7 @@ train:
         rust_bar_box_fill_p: PURPLE
         long_name_text_text: "5+3"
         cost_text_text_p: £400
+        rusted_text_text: "Rusted by 8+4"
       long_name_text:
         size: 42
       model:
@@ -493,7 +497,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6+3"
         cost_text_text_p: £500
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
       long_name_text:
         size: 42
       model:
@@ -505,7 +509,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "7+4"
         cost_text_text_p: £600
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
       long_name_text:
         size: 42
       model:
@@ -521,7 +525,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "8+4"
         cost_text_text_p: £700
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
       long_name_text:
         size: 42
       model:
@@ -533,7 +537,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "9+5"
         cost_text_text_p: £800
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
       long_name_text:
         size: 42
       model:
