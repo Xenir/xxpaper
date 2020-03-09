@@ -225,6 +225,8 @@ private:
     typeface: ${DEFAULT/typeface}
   revenue_text:
     typeface: ${DEFAULT/typeface}
+  long_name_text:
+    typeface: ${DEFAULT/typeface}
 
   _:
     closes_text_text: "Closes in BROWN"
