@@ -287,6 +287,10 @@ private:
     typeface: ${DEFAULT/typeface}
   _:
     closes_text_text: "Closes when FFC bought or power used"
+    money_bar_box_y: 13
+    closes_text_size: 7
+    power_text_size: 8
+    revenue_text_x: 168
 
   index:
     BHC:
