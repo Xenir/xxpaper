@@ -270,7 +270,7 @@ private:
             Blocks: F16.
             Owning corporation may place a yellow
             track tile, or a yellow tile and station
-            marker (must be both) at F16 for F120.
+            marker (must be both) at F16 for $120.
         cost_text_text: "Cost: $70"
         revenue_text_text: "Revenue: $15"
 
