@@ -139,6 +139,7 @@ company:
           outer_circle_fill: ${_/_major_fill}
           middle_circle_fill: ${_/_minor_fill}
           inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
@@ -308,6 +309,7 @@ train:
         asset_interior_box_fill_p: YELLOW
         rust_bar_box_fill_p: BLUE
         long_name_text_text: "2"
+        rusted_text_text: "Rusted by 4"
         cost_text_text_p: F80
       model:
         index: $[index_of (5)]
@@ -317,6 +319,7 @@ train:
         asset_interior_box_fill_p: GREEN
         rust_bar_box_fill_p: RED
         long_name_text_text: "3"
+        rusted_text_text: "Rusted by 6"
         cost_text_text_p: F180
       model:
         index: $[index_of (4)]
@@ -326,6 +329,7 @@ train:
         asset_interior_box_fill_p: BLUE
         rust_bar_box_fill_p: GRAY
         long_name_text_text: "4"
+        rusted_text_text: "Rusted by D"
         cost_text_text_p: F300
         note_text_text: |
             To D: F800
@@ -339,7 +343,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "5"
         cost_text_text_p: F450
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
         note_text_text: |
             To D: F800
         note_text_size: 12
@@ -352,7 +356,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6"
         cost_text_text_p: F630
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
         note_text_text: |
             To D: F800
         note_text_size: 12
@@ -365,10 +369,7 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "D"
         cost_text_text_p: F1,100
-        rusted_text_text: PERMANENT
-        note_text_text: |
-            From 4/5/6: F800
-        note_text_size: 12
+        rusted_text_text: Permanent
       model:
         index: $[index_of (8)]
 
