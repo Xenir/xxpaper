@@ -367,8 +367,6 @@ train:
         long_name_text_text: "D"
         cost_text_text_p: F1,100
         rusted_text_text: PERMANENT
-        note_text_text: |
-            From 4/5/6: F800
         note_text_size: 12
       model:
         index: $[index_of (8)]
