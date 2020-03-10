@@ -255,7 +255,7 @@ private:
         power_text_text: |
             Blocks: B20.
 
-            Owning corporation may place a free
+            Owning company may place a free
             track tile at B20 in addition to
             its normal track tile lay.
         cost_text_text: "Cost: $40"
@@ -269,25 +269,11 @@ private:
         power_text_text: |
             Blocks: F16.
 
-            Owning corporation may place a yellow
+            Owning company may place a yellow
             track tile, or a yellow tile and station
             (must be both) at F16 for $120.
         cost_text_text: "Cost: $70"
         revenue_text_text: "Revenue: $15"
-
-    M&H:
-      _:
-        closes_text_text: "Closes in brown phase or when power used"
-        long_name_text_text: |
-            Mohawk & Hudson
-            Railroad
-        power_text_text: |
-            Blocks D18.
-
-            May be exchanged for a 10% share
-            of NYC from bank or IPO.
-        cost_text_text: "Cost: $110"
-        revenue_text_text: "Revenue: $20"
 
     C&A:
       _:
