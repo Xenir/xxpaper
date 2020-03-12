@@ -50,6 +50,7 @@ private:
     size: 11
     x: 86
     y: 78
+    typeface: ${DEFAULT/typeface_bold}
     fill: $[black_or_white (${asset_interior_box/fill})]
 
   power_text:
@@ -61,6 +62,7 @@ private:
     x: 0
     y: 0
     fill: $[black_or_white (${asset_interior_box/fill})]
+    typeface: ${DEFAULT/typeface}
 
   money_bar_box:
     x: ${asset_interior_box/y}
@@ -85,3 +87,5 @@ private:
     size: 11
     fill: $[black_or_white (${money_bar_box/fill})]
 
+  count:
+    index: $[index_of (1)]

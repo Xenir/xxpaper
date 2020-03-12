@@ -2,6 +2,11 @@ company:
   _:
     token_1_text_text: Free
     token_2_text_text: $40
+
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface_secondary}
+
   charter:
     _:
       token_1_text_y: 202
@@ -12,6 +17,7 @@ company:
       token_3_text_size: 12
       token_4_text_size: 12
       comment_text_text: ""
+      long_name_text_typeface: ${DEFAULT/typeface}
 
   share:
     share_num_text:
@@ -22,17 +28,18 @@ company:
         typeface: ${DEFAULT/typeface}
     comment_text:
         typeface: ${DEFAULT/typeface}
-
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
     _:
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
 
   index:
     BM:
       _:
         long_name_text_text: |
           Boston & Maine
-          Railroad
         short_name_text_text: BM
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
@@ -52,7 +59,6 @@ company:
       _:
         long_name_text_text: |
             Baltimore & Ohio
-            Railroad
         short_name_text_text: BO
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/blue_ryb}
@@ -61,10 +67,12 @@ company:
         _minor_fill_2: ${_/_major_fill_2}
         _related_fill: ${colour/hollasch/steel_blue}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
         index: $[index_of (6)]
-        
+
     CPR:
       _:
         long_name_text_text: |
@@ -77,6 +85,8 @@ company:
         _minor_fill: ${colour/xxp/BLACK}
         _related_fill: ${colour/hollasch/tomato}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -84,14 +94,18 @@ company:
     CO:
       _:
         long_name_text_text: |
-            Chesapeake
-            & Ohio Railway
+            Chesapeake & Ohio
         short_name_text_text: CO
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/light_sky_blue}
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/hollasch/powder_blue}
         name_stripe_box_suppress: True
+      share:
+        long_name_text:
+          text: |
+            Chesapeake
+            & Ohio
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -114,10 +128,10 @@ company:
         name_stripe_box_suppress: True
       token:
         _:
-            short_name_text_fill: $[black_or_white (${_/_major_fill})]
-            short_name_text_size: 12
-            short_name_text_x_inset: 0
-            short_name_text_y_inset: -1
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
         index: $[index_of (6)]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
@@ -130,15 +144,17 @@ company:
         short_name_text_text: NYNH
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/hollasch/tan}
+        _related_fill: ${colour/wikipedia/pink_orange}
       share:
         long_name_text:
           size: 12
       token:
         _:
+          short_name_text_size: 8
           outer_circle_fill: ${_/_major_fill}
           middle_circle_fill: ${_/_minor_fill}
           inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (5)]
@@ -147,7 +163,6 @@ company:
       _:
         long_name_text_text: |
             New York Central
-            Railroad
         short_name_text_text: NYC
         token_3_text_text: $100
         token_4_text_text: $100
@@ -156,6 +171,8 @@ company:
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
       token:
+        _:
+          short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (7)]
@@ -208,17 +225,24 @@ private:
     typeface: ${DEFAULT/typeface}
   revenue_text:
     typeface: ${DEFAULT/typeface}
+  long_name_text:
+    typeface: ${DEFAULT/typeface}
+
   _:
-    closes_text_text: "Closes in BROWN"
+    closes_text_text: "Closes in brown phase"
+    money_bar_box_y: 12
+    closes_text_size: 7
+    power_text_size: 8
+    revenue_text_x: 168
 
   index:
-    SV:
+    SVR:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
         long_name_text_text: |
             Schuylkill Valley
             Railroad
-        power_text_text: "Blocks: G15"
+        power_text_text: "Blocks: G15."
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
@@ -230,7 +254,7 @@ private:
             Railroad
         power_text_text: |
             Blocks: B20.
-            Owning corporation may place a free
+            Owning company may place a free
             track tile at B20 in addition to
             its normal track tile lay.
         cost_text_text: "Cost: $40"
@@ -244,23 +268,25 @@ private:
             Railway
         power_text_text: |
             Blocks: F16.
-            Owning corporation may place a yellow
+            Owning company may place a yellow
             track tile, or a yellow tile and station
-            marker (must be both) at F16 for F120.
+            marker (must be both) at F16 for $120.
+            This action is performed instead of normal
+            tile building and station placing steps.
         cost_text_text: "Cost: $70"
         revenue_text_text: "Revenue: $15"
 
     M&H:
       _:
         asset_interior_box_fill: ${colour/scale/gray_1}
-        closes_text_text: "Closes in BROWN or when power used"
+        closes_text_text: "Closes in brown phase or when power used"
         long_name_text_text: |
             Mohawk & Hudson
             Railroad
         power_text_text: |
             Blocks: D18.
             Owning player may exchange for
-            a share of NYC from bank or IPO.
+            a 10% NYC share from bank or IPO.
         cost_text_text: "Cost: $110"
         revenue_text_text: "Revenue: $20"
 
@@ -272,32 +298,34 @@ private:
             Railroad
         power_text_text: |
             Blocks: H18.
-            Purchaser receives a 10% PRR share.
+            Comes with a 10% PRR share.
         cost_text_text: "Cost: $160"
         revenue_text_text: "Revenue: $25"
 
     B&O:
       _:
         asset_interior_box_fill: ${colour/scale/azure_2}
-        closes_text_text: "Closes in BROWN or when BO buys a train"
+        closes_text_text: "Closes in brown phase or when BO buys a train"
         long_name_text_text: |
             Baltimore & Ohio
             Railroad
         power_text_text: |
             Blocks: I13 & I15.
-            Purchaser receives BO presidency and
-            sets par price. May not be sold to
-            a public company.
+            Comes with the BO presidency.
+            May not be sold to a public company.
         cost_text_text: "Cost: $220"
         revenue_text_text: "Revenue: $30"
 
 train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
 
   index:
     2T:
       _:
         asset_interior_box_fill_p: YELLOW
         rust_bar_box_fill_p: BLUE
+        rusted_text_text: "Rusted by 4"
         long_name_text_text: "2"
         cost_text_text_p: $80
       model:
@@ -307,6 +335,7 @@ train:
       _:
         asset_interior_box_fill_p: GREEN
         rust_bar_box_fill_p: RED
+        rusted_text_text: "Rusted by 6"
         long_name_text_text: "3"
         cost_text_text_p: $180
       model:
@@ -316,10 +345,11 @@ train:
       _:
         asset_interior_box_fill_p: BLUE
         rust_bar_box_fill_p: GRAY
+        rusted_text_text: "Rusted by D"
         long_name_text_text: "4"
         cost_text_text_p: $300
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (4)]
@@ -330,9 +360,9 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "5"
         cost_text_text_p: $450
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (3)]
@@ -343,25 +373,20 @@ train:
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6"
         cost_text_text_p: $630
-        rusted_text_text: PERMANENT
+        rusted_text_text: Permanent
         note_text_text: |
-            To Diesel: $800
+            To D: $800
         note_text_size: 12
       model:
         index: $[index_of (2)]
 
-    Diesel:
+    D:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "Diesel"
+        long_name_text_text: "D"
         cost_text_text_p: $1,100
-        rusted_text_text: PERMANENT
-        note_text_text: |
-            From 4/5/6: $800
-        note_text_size: 12
-      long_name_text:
-        size: 30
+        rusted_text_text: Permanent
       model:
         index: $[index_of (8)]
 
@@ -429,7 +454,7 @@ train:
         y: 50
       model:
         index:  "$[index_of (1)]"
-        
+
     P6:
       _:
         asset_interior_box_fill: ${colour/xxp/P_BLUE}

@@ -23,6 +23,7 @@ long_name_text:
   size: 14
   x: 101
   y: 84
+  typeface: ${DEFAULT/typeface_bold}
 
 side_bar_box:
   x_inset: 4
