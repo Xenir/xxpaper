@@ -217,7 +217,11 @@ private:
   long_name_text:
     typeface: ${DEFAULT/typeface}
   _:
-    closes_text_text: "Closes in BROWN"
+    closes_text_text: "Closes in brown phase"
+    money_bar_box_y: 12
+    closes_text_size: 7
+    power_text_size: 8
+    revenue_text_x: 168
 
   index:
     ACC:
@@ -226,7 +230,7 @@ private:
         long_name_text_text: |
             Amsterdam Canal
             Company
-        power_text_text: "Blocks: D6"
+        power_text_text: "Blocks: D6."
         cost_text_text: "Cost: F20"
         revenue_text_text: "Revenue: F5"
 
@@ -238,7 +242,7 @@ private:
             Ferry
         power_text_text: |
             Blocks: B8.
-            Owning corporation may place a free
+            Owning company may place a free
             track tile at B8 in addition to
             its normal track tile lay.
         cost_text_text: "Cost: F40"
@@ -252,23 +256,25 @@ private:
             du Hainaut
         power_text_text: |
             Blocks: J8.
-            Owning corporation may place a yellow
+            Owning company may place a yellow
             track tile, or a yellow tile and station
-            marker (must be both) at J8 for F120.
+            marker (must be both) at J8 for F60.
+            This action is performed instead of normal
+            tile building and station placing steps.
         cost_text_text: "Cost: F70"
         revenue_text_text: "Revenue: F15"
 
     GCB:
       _:
         asset_interior_box_fill: ${colour/scale/gray_1}
-        closes_text_text: "Closes in BROWN or when power used"
+        closes_text_text: "Closes in brown phase or when power used"
         long_name_text_text: |
             Grand Central
             Belge
         power_text_text: |
             Blocks: G7, G9 & H10.
             Owning player may exchange for
-            a share of BELGE from bank or IPO.
+            a 10% BELGE share from bank or IPO.
         cost_text_text: "Cost: F110"
         revenue_text_text: "Revenue: F20"
 
@@ -280,22 +286,21 @@ private:
             Luxembourgeois
         power_text_text: |
             Blocks: J12 & K11.
-            Purchaser receives a 10% GCL share.
+            Comes with a 10% GCL share.
         cost_text_text: "Cost: F160"
         revenue_text_text: "Revenue: F25"
 
     CFLV:
       _:
         asset_interior_box_fill: ${colour/scale/azure_2}
-        closes_text_text: "Closes in BROWN or when NORD buys a train"
+        closes_text_text: "Closes in brown phase or when NORD buys a train"
         long_name_text_text: |
             Chemin de Fer de Lille
             à Valenciennes
         power_text_text: |
             Blocks: I3 & J4.
-            Purchaser receives NORD presidency
-            and sets par price. May not be sold to
-            a public company.
+            Comes with the NORD presidency.
+            May not be sold to a public company.
         cost_text_text: "Cost: F220"
         revenue_text_text: "Revenue: F30"
 
