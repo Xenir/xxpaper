@@ -1,0 +1,120 @@
+train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
+  index:
+    P1:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "1"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P2:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "2"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P3:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "3"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P4:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "4"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P5:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "5"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+
+    P6:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "6"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+        
+    P7:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "7"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+        
+    P8:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "8"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
+        
+    P9:
+      _:
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        long_name_text_text: "9"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 50
+      model:
+        index:  "$[index_of (1)]"
