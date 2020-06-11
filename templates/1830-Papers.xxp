@@ -400,7 +400,9 @@ train:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "D"
-        cost_text_text_p: $1,100
+        cost_text_text_p: $1100
         rusted_text_text: Permanent
+        note_text_text: |
+            From 4/5/6: $800
       model:
         index: $[index_of (8)]
