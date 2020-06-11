@@ -236,6 +236,21 @@ private:
     revenue_text_x: 168
 
   index:
+    PD:
+      _:
+        long_name_text_text: |
+            PRIORITY
+            DEAL
+        long_name_text_size: 30
+        long_name_text_y: 55
+        power_text_text: ""
+        cost_text_text: ""
+        closes_text_text: ""
+        revenue_text_text: ""
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        close_bar_box_fill: ${colour/xxp/P_BLUE}
+        money_bar_box_fill: ${colour/xxp/P_BLUE}
+
     SVR:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
@@ -389,81 +404,3 @@ train:
         rusted_text_text: Permanent
       model:
         index: $[index_of (8)]
-
-    P1:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "1"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P2:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "2"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P3:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "3"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P4:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "4"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P5:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "5"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P6:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "6"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
