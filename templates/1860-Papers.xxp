@@ -294,6 +294,21 @@ private:
     revenue_text_x: 168
 
   index:
+    PD:
+      _:
+        long_name_text_text: |
+            PRIORITY
+            DEAL
+        long_name_text_size: 30
+        long_name_text_y: 55
+        power_text_text: ""
+        cost_text_text: ""
+        closes_text_text: ""
+        revenue_text_text: ""
+        asset_interior_box_fill: ${colour/xxp/P_BLUE}
+        close_bar_box_fill: ${colour/xxp/P_BLUE}
+        money_bar_box_fill: ${colour/xxp/P_BLUE}
+
     BHC:
       _:
         asset_interior_box_fill: ${colour/scale/purple_0}
