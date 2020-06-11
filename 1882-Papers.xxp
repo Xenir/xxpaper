@@ -225,7 +225,8 @@ private:
   _:
     long_name_text_size: 11
     money_bar_box_y: 13
-    closes_text_size: 7
+    closes_text_size: 8
+    closes_text_text: "Closed by 5"
     power_text_size: 8
     revenue_text_x: 168
     asset_interior_box_fill: ${colour/scale/yellow_0}
@@ -234,7 +235,6 @@ private:
 
     HB:
       _:
-        closes_text_text: "Closed by 5"
         long_name_text_text: |
             Hudson Bay
         power_text_text: "Blocks K3."
@@ -256,7 +256,6 @@ private:
 
     NWR:
       _:
-        closes_text_text: "Closed by 5"
         long_name_text_text: |
             North-West Rebellion
         power_text_text: |
@@ -269,7 +268,6 @@ private:
 
     TB:
       _:
-        closes_text_text: "Closed by 5"
         long_name_text_text: |
             Trestle Bridge
         power_text_text: |

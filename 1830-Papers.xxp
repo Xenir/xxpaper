@@ -231,7 +231,8 @@ private:
   _:
     long_name_text_size: 11
     money_bar_box_y: 13
-    closes_text_size: 7
+    closes_text_size: 8
+    closes_text_text: "Closed by 5"
     power_text_size: 8
     revenue_text_x: 168
     asset_interior_box_fill: ${colour/scale/yellow_0}
@@ -289,7 +290,7 @@ private:
 
     B&O:
       _:
-        closes_text_text: "Closes in brown phase or when BO buys train"
+        closes_text_text: "Closed by 5 or when BO buys train"
         closes_text_x_inset: -1
         long_name_text_text: |
             Baltimore & Ohio

@@ -556,8 +556,8 @@ train:
     4T:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by Gray
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
         long_name_text_text: "4"
         cost_text_text: |
             OR1: $360
@@ -577,9 +577,9 @@ train:
     5H:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by Gray
-        long_name_text_text: "4H"
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
+        long_name_text_text: "5H"
         cost_text_text: |
             OR1: $400
             OR2: $300
@@ -600,8 +600,8 @@ train:
     4P:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by Gray
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
         long_name_text_text: "4P"
         cost_text_text: |
             OR1: $400
@@ -624,8 +624,8 @@ train:
     4F:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by Gray
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
         long_name_text_text: "4F"
         cost_text_text: |
             OR1: $400
@@ -648,8 +648,8 @@ train:
     4Plus:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        rusted_text_text: Rusted by Gray
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
         long_name_text_text: "4+"
         cost_text_text: |
             OR1: $400
@@ -669,49 +669,73 @@ train:
           "4":
           "5": 
 
-    5T:
+    6T:
       _:
         asset_interior_box_fill_p: BROWN
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "5"
-        cost_text_text_p: $450
+        long_name_text_text: "6"
+        cost_text_text_p: $600
         rusted_text_text: Permanent
-        note_text_text: "To D: $800"
       model:
         index:
           "1":
-            note_text:
+            top_note_text: 
               text: |
-                Additional
-                To D: $800
+                5-player
           "2":
           "3":
-
-    6T:
+          "4":
+          "5":
+          "6":     
+          
+    34D:
       _:
         asset_interior_box_fill_p: RED
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "6"
-        cost_text_text_p: $630
+        long_name_text_text: "3/4D"
+        cost_text_text_p: $800
         rusted_text_text: Permanent
-        note_text_text: "To D: $800"
       model:
         index:
           "1":
-            note_text:
+            top_note_text: 
               text: |
-                Additional
-                To D: $800
+                4-player
           "2":
+            top_note_text: 
+              text: |
+                5-player
           "3":
+          "4":
+          "5":   
 
-    Diesel:
+    4D:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "D"
-        cost_text_text_p: $1100
+        long_name_text_text: "4D"
+        cost_text_text_p: $1000
         rusted_text_text: Permanent
-        note_text_text: $800
       model:
-        index: $[index_of (8)]
+        index:
+          "1":
+            top_note_text: 
+              text: |
+                4-player
+          "2":
+            top_note_text: 
+              text: |
+                5-player
+          "3":
+          "4":
+
+    5D:
+      _:
+        asset_interior_box_fill_p: PURPLE
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "5D"
+        cost_text_text_p: $1200
+        rusted_text_text: Permanent
+      model:
+        index: $[index_of (12)]
+
