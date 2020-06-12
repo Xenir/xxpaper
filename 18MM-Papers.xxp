@@ -226,86 +226,193 @@ private:
     money_bar_box_y: 13
     closes_text_size: 7
     power_text_size: 8
-    revenue_text_x: 168
+    revenue_text_size: 9
+    revenue_text_y: 3
+    revenue_h_center: 0
+    revenue_v_center: -1
+    close_bar_box_suppress: true
+    closes_text_text: ""
+    long_name_text_y: 87
+    asset_interior_box_fill: ${colour/scale/yellow_0}
 
   index:
 
-    HB:
+    coalContract:
       _:
-        closes_text_text: "Closed by 5"
         long_name_text_text: |
-            Hudson Bay
-        power_text_text: "Blocks K3."
-        cost_text_text: "Cost: $20"
-        revenue_text_text: "Revenue: $5"
-
-    SC:
-      _:
-        closes_text_text: "Closed by 6 or when power used"
-        long_name_text_text: |
-            Saskatchewan Central
+            Coal Contract
+        value_text_text: "$30"
         power_text_text: |
-            Blocks D8.
-
-            May convert to Saskatchewan Central
-            public company.
-        cost_text_text: "Cost: $50"
-        revenue_text_text: "Revenue: $10"
-
-    NWR:
-      _:
-        closes_text_text: "Closed by 5"
-        long_name_text_text: |
-            North-West Rebellion
-        power_text_text: |
-            Move one of company's on-map 
-            stations to an NWR hex city and
-            optionally perform lay or upgrade 
-            action on the destination.								
-        cost_text_text: "Cost: $80"
-        revenue_text_text: "Revenue: $15"
-
-    TB:
-      _:
-        closes_text_text: "Closed by 5"
-        long_name_text_text: |
-            Trestle Bridge
-        power_text_text: |
-            Blocks I7.
-
-            Comes with a 10% share of one of:
-            CNor, CP, GTP, HB, QL.
-            Revenue of $10 from bank for each
-            newly established river crossing.
-        cost_text_text: "Cost: $140"
-        revenue_text_text: "Revenue: ?"
-
-    CP:
-      _:
-        closes_text_text: "Closed by 5 or when CP buys train"
-        long_name_text_text: |
-            Canadian Pacific
-        power_text_text: |
-            Comes with the presidency of CPR.
-            
-            Cannot be sold to a public company.
-        cost_text_text: "Cost: $180"
-        revenue_text_text: "Revenue: $25"
-
-    NWR_card:
-      _:
-        close_bar_box_suppress: True
-        money_bar_box_suppress: True
-        long_name_text_text: |
-            North-West Rebellion
-        power_text_text: |
-            When revealed, remove all
-            yellow tiles from NWR-marked hexes. 
-            Stations remain.
-        closes_text_text: ""
+            One of owning company's trains
+            gets +$10 per coal marker.
+        money_bar_box_suppress: true
         cost_text_text: ""
         revenue_text_text: ""
-        asset_interior_box_fill: ${colour/wikipedia/black}
+      model:
+        index: $[index_of (2)]
+
+    trader:
+      _:
+        long_name_text_text: |
+            Trader
+        value_text_text: "$30"
+        power_text_text: |
+            Owning company may buy trains
+            from other companies before 
+            running trains.
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+
+    exportPermit:
+      _:
+        long_name_text_text: |
+            Export Permit
+        value_text_text: "$40"
+        power_text_text: |
+            One of owning company's trains may
+            run to red and blue offboard areas.
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (2)]
+
+    engineeringCo:
+      _:
+        long_name_text_text: |
+            Engineering Company
+        value_text_text: "$50"
+        power_text_text: |
+            Owning company may directly
+            lay city and plain tracks
+            of current colour. May upgrade
+            plain tracks to one colour higher.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $10 if owned by player"
+      model:
+        index: $[index_of (1)]
+
+    trainYard:
+      _:
+        long_name_text_text: |
+            Train Yard
+        value_text_text: "$60"
+        power_text_text: |
+            Owning company has train
+            limit increased by 1.
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+
+    mechanics:
+      _:
+        long_name_text_text: |
+            Mechanics
+        value_text_text: "$60"
+        power_text_text: |
+            One of owning company's 2 or 3-trains
+            runs once more before rusting. Not 
+            cumulative with plus trains.
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+
+    constructionCo:
+      _:
+        long_name_text_text: |
+            Construction Company
+        value_text_text: "$60"
+        power_text_text: |
+            When upgrading, owning company
+            may upgrade two tracks instead of one.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $10 if owned by player"
+      model:
+        index: $[index_of (1)]
+
+    port:
+      _:
+        long_name_text_text: |
+            Port
+        value_text_text: "$70"
+        power_text_text: |
+            Owning company may place a port
+            token on a non-metropolis coastal
+            city. Increases the city's value by 
+            20 for companies that have a station
+            there and by 10 for the others.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $10 if owned by player"
+      model:
+        index: $[index_of (2)]
+
+    locDealer:
+      _:
+        long_name_text_text: |
+            Locomotive Dealer
+        value_text_text: "$80"
+        power_text_text: |
+            Owning company may buy trains of
+            the higher rank if 2 or fewer trains are
+            available of the current rank.
+            Trains bought in advance cost 25% more.
+            This doesn't trigger a phase change.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $20 if owned by player"
+      model:
+        index: $[index_of (1)]
+
+    locWorks:
+      _:
+        long_name_text_text: |
+            Locomotive Works
+        value_text_text: "$100"
+        power_text_text: |
+            Owning company buys trains 10%
+            cheaper. May discard this to buy a train
+            (still 10% cheaper) before running trains.
+
+            Closes when first 3/4D is purchased.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $20 if owned by player"
+      model:
+        index: $[index_of (1)]
+
+    stationBuilders:
+      _:
+        long_name_text_text: |
+            Station Builders
+        value_text_text: "$100"
+        power_text_text: |
+            Owning company may place stations
+            past the normal limit of 8 for $100 each.
+        cost_text_text: ""
+        revenue_text_text: "Revenue $25 if owned by player"
+      model:
+        index: $[index_of (1)]
+
+    refurbishedEngine:
+      _:
+        long_name_text_text: |
+            Refurbished Engine
+        value_text_text: "$120"
+        power_text_text: |
+            Owning company may buy a rusted
+            train. The train becomes permanent,
+            doesn't count against the train limit or
+            as having a train and may not be traded.
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
 
 train:
   _:
@@ -693,6 +800,7 @@ train:
         asset_interior_box_fill_p: RED
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "3/4D"
+        long_name_text_size: 34
         cost_text_text_p: $800
         rusted_text_text: Permanent
       model:
