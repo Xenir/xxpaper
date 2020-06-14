@@ -273,7 +273,7 @@ private:
         value_text_text: "$40"
         power_text_text: |
             One of owning company's trains may
-            run to red and blue offboard areas.
+            run into offboards.
         money_bar_box_suppress: true
         cost_text_text: ""
         revenue_text_text: ""
@@ -512,7 +512,7 @@ train:
 
     2APlus:      
       _:
-        asset_interior_box_fill_p: YELLOW
+        asset_interior_box_fill: ${colour/wikipedia/yellow_orange}
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
         long_name_text_text: "2A/2+"
@@ -538,7 +538,7 @@ train:
 
     2A:
       _:
-        asset_interior_box_fill_p: YELLOW
+        asset_interior_box_fill: ${colour/wikipedia/yellow_orange}
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
         long_name_text_text: "2H"
@@ -554,7 +554,7 @@ train:
 
     2Plus:
       _:
-        asset_interior_box_fill_p: YELLOW
+        asset_interior_box_fill: ${colour/wikipedia/yellow_orange}
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
         long_name_text_text: "2+"
@@ -783,6 +783,7 @@ train:
         long_name_text_text: "6"
         cost_text_text_p: $600
         rusted_text_text: Permanent
+        note_text_text: can act as F or P train
       model:
         index:
           "1":
@@ -803,6 +804,7 @@ train:
         long_name_text_size: 34
         cost_text_text_p: $800
         rusted_text_text: Permanent
+        note_text_text: can act as F or P train        
       model:
         index:
           "1":
@@ -824,6 +826,7 @@ train:
         long_name_text_text: "4D"
         cost_text_text_p: $1000
         rusted_text_text: Permanent
+        note_text_text: can act as F or P train        
       model:
         index:
           "1":
@@ -844,6 +847,7 @@ train:
         long_name_text_text: "5D"
         cost_text_text_p: $1200
         rusted_text_text: Permanent
+        note_text_text: can act as F or P train        
       model:
         index: $[index_of (12)]
 
