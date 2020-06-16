@@ -414,6 +414,308 @@ private:
       model:
         index: $[index_of (1)]
 
+
+    conc1:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "1"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc2:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "2"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc3:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "3"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc4:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "4"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc5:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "5"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc6:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "6"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc7:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "7"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc8:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "8"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc9:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "9"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc10:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "10"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc11:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "11"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc12:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "12"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc13:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "13"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc14:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "14"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc15:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "15"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc16:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "16"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc17:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "17"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc18:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "18"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc19:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "19"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+    
+    conc20:
+      _:
+        long_name_text_text: |
+            Concession
+        asset_interior_box_fill: ${colour/wikipedia/white}
+        value_text_text: "20"
+        value_text_size: 65
+        value_text_y: 15
+        money_bar_box_suppress: true
+        cost_text_text: ""
+        revenue_text_text: ""
+      model:
+        index: $[index_of (1)]
+    
+
+
 train:
   _:
     cost_text_typeface: ${DEFAULT/typeface_mono}
@@ -482,7 +784,11 @@ train:
       model:
         index:
           "1":
+            top_note_text:
+              text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
 
@@ -523,7 +829,7 @@ train:
             OR3:  $60
         note_text_text: |
           immediately replace
-          by 2A or 2+
+          by either 2A or 2+
       model:
         index:
           "1":
@@ -541,7 +847,7 @@ train:
         asset_interior_box_fill: ${colour/wikipedia/yellow_orange}
         rust_bar_box_fill_p: BLUE
         rusted_text_text: Rusted by Blue
-        long_name_text_text: "2H"
+        long_name_text_text: "2A"
         cost_text_text: |
             OR1: $120
             OR2:  $90
@@ -581,13 +887,9 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 5-player
           "2":
-          "3":
-          "4":
-          "5":
 
     3H:
       _:
@@ -604,13 +906,9 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 5-player
           "2":
-          "3":
-          "4":
-          "5":
 
     3P:
       _:
@@ -628,13 +926,9 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 4-player
           "2":
-          "3":
-          "4":
-          "5":
 
     3F:
       _:
@@ -652,13 +946,58 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
+            top_note_text:
+              text: 4-player
           "2":
-          "3":
-          "4":
-          "5":   
+
+    3APlus:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "2A/2+"
+        long_name_text_size: 30
+        cost_text_text: |
+            OR1: $300
+            OR2: $225
+            OR3: $150
+        note_text_text: |
+          immediately replace
+          by either 3A or 3+
+      model:
+        index: $[index_of (2)]
+          
+    3A:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3A"
+        cost_text_text: |
+            OR1: $300
+            OR2: $225
+            OR3: $150
+        note_text_text: |
+          may be bought
+          before running
+      model:
+        index: $[index_of (2)]
+
+    3Plus:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        rusted_text_text: Rusted by Red
+        long_name_text_text: "3+"
+        cost_text_text: |
+            OR1: $300
+            OR2: $225
+            OR3: $150
+        note_text_text: |
+            runs once more
+            before rusting
+      model:
+        index: $[index_of (2)]
 
     4T:
       _:
@@ -671,15 +1010,7 @@ train:
             OR2: $270
             OR3: $180
       model:
-        index:
-          "1":
-            top_note_text: 
-              text: |
-                4-player
-          "2":
-          "3":
-          "4":
-          "5":
+        index: $[index_of (1)]
 
     5H:
       _:
@@ -690,19 +1021,11 @@ train:
         cost_text_text: |
             OR1: $400
             OR2: $300
-            OR3: $100
+            OR3: $200
         note_text_text: |
             may run into offboards
       model:
-        index:
-          "1":
-            top_note_text: 
-              text: |
-                4-player
-          "2":
-          "3":
-          "4":
-          "5":
+        index: $[index_of (1)]
 
     4P:
       _:
@@ -713,20 +1036,12 @@ train:
         cost_text_text: |
             OR1: $400
             OR2: $300
-            OR3: $100
+            OR3: $200
         note_text_text: |
             $10 per city
             into company
       model:
-        index:
-          "1":
-            top_note_text: 
-              text: |
-                4-player
-          "2":
-          "3":
-          "4":
-          "5":
+        index: $[index_of (1)]
 
     4F:
       _:
@@ -737,20 +1052,12 @@ train:
         cost_text_text: |
             OR1: $400
             OR2: $300
-            OR3: $100
+            OR3: $200
         note_text_text: |
             +$10 per coal marker
             may run into offboards
       model:
-        index:
-          "1":
-            top_note_text: 
-              text: |
-                4-player
-          "2":
-          "3":
-          "4":
-          "5":  
+        index: $[index_of (1)] 
 
     4Plus:
       _:
@@ -759,22 +1066,36 @@ train:
         rusted_text_text: Rusted by Purple
         long_name_text_text: "4+"
         cost_text_text: |
-            OR1: $400
-            OR2: $300
-            OR3: $100
+            OR1: $440
+            OR2: $330
+            OR3: $220
         note_text_text: |
             runs once more
             before rusting
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                4-player
-          "2":
-          "3":
-          "4":
-          "5": 
+            top_note_text:
+              text: 4-player
+
+    4A:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: Rusted by Purple
+        long_name_text_text: "4A"
+        cost_text_text: |
+            OR1: $440
+            OR2: $330
+            OR3: $220
+        note_text_text: |
+            may be bought
+            before running
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: 5-player
 
     6T:
       _:
@@ -787,10 +1108,11 @@ train:
       model:
         index:
           "1":
-            top_note_text: 
-              text: |
-                5-player
+            top_note_text:
+              text: 4-player
           "2":
+            top_note_text:
+              text: 5-player
           "3":
           "4":
           "5":
