@@ -247,9 +247,9 @@ private:
         cost_text_text: ""
         closes_text_text: ""
         revenue_text_text: ""
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        close_bar_box_fill: ${colour/xxp/P_BLUE}
-        money_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        close_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        money_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
 
     SVR:
       _:
@@ -393,7 +393,13 @@ train:
             To D: $800
         note_text_size: 12
       model:
-        index: $[index_of (2)]
+        index:
+          "1":
+            top_note_text:
+              text: |
+                Optional
+          "2":
+          "3":
 
     D:
       _:
