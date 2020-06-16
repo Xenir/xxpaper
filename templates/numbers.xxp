@@ -4,8 +4,8 @@ train:
   index:
     P1:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "1"
         cost_text_text:
         rusted_text_text:
@@ -17,8 +17,8 @@ train:
 
     P2:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "2"
         cost_text_text:
         rusted_text_text:
@@ -30,8 +30,8 @@ train:
 
     P3:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "3"
         cost_text_text:
         rusted_text_text:
@@ -43,8 +43,8 @@ train:
 
     P4:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "4"
         cost_text_text:
         rusted_text_text:
@@ -56,8 +56,8 @@ train:
 
     P5:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "5"
         cost_text_text:
         rusted_text_text:
@@ -69,8 +69,8 @@ train:
 
     P6:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "6"
         cost_text_text:
         rusted_text_text:
@@ -82,8 +82,8 @@ train:
         
     P7:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "7"
         cost_text_text:
         rusted_text_text:
@@ -95,8 +95,8 @@ train:
         
     P8:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "8"
         cost_text_text:
         rusted_text_text:
@@ -108,8 +108,8 @@ train:
         
     P9:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
         long_name_text_text: "9"
         cost_text_text:
         rusted_text_text:
