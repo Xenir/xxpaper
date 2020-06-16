@@ -552,7 +552,7 @@ train:
 
     9+5T:
       _:
-        asset_interior_box_fill_p: PINK
+        asset_interior_box_fill: ${colour/wikipedia/cool_black}
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "9+5"
         cost_text_text_p: £800
