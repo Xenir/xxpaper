@@ -401,7 +401,7 @@ train:
           "2":
           "3":
 
-    D:
+    DT:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
