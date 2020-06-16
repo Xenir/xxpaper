@@ -412,7 +412,7 @@ private:
             Available for re-floatation
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
     RECEIV:
@@ -431,7 +431,7 @@ private:
             Company withholds the revenue.
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
     INSOLVENT:
@@ -453,7 +453,7 @@ private:
             7 = 180, 8 = 200, 9 = 220
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
 train:
