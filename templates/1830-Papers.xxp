@@ -393,7 +393,13 @@ train:
             To D: $800
         note_text_size: 12
       model:
-        index: $[index_of (2)]
+        index:
+          "1":
+            top_note_text:
+              text: |
+                Optional
+          "2":
+          "3":
 
     D:
       _:
