@@ -1,3 +1,37 @@
+marker:
+  short_name_text:
+    typeface: ${DEFAULT/typeface_secondary}
+  index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/x11/gold}
+      middle_circle:
+        fill: ${colour/x11/limegreen}
+      inner_circle:
+        fill: ${colour/x11/sienna3}
+
+    coal:
+      token:
+        _:
+          short_name_text: coal
+          name_stripe_box_suppress: True
+          short_name_text_text: coal
+          short_name_text_fill: ${colour/xxp/WHITE}
+          short_name_text_size: 12
+          outer_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_fill: ${colour/x11/gray50}
+        ELEMENTS: ${TEMPLATE_ring/.}
+        index: "$[index_of (5)]"
+
 private:
   closes_text:
     typeface: ${DEFAULT/typeface}
