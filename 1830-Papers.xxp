@@ -4,7 +4,6 @@ company:
     token_2_text_text: $40
   charter:
     _:
-      #long_name_text_size: 15
       token_1_text_y: 202
       token_5_circle_y: 10
       token_5_text_y: -20
@@ -16,10 +15,10 @@ company:
   share:
     _:
       type_bar_box_fill: ${colour/wikipedia/golden_yellow}
-      #long_name_text_size: 3
       type_bar_box_y: 13
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      share_num_text_x: 167
   token:
     _:
       short_name_text_size: 8
