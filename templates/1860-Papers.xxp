@@ -534,7 +534,7 @@ train:
       model:
         index:
           "1":
-            note_text:
+            top_note_text:
               text: Optional
           "2":
 
