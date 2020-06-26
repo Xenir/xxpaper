@@ -59,7 +59,6 @@ company:
         long_name_text_text: |
             Atlanta & West Point
         short_name_text_text: AWP
-        token_3_text_text: $100
         _major_fill: ${colour/wikipedia/blue_ryb}
         _major_fill_2: ${colour/wikipedia/banana_yellow}
         _minor_fill: ${_/_major_fill}
@@ -137,6 +136,7 @@ company:
         long_name_text_text: |
             Gulf, Mobile & Ohio
         short_name_text_text: GMO
+        token_3_text_text: $100
         _major_fill: ${colour/x11/red}
         _minor_fill: ${colour/xxp/BLACK}
         _related_fill: ${colour/hollasch/tomato}
