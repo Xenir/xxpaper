@@ -187,9 +187,9 @@ company:
              Seaboard Air Line
         short_name_text_text: SAL
         token_3_text_text: $100
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
         name_stripe_box_suppress: True
       token:
         _:
@@ -197,6 +197,7 @@ company:
           short_name_text_size: 12
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
+        index: $[index_of (6)]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (6)]
