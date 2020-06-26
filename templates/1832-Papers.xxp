@@ -78,14 +78,18 @@ company:
             Central of Georgia
         short_name_text_text: CG
         token_3_text_text: $100
-        _major_fill: ${colour/x11/red}
-        _minor_fill: ${colour/xxp/BLACK}
-        _related_fill: ${colour/hollasch/tomato}
+        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/powder_blue}
+        name_stripe_box_suppress: True
       token:
         _:
-          short_name_text_size: 8
-        ELEMENTS: ${TEMPLATE_cross/.}
-        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (6)]
 
     FEC:
