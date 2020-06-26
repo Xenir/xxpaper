@@ -137,18 +137,14 @@ company:
         long_name_text_text: |
             Gulf, Mobile & Ohio
         short_name_text_text: GMO
-        _major_fill: ${colour/wikipedia/amber_sae_ece}
-        _minor_fill: ${colour/x11/white}
-        _related_fill: ${colour/wikipedia/pink_orange}
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/hollasch/tomato}
       token:
         _:
           short_name_text_size: 8
-          outer_circle_fill: ${_/_major_fill}
-          middle_circle_fill: ${_/_minor_fill}
-          inner_circle_fill: ${_/_major_fill}
-          inner_circle_radius: 9
-        ELEMENTS: ${TEMPLATE_bullseye/.}
-        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
         index: $[index_of (6)]
 
     LN:
