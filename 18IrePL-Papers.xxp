@@ -384,6 +384,8 @@ company:
               suppress: True
           "2":
           "3":
+      token:
+        index: $[index_of (3)]
     minor2_pres:
       _:
         long_name_text_text: |
