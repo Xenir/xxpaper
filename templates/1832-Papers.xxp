@@ -247,6 +247,77 @@ company:
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysA_pres:
+      _:
+        long_name_text_text: |
+            System A
+        short_name_text_text: A
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
 
 marker:
   short_name_text:
