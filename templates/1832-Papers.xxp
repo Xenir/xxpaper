@@ -9,13 +9,12 @@ company:
 
   charter:
     _:
-      token_1_text_y: 202
-      token_5_circle_y: 10
-      token_5_text_y: -20
       token_1_text_size: 12
       token_2_text_size: 12
       token_3_text_size: 12
       token_4_text_size: 12
+      token_7_text_size: 12
+      token_8_text_size: 12
       comment_text_text: ""
       long_name_text_typeface: ${DEFAULT/typeface}
 
@@ -184,7 +183,7 @@ company:
     SAL:
       _:
         long_name_text_text: |
-             Seaboard Air Line
+            Seaboard Air Line
         short_name_text_text: SAL
         token_3_text_text: $100
         _major_fill: ${colour/wikipedia/canary_yellow}
@@ -205,7 +204,7 @@ company:
     SOU:
       _:
         long_name_text_text: |
-             Southern Railway
+            Southern Railway
         short_name_text_text: SOU
         token_3_text_text: $100
         _major_fill: ${colour/xxp/D_GREEN}
@@ -221,6 +220,33 @@ company:
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (6)]
+
+    SysA:
+      _:
+        long_name_text_text: |
+            System A
+        short_name_text_text: A
+        token_1_circle_fill: ${colour/wikipedia/beau_blue}
+        token_2_circle_fill: ${colour/wikipedia/beau_blue}
+        token_1_text_text: 
+        token_2_text_text: 
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (9)]
 
 marker:
   short_name_text:
