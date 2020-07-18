@@ -459,7 +459,7 @@ private:
         long_name_text_text: |
             Southern Bank
         power_text_text: |
-            May loan money to a company
+            Owner may loan money to a company
             by mortgaging an asset for 50-200% value.
             At the start of each OR, the company 
             pays interests (10% of the asset value).
