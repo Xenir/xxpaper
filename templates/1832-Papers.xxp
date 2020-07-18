@@ -234,18 +234,17 @@ company:
         token_4_text_text: $100
         token_7_text_text: $100
         token_8_text_text: $100
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
+        _major_fill_1: ${colour/xxp/D_GREEN}
+        _minor_fill_1: ${colour/hollasch/cinnabar_green}
+        _major_fill_2: ${colour/hollasch/cinnabar_green}
+        _minor_fill_2: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
-        name_stripe_box_suppress: True
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
         index: $[index_of (9)]
       share:
         _:
@@ -283,18 +282,17 @@ company:
         long_name_text_text: |
             System A
         short_name_text_text: A
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
+        _major_fill_1: ${colour/xxp/D_GREEN}
+        _minor_fill_1: ${colour/hollasch/cinnabar_green}
+        _major_fill_2: ${colour/hollasch/cinnabar_green}
+        _minor_fill_2: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
-        name_stripe_box_suppress: True
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
         index:
       charter:
         index:
