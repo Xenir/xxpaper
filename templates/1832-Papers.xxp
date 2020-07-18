@@ -63,6 +63,11 @@ company:
         _minor_fill: ${_/_major_fill}
         _minor_fill_2: ${_/_major_fill_2}
         _related_fill: ${colour/hollasch/steel_blue}
+      share:
+        long_name_text:
+          text: |
+            Atlanta
+            & West Point
       token:
         _:
           short_name_text_size: 8
@@ -156,6 +161,11 @@ company:
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
+      share:
+        long_name_text:
+          text: |
+            Louisville
+            & Nashville
       token:
         _:
           short_name_text_size: 8
@@ -173,6 +183,11 @@ company:
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
+      share:
+        long_name_text:
+          text: |
+            Norfolk
+            and Western
       token:
         _:
           short_name_text_size: 8
