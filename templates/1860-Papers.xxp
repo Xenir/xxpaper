@@ -294,6 +294,21 @@ private:
     revenue_text_x: 168
 
   index:
+    PD:
+      _:
+        long_name_text_text: |
+            PRIORITY
+            DEAL
+        long_name_text_size: 30
+        long_name_text_y: 55
+        power_text_text: ""
+        cost_text_text: ""
+        closes_text_text: ""
+        revenue_text_text: ""
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        close_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        money_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+
     BHC:
       _:
         asset_interior_box_fill: ${colour/scale/purple_0}
@@ -397,7 +412,7 @@ private:
             Available for re-floatation
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
     RECEIV:
@@ -416,7 +431,7 @@ private:
             Company withholds the revenue.
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
     INSOLVENT:
@@ -438,7 +453,7 @@ private:
             7 = 180, 8 = 200, 9 = 220
         cost_text_text: ""
         revenue_text_text: ""
-      count:
+      model:
         index: $[index_of (8)]
 
 train:
@@ -519,7 +534,7 @@ train:
       model:
         index:
           "1":
-            note_text:
+            top_note_text:
               text: Optional
           "2":
 
@@ -537,7 +552,7 @@ train:
 
     9+5T:
       _:
-        asset_interior_box_fill_p: PINK
+        asset_interior_box_fill: ${colour/wikipedia/cool_black}
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "9+5"
         cost_text_text_p: £800
@@ -546,55 +561,3 @@ train:
         size: 42
       model:
         index: $[index_of (8)]
-
-    P1:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "1"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P2:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "2"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P3:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "3"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"
-
-    P4:
-      _:
-        asset_interior_box_fill: ${colour/xxp/P_BLUE}
-        rust_bar_box_fill: ${colour/xxp/P_BLUE}
-        long_name_text_text: "4"
-        cost_text_text:
-        rusted_text_text:
-      long_name_text:
-        size: 128
-        y: 50
-      model:
-        index:  "$[index_of (1)]"

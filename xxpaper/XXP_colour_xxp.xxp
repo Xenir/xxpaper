@@ -13,7 +13,7 @@ xxp:
   TRAIN_GRAY: ${colour/x11/gray70}
   TRAIN_PURPLE: ${colour/wikipedia/wisteria}
   TRAIN_BLACK: ${colour/xxp/BLACK}
-  TRAIN_PINK: ${colour/xxp/P_PINK}
+  TRAIN_PINK: ${colour/xxp/L_PINK}
   TRAIN_TAN: ${colour/xxp/L_TAN}
   TRAIN_AQUA: ${colour/xxp/L_AQUA}
 
