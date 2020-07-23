@@ -14,10 +14,10 @@ company:
   share:
     _:
       type_bar_box_fill: ${colour/wikipedia/golden_yellow}
-      #long_name_text_size: 3
       type_bar_box_y: 13
       side_bar_lsplit_box_suppress: True
       side_bar_rsplit_box_suppress: True
+      share_num_text_x: 167
   token:
     _:
       short_name_text_size: 8
@@ -205,7 +205,7 @@ marker:
       inner_circle:
         fill: ${colour/galatolol/brown}    
 
-    neural:
+    neutral:
       token:
         ELEMENTS:
           - token_interior_box
