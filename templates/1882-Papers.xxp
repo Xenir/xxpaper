@@ -65,7 +65,7 @@ company:
       _:
         long_name_text_text: |
             Canadian Pacific
-            Railroad
+            Railway
         short_name_text_text: CPR
         token_1_text_text: Free
         token_2_text_text: $40
