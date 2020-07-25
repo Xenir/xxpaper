@@ -42,7 +42,7 @@ company:
         short_name_text_text: SC
         token_1_text_text: Free
         token_2_text_text: Neutral
-        token_2_circle_fill: ${colour/wikipedia/lavender_gray}
+        token_2_circle_fill: ${colour/x11/gray70}
         _major_fill: ${colour/wikipedia/blue_ryb}
         _major_fill_2: ${colour/wikipedia/banana_yellow}
         _minor_fill_2: ${_/_major_fill_2}
@@ -114,7 +114,7 @@ company:
         token_1_text_text: Free
         token_2_text_text: $40
         token_3_text_text: Neutral
-        token_3_circle_fill: ${colour/wikipedia/lavender_gray}
+        token_3_circle_fill: ${colour/x11/gray70}
         _major_fill: ${colour/wikipedia/canary_yellow}
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/wikipedia/icterine}
@@ -138,7 +138,7 @@ company:
         token_2_text_text: $40
         token_3_text_text: $100
         token_4_text_text: Neutral
-        token_4_circle_fill: ${colour/wikipedia/lavender_gray}
+        token_4_circle_fill: ${colour/x11/gray70}
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
         _related_fill: ${colour/wikipedia/pink_orange}
@@ -163,7 +163,7 @@ company:
         token_2_text_text: $40
         token_3_text_text: $100
         token_4_text_text: Neutral
-        token_4_circle_fill: ${colour/wikipedia/lavender_gray}
+        token_4_circle_fill: ${colour/x11/gray70}
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/WHITE}
         _related_fill: ${colour/x11/gray43}
@@ -185,7 +185,7 @@ company:
         token_2_text_text: $40
         token_3_text_text: $100
         token_4_text_text: Neutral
-        token_4_circle_fill: ${colour/wikipedia/lavender_gray}
+        token_4_circle_fill: ${colour/x11/gray70}
         _major_fill: ${colour/xxp/D_GREEN}
         _minor_fill: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
@@ -235,11 +235,11 @@ marker:
 
         index: $[index_of (6)]
       outer_circle:
-        fill: ${colour/wikipedia/lavender_gray}
+        fill: ${colour/x11/gray70}
       middle_circle:
-        fill: ${colour/wikipedia/lavender_gray}
+        fill: ${colour/x11/gray70}
       inner_circle:
-        fill: ${colour/wikipedia/lavender_gray}
+        fill: ${colour/x11/gray70}
 
 private:
   closes_text:
