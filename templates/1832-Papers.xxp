@@ -242,9 +242,8 @@ company:
             System A
         short_name_text_text: A
         token_1_circle_fill: ${colour/wikipedia/beau_blue}
-        token_2_circle_fill: ${colour/wikipedia/beau_blue}
         token_1_text_text: 
-        token_2_text_text: 
+        token_2_text_text: $100
         token_3_text_text: $100
         token_4_text_text: $100
         token_7_text_text: $100
