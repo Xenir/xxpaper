@@ -322,7 +322,7 @@ private:
             Blocks: I7.
 
             Comes with a 10% share of one of:
-            CNor, CP, GTP, HB, QL.
+            CNor, CPR, GTP, HB, QL.
             Revenue of $10 from bank for each
             newly established river crossing.
         cost_text_text: "Cost: $140"
