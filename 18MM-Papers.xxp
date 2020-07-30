@@ -244,7 +244,7 @@ private:
         value_text_text: "$30"
         power_text_text: |
             One of owning company's trains
-            gets +$10 per coal marker.
+            may haul coal (+$10 per coal marker).
         money_bar_box_suppress: true
         cost_text_text: ""
         revenue_text_text: ""
@@ -1173,3 +1173,66 @@ train:
       model:
         index: $[index_of (12)]
 
+marker:
+  index:
+
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+      outer_circle:
+        fill: ${colour/galatolol/yellow}
+      middle_circle:
+        fill: ${colour/galatolol/green}
+      inner_circle:
+        fill: ${colour/galatolol/brown}    
+
+    round1:
+      token:
+        ELEMENTS: ${TEMPLATE_solid/.}
+        index: $[index_of (9)]
+      token_interior_box:
+        fill: ${colour/galatolol/yellow} 
+      short_name_text:
+        text: "Round 1"
+      name_stripe_box:
+        y: 9
+
+    round2:
+      token:
+        ELEMENTS: ${TEMPLATE_solid/.}
+        index: $[index_of (9)]
+      token_interior_box:
+        fill: ${colour/galatolol/green} 
+      short_name_text:
+        text: "Round 2"
+      name_stripe_box:
+        y: 9
+
+    round3:
+      token:
+        ELEMENTS: ${TEMPLATE_solid/.}
+        index: $[index_of (9)]
+      token_interior_box:
+        fill: ${colour/galatolol/brown} 
+      short_name_text:
+        text: "Round 3"
+      name_stripe_box:
+        y: 9
+
+    coal:
+      token:
+        ELEMENTS: ${TEMPLATE_solid/.}
+        index: $[index_of (10)]
+      token_interior_box:
+        fill: ${colour/galatolol/white} 
+      short_name_text:
+        text: "+10"
+        y: 4
+      name_stripe_box:
+        suppress: true
