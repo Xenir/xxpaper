@@ -41,7 +41,7 @@ company:
             Atlantic Coast Line
         short_name_text_text: ACL
         token_3_text_text: $100
-        _major_fill: ${colour/wikipedia/violet_web}
+        _major_fill: ${colour/wikipedia/rich_lavender}
         _minor_fill: ${colour/wikipedia/black}
         _related_fill: ${colour/wikipedia/plum_web}
       token:
