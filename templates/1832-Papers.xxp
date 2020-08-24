@@ -262,18 +262,13 @@ company:
             Southern Railway
         short_name_text_text: SOU
         token_3_text_text: $100
-        _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
-        name_stripe_box_suppress: True
+        _major_fill: ${colour/x11/gold}
+        _minor_fill: ${colour/x11/limegreen}
+        #_related_fill: ${colour/hollasch/cinnabar_green}
+        _related_fill: ${colour/x11/yellowgreen}
       token:
         _:
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+          short_name_text_size: 8
         index: $[index_of (6)]
 
     SysA:
