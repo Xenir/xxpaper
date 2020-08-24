@@ -430,6 +430,36 @@ marker:
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (1)]"
 
+    KeyWest3:
+      token:
+        _:
+          short_name_text: KW +50
+          short_name_text_text: KW +50
+          short_name_text_size: 8
+          _major_fill: ${colour/xxp/D_GREEN}
+          _minor_fill: ${colour/xxp/H_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: "$[index_of (1)]"
+
+    KeyWest4:
+      token:
+        _:
+          short_name_text: KW +50
+          short_name_text_text: KW +50
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+          short_name_text_x_inset: 0
+          #short_name_text_y_inset: -1
+          _major_fill: ${colour/xxp/D_GREEN}
+          _minor_fill: ${colour/xxp/D_GREEN}
+          _related_fill: ${colour/hollasch/cinnabar_green}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
+
 private:
   closes_text:
     typeface: ${DEFAULT/typeface}
