@@ -138,9 +138,9 @@ company:
         long_name_text_text: |
             Georgia Railroad
         short_name_text_text: GR
-        _major_fill: ${colour/wikipedia/canary_yellow}
+        _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${_/_major_fill}
-        _related_fill: ${colour/wikipedia/icterine}
+        _related_fill: ${colour/hollasch/brick}
         name_stripe_box_suppress: True
       token:
         _:
@@ -148,9 +148,9 @@ company:
           short_name_text_size: 12
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
-        index: $[index_of (5)]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
 
     GMO:
       _:
