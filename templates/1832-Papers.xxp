@@ -440,6 +440,19 @@ marker:
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (1)]"
 
+    MediumCity:
+      token:
+        _:
+          name_stripe_box_suppress: True
+          outer_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_fill: ${colour/xxp/WHITE}
+          inner_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_radius: 15
+          inner_circle_radius: 12
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (6)]
+
 private:
   closes_text:
     typeface: ${DEFAULT/typeface}
