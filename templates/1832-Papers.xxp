@@ -58,9 +58,9 @@ company:
         long_name_text_text: |
             Atlanta & West Point
         short_name_text_text: AWP
-        _major_fill: ${colour/hollasch/cornflower}
-        _minor_fill: ${colour/hollasch/blue}
-        _related_fill: ${colour/x11/thistle2}
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}
+        _related_fill: ${colour/wikipedia/pink_orange}
       share:
         long_name_text:
           text: |
@@ -69,33 +69,13 @@ company:
       token:
         _:
           short_name_text_size: 8
+          outer_circle_fill: ${_/_major_fill}
+          middle_circle_fill: ${_/_minor_fill}
+          inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (6)]
-
-    AWP2:
-      _:
-        long_name_text_text: |
-            Atlanta & West Point
-        short_name_text_text: AWP
-        _major_fill: ${colour/wikipedia/ultramarine}
-        _related_fill: ${colour/wikipedia/han_blue}
-        name_stripe_box_suppress: True
-        _share_pct_text_fill_x: ${colour/xxp/WHITE}
-      share:
-        long_name_text:
-          text: |
-            Atlanta
-            & West Point
-      token:
-        _:
-          _major_fill: ${colour/wikipedia/ultramarine}
-          _minor_fill: ${colour/wikipedia/ultramarine}
-          short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (6)]"
 
     CG:
       _:
