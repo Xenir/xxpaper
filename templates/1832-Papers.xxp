@@ -244,11 +244,11 @@ company:
         token_4_text_text: $100
         token_7_text_text: $100
         token_8_text_text: $100
-        _major_fill_1: ${colour/xxp/D_GREEN}
-        _minor_fill_1: ${colour/hollasch/cinnabar_green}
-        _major_fill_2: ${colour/hollasch/cinnabar_green}
-        _minor_fill_2: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
+        _major_fill_1: ${colour/xxp/WHITE}
+        _minor_fill_1: ${colour/x11/gray55}
+        _major_fill_2: ${colour/x11/gray55}
+        _minor_fill_2: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray88}
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -292,11 +292,11 @@ company:
         long_name_text_text: |
             System A
         short_name_text_text: A
-        _major_fill_1: ${colour/xxp/D_GREEN}
-        _minor_fill_1: ${colour/hollasch/cinnabar_green}
-        _major_fill_2: ${colour/hollasch/cinnabar_green}
-        _minor_fill_2: ${colour/xxp/D_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
+        _major_fill_1: ${colour/xxp/WHITE}
+        _minor_fill_1: ${colour/x11/gray55}
+        _major_fill_2: ${colour/x11/gray55}
+        _minor_fill_2: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray88}
       token:
         _:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
