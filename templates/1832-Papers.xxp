@@ -105,23 +105,6 @@ company:
         token_3_text_text: |
             KW $100
         _major_fill: ${colour/xxp/D_GREEN}
-        _minor_fill: ${colour/xxp/H_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
-      token:
-        _:
-          short_name_text_size: 8
-        ELEMENTS: ${TEMPLATE_cross/.}
-        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: $[index_of (5)]
-
-    FEC2:
-      _:
-        long_name_text_text: |
-            Florida East Coast
-        short_name_text_text: FEC
-        token_3_text_text: |
-            KW $100
-        _major_fill: ${colour/xxp/D_GREEN}
         _minor_fill: ${colour/xxp/D_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         name_stripe_box_suppress: True
@@ -383,49 +366,6 @@ marker:
     KeyWest:
       token:
         _:
-          short_name_text: K. West
-          short_name_text_text: K. West
-          short_name_text_size: 8
-          _major_fill: ${colour/xxp/D_GREEN}
-          _minor_fill: ${colour/xxp/H_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
-        ELEMENTS: ${TEMPLATE_cross/.}
-        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: "$[index_of (1)]"
-
-    KeyWest2:
-      token:
-        _:
-          short_name_text: K. West
-          short_name_text_text: K. West
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 8
-          short_name_text_x_inset: 0
-          #short_name_text_y_inset: -1
-          _major_fill: ${colour/xxp/D_GREEN}
-          _minor_fill: ${colour/xxp/D_GREEN}
-          _related_fill: ${colour/hollasch/cinnabar_green}
-          name_stripe_box_suppress: True
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (1)]"
-
-    KeyWest3:
-      token:
-        _:
-          short_name_text: KW +50
-          short_name_text_text: KW +50
-          short_name_text_size: 8
-          _major_fill: ${colour/xxp/D_GREEN}
-          _minor_fill: ${colour/xxp/H_GREEN}
-        _related_fill: ${colour/hollasch/cinnabar_green}
-        ELEMENTS: ${TEMPLATE_cross/.}
-        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: "$[index_of (1)]"
-
-    KeyWest4:
-      token:
-        _:
           short_name_text: KW +50
           short_name_text_text: KW +50
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
@@ -452,6 +392,35 @@ marker:
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
         index: $[index_of (6)]
+
+    Cotton:
+      token:
+        _:
+          short_name_text: "+10"
+          short_name_text_text: "+10"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 14
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+          _major_fill: ${colour/xxp/WHITE}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
+
+    Port:
+      token:
+        _:
+          short_name_text: "+20/+10"
+          short_name_text_text: "+20/+10"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+          short_name_text_x_inset: 0
+          _major_fill: ${colour/xxp/WHITE}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
 
 private:
   closes_text:
