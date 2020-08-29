@@ -401,7 +401,7 @@ marker:
           short_name_text_fill: $[black_or_white (${_/_major_fill})]
           short_name_text_size: 14
           short_name_text_x_inset: 0
-          short_name_text_y_inset: -1
+          short_name_text_y_inset: -2
           _major_fill: ${colour/xxp/WHITE}
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_solid/.}
