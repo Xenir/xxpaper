@@ -227,7 +227,6 @@ company:
         token_3_text_text: $100
         _major_fill: ${colour/x11/gold}
         _minor_fill: ${colour/x11/limegreen}
-        #_related_fill: ${colour/hollasch/cinnabar_green}
         _related_fill: ${colour/x11/yellowgreen}
       token:
         _:
@@ -239,7 +238,6 @@ company:
         long_name_text_text: |
             System A
         short_name_text_text: A
-        token_1_circle_fill: ${colour/wikipedia/beau_blue}
         token_1_text_text: 
         token_2_text_text: $100
         token_3_text_text: $100
