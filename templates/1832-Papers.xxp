@@ -327,6 +327,100 @@ company:
               suppress: False
               y_inset: 24
 
+    SysB:
+      _:
+        long_name_text_text: |
+            System B
+        short_name_text_text: B
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysB_pres:
+      _:
+        long_name_text_text: |
+            System B
+        short_name_text_text: B
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+
 marker:
   short_name_text:
     typeface: ${DEFAULT/typeface_secondary}
