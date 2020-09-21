@@ -259,6 +259,7 @@ company:
       share:
         _:
           share_pct_text_text: 5%
+          share_num_text_text: 1 Share
         index:
           "1":
             share_desc_text:
@@ -353,6 +354,7 @@ company:
       share:
         _:
           share_pct_text_text: 5%
+          share_num_text_text: 1 Share
         index:
           "1":
             share_desc_text:
@@ -447,6 +449,7 @@ company:
       share:
         _:
           share_pct_text_text: 5%
+          share_num_text_text: 1 Share
         index:
           "1":
             share_desc_text:
@@ -541,6 +544,7 @@ company:
       share:
         _:
           share_pct_text_text: 5%
+          share_num_text_text: 1 Share
         index:
           "1":
             share_desc_text:
@@ -635,6 +639,7 @@ company:
       share:
         _:
           share_pct_text_text: 5%
+          share_num_text_text: 1 Share
         index:
           "1":
             share_desc_text:
