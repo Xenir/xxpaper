@@ -354,13 +354,15 @@ train:
       model:
         index: $[index_of (2)]
 
-    7+4T:
+    FT:
       _:
         asset_interior_box_fill_p: GRAY
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "7+4"
+        long_name_text_text: "5x"
         cost_text_text_p: £600
         rusted_text_text: Permanent
+        top_left_note_text_text: "F"
+        top_left_note_text_x: 8
       long_name_text:
         size: 42
       model:
@@ -370,25 +372,29 @@ train:
               text: Optional
           "2":
 
-    8+4T:
+    GT:
       _:
         asset_interior_box_fill_p: PURPLE
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "8+4"
+        long_name_text_text: "6x"
         cost_text_text_p: £700
         rusted_text_text: Permanent
+        top_left_note_text_text: "G"
+        top_left_note_text_x: 8
       long_name_text:
         size: 42
       model:
         index: $[index_of (1)]
 
-    9+5T:
+    HT:
       _:
         asset_interior_box_fill: ${colour/wikipedia/cool_black}
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "9+5"
+        long_name_text_text: "7x"
         cost_text_text_p: £800
         rusted_text_text: Permanent
+        top_left_note_text_text: "H"
+        top_left_note_text_x: 12
       long_name_text:
         size: 42
       model:
