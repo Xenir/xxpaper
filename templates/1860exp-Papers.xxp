@@ -253,17 +253,78 @@ train:
       model:
         index: $[index_of (1)]
 
-    4+2T:
+    C1T:
       _:
         asset_interior_box_fill_p: BLUE
-        rust_bar_box_fill_p: GRAY
-        long_name_text_text: "4+2"
-        cost_text_text_p: £350
-        rusted_text_text: "Rusted by 7+4"
+        long_name_text_text: "3+5"
+        rust_bar_box_fill_p: PURPLE
+        rusted_text_text: "Rusted by G"
+        cost_text_text_p: £400
+        top_left_note_text_text: "C1"
       long_name_text:
+        typeface: ${DEFAULT/typeface}
         size: 42
       model:
-        index: $[index_of (3)]
+        index: $[index_of (1)]
+
+    C2,4-5,7-8T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        long_name_text_text: "4+2"
+        rust_bar_box_fill_p: GRAY
+        rusted_text_text: "Rusted by F"
+        cost_text_text_p: £350
+        top_left_note_text_text: "C2"
+      long_name_text:
+        typeface: ${DEFAULT/typeface}
+        size: 42
+      model:
+        index:
+          "1":
+            top_left_note_text:
+              text: "C2"
+          "2":
+            top_left_note_text:
+              text: "C4"
+          "3":
+            top_left_note_text:
+              text: "C5"
+          "4":
+            top_left_note_text:
+              text: "C7"
+          "5":
+            top_left_note_text:
+              text: "C8"
+
+    C3T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        long_name_text_text: "2+5"
+        rust_bar_box_fill_p: RED
+        rusted_text_text: "Rusted by E"
+        cost_text_text_p: £150
+        top_left_note_text_text: "C3"
+        top_note_text_text: "Surplus"
+      long_name_text:
+        typeface: ${DEFAULT/typeface}
+        size: 42
+      model:
+        index: $[index_of (1)]
+
+    C6T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        long_name_text_text: "3+4"
+        rust_bar_box_fill_p: RED
+        rusted_text_text: "Rusted by E"
+        cost_text_text_p: £200
+        top_left_note_text_text: "C6"
+        top_note_text_text: "Surplus"
+      long_name_text:
+        typeface: ${DEFAULT/typeface}
+        size: 42
+      model:
+        index: $[index_of (1)]
 
     5+3T:
       _:
