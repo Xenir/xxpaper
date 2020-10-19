@@ -326,13 +326,14 @@ train:
       model:
         index: $[index_of (1)]
 
-    5+3T:
+    DT:
       _:
         asset_interior_box_fill_p: BROWN
         rust_bar_box_fill_p: PURPLE
         long_name_text_text: "5+3"
         cost_text_text_p: £400
-        rusted_text_text: "Rusted by 8+4"
+        rusted_text_text: "Rusted by G"
+        top_left_note_text_text: "D"
       long_name_text:
         size: 42
       model:
