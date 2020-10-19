@@ -1,0 +1,1248 @@
+company:
+  _:
+    token_1_text_text: Free
+    token_2_text_text: $40
+
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface_secondary}
+
+  charter:
+    _:
+      token_1_text_size: 12
+      token_2_text_size: 12
+      token_3_text_size: 12
+      token_4_text_size: 12
+      token_7_text_size: 12
+      token_8_text_size: 12
+      comment_text_text: ""
+      long_name_text_typeface: ${DEFAULT/typeface}
+
+  share:
+    share_num_text:
+        typeface: ${DEFAULT/typeface}
+    share_pct_text:
+        typeface: ${DEFAULT/typeface}
+    share_desc_text:
+        typeface: ${DEFAULT/typeface}
+    comment_text:
+        typeface: ${DEFAULT/typeface}
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
+    _:
+      side_bar_lsplit_box_suppress: True
+      side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
+
+  index:
+    ACL:
+      _:
+        long_name_text_text: |
+            Atlantic Coast Line
+        short_name_text_text: ACL
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/rich_lavender}
+        _minor_fill: ${colour/wikipedia/black}
+        _related_fill: ${colour/wikipedia/plum_web}
+      token:
+        _:
+          inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (6)]
+
+    AWP:
+      _:
+        long_name_text_text: |
+            Atlanta & West Point
+        short_name_text_text: AWP
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}
+        _related_fill: ${colour/wikipedia/pink_orange}
+      share:
+        long_name_text:
+          text: |
+            Atlanta
+            & West Point
+      token:
+        _:
+          short_name_text_size: 8
+          outer_circle_fill: ${_/_major_fill}
+          middle_circle_fill: ${_/_minor_fill}
+          inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (6)]
+
+    CG:
+      _:
+        long_name_text_text: |
+            Central of Georgia
+        short_name_text_text: CG
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/powder_blue}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (6)]
+
+    FEC:
+      _:
+        long_name_text_text: |
+            Florida East Coast
+        short_name_text_text: FEC
+        token_3_text_text: |
+            KW $100
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
+
+    GR:
+      _:
+        long_name_text_text: |
+            Georgia Railroad
+        short_name_text_text: GR
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/brick}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (5)]
+
+    GMO:
+      _:
+        long_name_text_text: |
+            Gulf, Mobile & Ohio
+        short_name_text_text: GMO
+        token_3_text_text: $100
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/hollasch/tomato}
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (6)]
+
+    LN:
+      _:
+        long_name_text_text: |
+            Louisville & Nashville
+        short_name_text_text: LN
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/blue_ryb}
+        _major_fill_2: ${colour/wikipedia/banana_yellow}
+        _minor_fill: ${_/_major_fill}
+        _minor_fill_2: ${_/_major_fill_2}
+        _related_fill: ${colour/hollasch/steel_blue}
+      share:
+        long_name_text:
+          text: |
+            Louisville
+            & Nashville
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_stripey/.}
+        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
+        index: $[index_of (6)]
+
+    NW:
+      _:
+        long_name_text_text: |
+            Norfolk and Western
+        short_name_text_text: NW
+        token_3_text_text: $100
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray43}
+        _share_pct_text_fill_x: ${colour/xxp/WHITE}
+      share:
+        long_name_text:
+          text: |
+            Norfolk
+            and Western
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (6)]
+
+    SAL:
+      _:
+        long_name_text_text: |
+            Seaboard Air Line
+        short_name_text_text: SAL
+        token_3_text_text: $100
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
+        name_stripe_box_suppress: True
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        index: $[index_of (6)]
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (6)]
+
+    SOU:
+      _:
+        long_name_text_text: |
+            Southern Railway
+        short_name_text_text: SOU
+        token_3_text_text: $100
+        _major_fill: ${colour/x11/gold}
+        _minor_fill: ${colour/x11/limegreen}
+        _related_fill: ${colour/x11/yellowgreen}
+      token:
+        _:
+          short_name_text_size: 8
+        index: $[index_of (6)]
+
+    SysA:
+      _:
+        long_name_text_text: |
+            System A
+        short_name_text_text: A
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/xxp/WHITE}
+        _minor_fill_1: ${colour/x11/gray55}
+        _major_fill_2: ${colour/x11/gray55}
+        _minor_fill_2: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray88}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+          share_num_text_text: 1 Share
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysA_pres:
+      _:
+        long_name_text_text: |
+            System A
+        short_name_text_text: A
+        _major_fill_1: ${colour/xxp/WHITE}
+        _minor_fill_1: ${colour/x11/gray55}
+        _major_fill_2: ${colour/x11/gray55}
+        _minor_fill_2: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray88}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+              
+    SysA_vice_pres:
+      _:
+        long_name_text_text: |
+            System A
+        short_name_text_text: A
+        _major_fill_1: ${colour/xxp/WHITE}
+        _minor_fill_1: ${colour/x11/gray55}
+        _major_fill_2: ${colour/x11/gray55}
+        _minor_fill_2: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray88}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 10%
+        index:
+          "1":
+            share_desc_text:
+              text: Vice-president
+              x: 72
+            type_bar_box:
+              suppress: true
+            comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Used only when creating system
+               from companies that had
+               different directors
+
+    SysB:
+      _:
+        long_name_text_text: |
+            System B
+        short_name_text_text: B
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+          share_num_text_text: 1 Share
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysB_pres:
+      _:
+        long_name_text_text: |
+            System B
+        short_name_text_text: B
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+
+    SysB_vice_pres:
+      _:
+        long_name_text_text: |
+            System B
+        short_name_text_text: B
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 10%
+        index:
+          "1":
+            share_desc_text:
+              text: Vice-president
+              x: 72
+            type_bar_box:
+              suppress: true
+            comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Used only when creating system
+               from companies that had
+               different directors
+
+    SysC:
+      _:
+        long_name_text_text: |
+            System C
+        short_name_text_text: C
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/wikipedia/french_lime}
+        _major_fill_2: ${colour/wikipedia/limerick}
+        _minor_fill_1: ${colour/wikipedia/limerick}
+        _minor_fill_2: ${colour/wikipedia/french_lime}
+        _related_fill: ${colour/x11/darkolivegreen2}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+          share_num_text_text: 1 Share
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysC_pres:
+      _:
+        long_name_text_text: |
+            System C
+        short_name_text_text: C
+        _major_fill_1: ${colour/wikipedia/french_lime}
+        _major_fill_2: ${colour/wikipedia/limerick}
+        _minor_fill_1: ${colour/wikipedia/limerick}
+        _minor_fill_2: ${colour/wikipedia/french_lime}
+        _related_fill: ${colour/x11/darkolivegreen2}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+
+    SysC_vice_pres:
+      _:
+        long_name_text_text: |
+            System C
+        short_name_text_text: C
+        _major_fill_1: ${colour/wikipedia/french_lime}
+        _major_fill_2: ${colour/wikipedia/limerick}
+        _minor_fill_1: ${colour/wikipedia/limerick}
+        _minor_fill_2: ${colour/wikipedia/french_lime}
+        _related_fill: ${colour/x11/darkolivegreen2}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 10%
+        index:
+          "1":
+            share_desc_text:
+              text: Vice-president
+              x: 72
+            type_bar_box:
+              suppress: true
+            comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Used only when creating system
+               from companies that had
+               different directors
+
+    SysD:
+      _:
+        long_name_text_text: |
+            System D
+        short_name_text_text: D
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/x11/gold}
+        _major_fill_2: ${colour/x11/darkgoldenrod2}
+        _minor_fill_1: ${colour/x11/darkgoldenrod2}
+        _minor_fill_2: ${colour/x11/gold}
+        _related_fill: ${colour/wikipedia/pastel_orange}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+          share_num_text_text: 1 Share
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysD_pres:
+      _:
+        long_name_text_text: |
+            System D
+        short_name_text_text: D
+        _major_fill_1: ${colour/x11/gold}
+        _major_fill_2: ${colour/x11/darkgoldenrod2}
+        _minor_fill_1: ${colour/x11/darkgoldenrod2}
+        _minor_fill_2: ${colour/x11/gold}
+        _related_fill: ${colour/wikipedia/pastel_orange}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+
+    SysD_vice_pres:
+      _:
+        long_name_text_text: |
+            System D
+        short_name_text_text: D
+        _major_fill_1: ${colour/x11/gold}
+        _major_fill_2: ${colour/x11/darkgoldenrod2}
+        _minor_fill_1: ${colour/x11/darkgoldenrod2}
+        _minor_fill_2: ${colour/x11/gold}
+        _related_fill: ${colour/wikipedia/pastel_orange}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 10%
+        index:
+          "1":
+            share_desc_text:
+              text: Vice-president
+              x: 72
+            type_bar_box:
+              suppress: true
+            comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Used only when creating system
+               from companies that had
+               different directors
+
+    SysE:
+      _:
+        long_name_text_text: |
+            System E
+        short_name_text_text: E
+        token_1_text_text: 
+        token_2_text_text: $100
+        token_3_text_text: $100
+        token_4_text_text: $100
+        token_7_text_text: $100
+        token_8_text_text: $100
+        _major_fill_1: ${colour/wikipedia/pale_green}
+        _major_fill_2: ${colour/wikipedia/msu_green}
+        _minor_fill_1: ${colour/wikipedia/msu_green}
+        _minor_fill_2: ${colour/wikipedia/pale_green}
+        _related_fill: ${colour/wikipedia/mountain_meadow}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (9)]
+      share:
+        _:
+          share_pct_text_text: 5%
+          share_num_text_text: 1 Share
+        index:
+          "1":
+            share_desc_text:
+              suppress: True
+            type_bar_box:
+              suppress: True
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+          "11":
+          "12":
+          "13":
+          "14":
+          "15":
+          "16":
+
+    SysE_pres:
+      _:
+        long_name_text_text: |
+            System E
+        short_name_text_text: E
+        _major_fill_1: ${colour/wikipedia/pale_green}
+        _major_fill_2: ${colour/wikipedia/msu_green}
+        _minor_fill_1: ${colour/wikipedia/msu_green}
+        _minor_fill_2: ${colour/wikipedia/pale_green}
+        _related_fill: ${colour/wikipedia/mountain_meadow}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 4 Shares
+          share_pct_text_text: 20%
+        index:
+          "1":
+            token_1_embed:
+              suppress: True
+            token_2a_embed:
+              suppress: False
+              y_inset: 48
+            token_2b_embed:
+              suppress: False
+              y_inset: 12
+            token_3a_embed:
+              suppress: False
+              y_inset: 36
+            token_3b_embed:
+              suppress: False
+              y_inset: 24
+
+    SysE_vice_pres:
+      _:
+        long_name_text_text: |
+            System E
+        short_name_text_text: E
+        _major_fill_1: ${colour/wikipedia/pale_green}
+        _major_fill_2: ${colour/wikipedia/msu_green}
+        _minor_fill_1: ${colour/wikipedia/msu_green}
+        _minor_fill_2: ${colour/wikipedia/pale_green}
+        _related_fill: ${colour/wikipedia/mountain_meadow}
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index:
+      charter:
+        index:
+      share:
+        _:
+          share_num_text_text: 2 Shares
+          share_pct_text_text: 10%
+        index:
+          "1":
+            share_desc_text:
+              text: Vice-president
+              x: 72
+            type_bar_box:
+              suppress: true
+            comment_text:
+             fill: ${colour/wikipedia/red}
+             text: |
+               Used only when creating system
+               from companies that had
+               different directors
+
+marker:
+  short_name_text:
+    typeface: ${DEFAULT/typeface_secondary}
+  index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/x11/gold}
+      middle_circle:
+        fill: ${colour/x11/limegreen}
+      inner_circle:
+        fill: ${colour/x11/sienna3}
+
+    coal:
+      token:
+        _:
+          short_name_text: coal
+          name_stripe_box_suppress: True
+          short_name_text_text: coal
+          short_name_text_fill: ${colour/xxp/WHITE}
+          short_name_text_size: 12
+          outer_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_fill: ${colour/x11/gray50}
+        ELEMENTS: ${TEMPLATE_ring/.}
+        index: "$[index_of (5)]"
+
+    KeyWest:
+      token:
+        _:
+          short_name_text: KW +50
+          short_name_text_text: KW +50
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+          short_name_text_x_inset: 0
+          #short_name_text_y_inset: -1
+          _major_fill: ${colour/xxp/D_GREEN}
+          _minor_fill: ${colour/xxp/D_GREEN}
+          _related_fill: ${colour/hollasch/cinnabar_green}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
+
+    MediumCity:
+      token:
+        _:
+          name_stripe_box_suppress: True
+          outer_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_fill: ${colour/xxp/WHITE}
+          inner_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_radius: 15
+          inner_circle_radius: 12
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (6)]
+
+    Cotton:
+      token:
+        _:
+          short_name_text: "+10"
+          short_name_text_text: "+10"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 14
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
+          _major_fill: ${colour/xxp/WHITE}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
+
+    Port:
+      token:
+        _:
+          short_name_text: "+20/+10"
+          short_name_text_text: "+20/+10"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+          short_name_text_x_inset: 0
+          _major_fill: ${colour/xxp/WHITE}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: "$[index_of (1)]"
+
+private:
+  closes_text:
+    typeface: ${DEFAULT/typeface}
+  cost_text:
+    typeface: ${DEFAULT/typeface}
+  revenue_text:
+    typeface: ${DEFAULT/typeface}
+  long_name_text:
+    typeface: ${DEFAULT/typeface}
+
+  _:
+    closes_text_text: "Closes in brown phase"
+    money_bar_box_y: 12
+    closes_text_size: 7
+    power_text_size: 8
+    revenue_text_x: 168
+
+  index:
+    PD:
+      _:
+        long_name_text_text: |
+            PRIORITY
+            DEAL
+        long_name_text_size: 30
+        long_name_text_y: 55
+        power_text_text: ""
+        cost_text_text: ""
+        closes_text_text: ""
+        revenue_text_text: ""
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        close_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        money_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+
+    CSC:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Carolina Stage Coach
+        power_text_text: "No special power."
+        cost_text_text: "Cost: $20"
+        revenue_text_text: "Revenue: $5"
+
+    CW:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Cotton Warehouse
+        power_text_text: |
+            Owning company may place a Cotton token
+            in any non-coastal city.
+            Increases the value of that city by $10
+            for the owning company only.
+            The Cotton token is removed in red phase.
+        cost_text_text: "Cost: $40"
+        revenue_text_text: "Revenue: $10"
+
+    AS:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            Atlantic Shipping
+        power_text_text: |
+            Owning company may place a Port token
+            in any coastal city.
+            Increases the value of that city by $20
+            for the owning company 
+            and by $10 for all other companies.
+            The Port token is removed in red phase.
+        cost_text_text: "Cost: $50"
+        revenue_text_text: "Revenue: $10"
+
+    LI:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        closes_text_text: "Closes in brown phase or the company pays div."
+        long_name_text_text: |
+            London Investment
+        power_text_text: |
+            Purchase (for free) a share of a company
+            that started in the same SR.
+            Counts as a stock purchase during SR.
+            May not be sold to a public company.
+        cost_text_text: "Cost: $70"
+        revenue_text_text: "Revenue: $10"
+
+    WVCF:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        long_name_text_text: |
+            West Virginia
+            Coal Fields
+        power_text_text: |
+            Owning company receives a coal token.
+            Other companies that connect to WVCF
+            may buy a coal token for $80
+            ($40 is paid to the owner of this private).
+            May be sold to a public company
+            for up to full face value in yellow phase.
+        cost_text_text: "Cost: $80"
+        revenue_text_text: "Revenue: $15"
+
+    SB:
+      _:
+        asset_interior_box_fill: ${colour/scale/yellow_0}
+        closes_text_text: "Operates until the end of the game"
+        long_name_text_text: |
+            Southern Bank
+        power_text_text: |
+            Owner may loan money to a company
+            by mortgaging an asset for 50-200% value.
+            At the start of each OR, the company 
+            pays interests (10% of the asset value).
+            Company may repay the loan for 50-100%.
+            State of the loan can be changed once per OR.
+            Not counted against cert limit while mortgaged.
+            May not be sold to a public company.
+        power_text_size: 7
+        cost_text_text: "Cost: $100"
+        revenue_text_text: "Revenue: $10/10%"
+
+    CRRC:
+      _:
+        asset_interior_box_fill: ${colour/hollasch/powder_blue}
+        closes_text_text: "Closes in brown phase or when CG buys a train"
+        long_name_text_text: |
+            Central Rail Road and Canal
+        power_text_text: |
+            Comes with the CG presidency.
+            May not be sold to a public company.
+        cost_text_text: "Cost: $200"
+        revenue_text_text: "Revenue: $30"
+
+train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
+
+  index:
+    2T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        long_name_text_text: "2"
+        cost_text_text_p: $80
+        rusted_text_text: "Rusted by 4"
+      model:
+        index: $[index_of (7)]
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        long_name_text_text: "3"
+        cost_text_text_p: $180
+        rusted_text_text: "Rusted by 6"
+      model:
+        index: $[index_of (6)]
+
+    4T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        long_name_text_text: "4"
+        cost_text_text_p: $300
+        rusted_text_text: "Rusted by 8"
+      model:
+        index: $[index_of (4)]
+
+    5T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill: ${colour/wikipedia/cool_black}
+        long_name_text_text: "5"
+        cost_text_text_p: $450
+        rusted_text_text: "Rusted by 12"
+      model:
+        index: $[index_of (3)]
+
+    6T:
+      _:
+        asset_interior_box_fill_p: RED
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "6"
+        cost_text_text_p: $630
+        rusted_text_text: Permanent
+      model:
+        index: $[index_of (3)]
+
+    8T:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "8"
+        cost_text_text_p: $800
+        rusted_text_text: Permanent
+      model:
+        index: $[index_of (3)]
+
+    10T:
+      _:
+        asset_interior_box_fill_p: PURPLE
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "10"
+        cost_text_text_p: $950
+        rusted_text_text: Permanent
+      model:
+        index: $[index_of (2)]
+
+    12T:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/cool_black}
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "12"
+        cost_text_text_p: $1100
+        rusted_text_text: Permanent
+      model:
+        index: $[index_of (8)]
+
+    DT:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "D"
+        cost_text_text_p: $1100
+        rusted_text_text: Permanent
+        note_text_text: |
+            From 4/5/6: $800
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "2":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "3":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "4":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "5":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "6":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "7":
+            top_note_text:
+              text: |
+                1830 Diesel
+          "8":
+            top_note_text:
+              text: |
+                1830 Diesel
