@@ -560,4 +560,4 @@ train:
       long_name_text:
         size: 42
       model:
-        index: $[index_of (8)]
+        index: $[index_of (12)]
