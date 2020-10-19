@@ -1,0 +1,105 @@
+train:
+  long_name_text:
+      typeface: ${DEFAULT/typeface}
+
+  index:
+    2+1T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLUE
+        long_name_text_text: "2+1"
+        rusted_text_text: "Rusted by 4+2"
+        cost_text_text_p: £250
+      long_name_text:
+        typeface: ${DEFAULT/typeface}
+        size: 42
+      model:
+        index: $[index_of (5)]
+
+    3+2T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: RED
+        long_name_text_text: "3+2"
+        cost_text_text_p: £300
+        rusted_text_text: "Rusted by 6+3"
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (4)]
+
+    4+2T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: GRAY
+        long_name_text_text: "4+2"
+        cost_text_text_p: £350
+        rusted_text_text: "Rusted by 7+4"
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (3)]
+
+    5+3T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: PURPLE
+        long_name_text_text: "5+3"
+        cost_text_text_p: £400
+        rusted_text_text: "Rusted by 8+4"
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (2)]
+
+    6+3T:
+      _:
+        asset_interior_box_fill_p: RED
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "6+3"
+        cost_text_text_p: £500
+        rusted_text_text: Permanent
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (2)]
+
+    7+4T:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "7+4"
+        cost_text_text_p: £600
+        rusted_text_text: Permanent
+      long_name_text:
+        size: 42
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: Optional
+          "2":
+
+    8+4T:
+      _:
+        asset_interior_box_fill_p: PURPLE
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "8+4"
+        cost_text_text_p: £700
+        rusted_text_text: Permanent
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (1)]
+
+    9+5T:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/cool_black}
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "9+5"
+        cost_text_text_p: £800
+        rusted_text_text: Permanent
+      long_name_text:
+        size: 42
+      model:
+        index: $[index_of (8)]
