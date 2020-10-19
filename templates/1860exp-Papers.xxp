@@ -334,18 +334,21 @@ train:
         cost_text_text_p: £400
         rusted_text_text: "Rusted by G"
         top_left_note_text_text: "D"
+        top_left_note_text_x: 8
       long_name_text:
         size: 42
       model:
         index: $[index_of (2)]
 
-    6+3T:
+    ET:
       _:
         asset_interior_box_fill_p: RED
         rust_bar_box_fill_p: BLACK
-        long_name_text_text: "6+3"
+        long_name_text_text: "4x"
         cost_text_text_p: £500
         rusted_text_text: Permanent
+        top_left_note_text_text: "E"
+        top_left_note_text_x: 8
       long_name_text:
         size: 42
       model:
