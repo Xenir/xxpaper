@@ -311,7 +311,7 @@ private:
 
     BHC:
       _:
-        asset_interior_box_fill: ${colour/scale/purple_0}
+        asset_interior_box_fill: ${colour/wikipedia/plum_web}
         long_name_text_text: |
             Brading Harbour Company
         power_text_text: |
@@ -335,7 +335,7 @@ private:
 
     CMH:
       _:
-        asset_interior_box_fill: ${colour/scale/azure_0}
+        asset_interior_box_fill: ${colour/hollasch/powder_blue}
         long_name_text_text: |
             Cowes Marina and Harbour
         power_text_text: |
@@ -347,7 +347,7 @@ private:
 
     RP&SC:
       _:
-        asset_interior_box_fill: ${colour/scale/red_0}
+        asset_interior_box_fill: ${colour/hollasch/tomato}
         long_name_text_text: |
             Ryde Pier & Shipping
             Company
@@ -372,7 +372,7 @@ private:
 
     C&N:
       _:
-        asset_interior_box_fill: ${colour/scale/azure_0}
+        asset_interior_box_fill: ${colour/hollasch/powder_blue}
         closes_text_text: "NOT A PRIVATE COMPANY"
         long_name_text_text: |
             CN Presidency
@@ -386,7 +386,7 @@ private:
 
     IOW:
       _:
-        asset_interior_box_fill: ${colour/scale/red_0}
+        asset_interior_box_fill: ${colour/hollasch/tomato}
         closes_text_text: "NOT A PRIVATE COMPANY"
         long_name_text_text: |
             IOW Presidency
@@ -560,4 +560,4 @@ train:
       long_name_text:
         size: 42
       model:
-        index: $[index_of (8)]
+        index: $[index_of (12)]
