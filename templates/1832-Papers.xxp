@@ -230,7 +230,7 @@ company:
       token:
         _:
           short_name_text_size: 8
-        index: $[index_of (9)]
+        index: $[index_of (12)]
 
     SysA:
       _:
