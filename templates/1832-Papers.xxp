@@ -969,7 +969,7 @@ marker:
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (1)]"
+        index: "$[index_of (2)]"
 
     Port:
       token:
@@ -983,7 +983,7 @@ marker:
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (1)]"
+        index: "$[index_of (2)]"
 
 private:
   closes_text:
