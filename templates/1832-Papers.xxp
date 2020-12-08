@@ -51,7 +51,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     AWP:
       _:
@@ -75,7 +75,7 @@ company:
           inner_circle_radius: 9
         ELEMENTS: ${TEMPLATE_bullseye/.}
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (11)]
 
     CG:
       _:
@@ -95,7 +95,7 @@ company:
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     FEC:
       _:
@@ -116,7 +116,7 @@ company:
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (5)]
+        index: $[index_of (11)]
 
     GR:
       _:
@@ -135,7 +135,7 @@ company:
           short_name_text_y_inset: -1
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (5)]
+        index: $[index_of (11)]
 
     GMO:
       _:
@@ -151,7 +151,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     LN:
       _:
@@ -174,7 +174,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_stripey/.}
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     NW:
       _:
@@ -196,7 +196,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     SAL:
       _:
@@ -214,10 +214,9 @@ company:
           short_name_text_size: 12
           short_name_text_x_inset: 0
           short_name_text_y_inset: -1
-        index: $[index_of (6)]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     SOU:
       _:
@@ -231,7 +230,7 @@ company:
       token:
         _:
           short_name_text_size: 8
-        index: $[index_of (6)]
+        index: $[index_of (12)]
 
     SysA:
       _:
@@ -255,7 +254,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_chequer/.}
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-        index: $[index_of (9)]
+        index: $[index_of (15)]
       share:
         _:
           share_pct_text_text: 5%
@@ -387,7 +386,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_chequer/.}
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-        index: $[index_of (9)]
+        index: $[index_of (15)]
       share:
         _:
           share_pct_text_text: 5%
@@ -519,7 +518,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_chequer/.}
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-        index: $[index_of (9)]
+        index: $[index_of (15)]
       share:
         _:
           share_pct_text_text: 5%
@@ -651,7 +650,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_chequer/.}
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-        index: $[index_of (9)]
+        index: $[index_of (15)]
       share:
         _:
           share_pct_text_text: 5%
@@ -783,7 +782,7 @@ company:
           short_name_text_size: 8
         ELEMENTS: ${TEMPLATE_chequer/.}
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-        index: $[index_of (9)]
+        index: $[index_of (15)]
       share:
         _:
           share_pct_text_text: 5%
@@ -970,7 +969,7 @@ marker:
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (1)]"
+        index: "$[index_of (2)]"
 
     Port:
       token:
@@ -984,7 +983,7 @@ marker:
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (1)]"
+        index: "$[index_of (2)]"
 
 private:
   closes_text:
