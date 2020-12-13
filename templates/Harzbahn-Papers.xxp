@@ -1,3 +1,7 @@
+narrow_charter_tile_y: $[10 * 72 / 2.0]
+narrow_charter_tile_y_max: $[${narrow_charter_tile/y} - (2 * ${narrow_charter_tile/margin})]
+narrow_charter_tile_y_num: 2
+
 company:
   _:
 
@@ -9,6 +13,61 @@ company:
     _:
       long_name_text_typeface: ${DEFAULT/typeface}
       comment_text_text: ""
+      label_text_suppress: True
+      #token_1_circle_suppress: False
+      token_1_circle_x: 42
+      token_1_circle_y: 134.505
+      #token_2_circle_suppress: False
+      token_2_circle_x: $[${token_1_circle/x} + 56]
+      token_2_circle_y: 134.505
+      #token_3_circle_suppress: False
+      token_3_circle_x: $[${token_2_circle/x} + 56]
+      token_3_circle_y: 134.505
+      #token_4_circle_suppress: False
+      token_4_circle_x: $[${token_3_circle/x} + 56]
+      token_4_circle_y: 134.505
+      #token_5_circle_suppress: False
+      token_5_circle_x: $[${token_4_circle/x} + 56]
+      token_5_circle_y: 134.505
+      #token_6_circle_suppress: False
+      token_6_circle_x: $[${token_5_circle/x} + 56]
+      token_6_circle_y: 134.505
+      #token_7_circle_suppress: False
+      token_7_circle_x: $[${token_6_circle/x} + 56]
+      token_7_circle_y: 134.505
+      #token_8_circle_suppress: False
+      token_8_circle_x: $[${token_7_circle/x} + 56]
+      token_8_circle_y: 134.505
+      #token_9_circle_suppress: False
+      token_9_circle_x: $[${token_8_circle/x} + 56]
+      token_9_circle_y: 134.505
+      token_1_text_x: ${token_1_circle/x}
+      token_1_text_y: 100
+      token_2_text_x: ${token_2_circle/x}
+      token_2_text_y: 100
+      token_3_text_x: ${token_3_circle/x}
+      token_3_text_y: 100
+      token_4_text_x: ${token_4_circle/x}
+      token_4_text_y: 100
+      token_5_text_x: ${token_5_circle/x}
+      token_5_text_y: 100
+      token_6_text_x: ${token_6_circle/x}
+      token_6_text_y: 100
+      token_7_text_x: ${token_7_circle/x}
+      token_7_text_y: 100
+      token_8_text_x: ${token_8_circle/x}
+      token_8_text_y: 105
+      token_9_text_x: ${token_9_circle/x}
+      token_9_text_y: 105
+      token_1_text_size: 10
+      token_2_text_size: 10
+      token_3_text_size: 10
+      token_4_text_size: 10
+      token_5_text_size: 10
+      token_6_text_size: 10
+      token_7_text_size: 10
+      token_8_text_size: 10
+      token_9_text_size: 10
 
   share:
     share_num_text:
@@ -34,8 +93,7 @@ company:
     GHE:
       _:
         long_name_text_text: |
-          Gernrode-Harzgeroder
-          Eisenbahn
+          Gernrode-Harzgeroder Eisenbahn
         short_name_text_text: GHE
         _major_fill: ${colour/wikipedia/light_sky_blue}
         _minor_fill: ${_/_major_fill}
