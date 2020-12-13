@@ -1,0 +1,72 @@
+company:
+  _:
+
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface_secondary}
+
+  narrow_charter:
+    _:
+      long_name_text_typeface: ${DEFAULT/typeface}
+      comment_text_text: ""
+
+  share:
+    share_num_text:
+        typeface: ${DEFAULT/typeface}
+    share_pct_text:
+        typeface: ${DEFAULT/typeface}
+    share_desc_text:
+        typeface: ${DEFAULT/typeface}
+    comment_text:
+        typeface: ${DEFAULT/typeface}
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
+    _:
+      side_bar_lsplit_box_suppress: True
+      side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
+      share_pct_text_text: 20/10%
+      share_num_text_text: 1 Share
+
+  index:
+    GHE:
+      _:
+        long_name_text_text: |
+          Gernrode-Harzgeroder
+          Eisenbahn
+        short_name_text_text: GHE
+        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/powder_blue}
+        name_stripe_box_suppress: True
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (11)]
+      share:
+        index:
+          "1":
+            share_pct_text:
+              text:
+                "20/10%"
+            share_num_text:
+              text:
+                "1 Share"
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
