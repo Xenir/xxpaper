@@ -16,6 +16,9 @@ TEMPLATE_narrow_charter_default:
   - token_7_circle
   - token_8_circle
   - token_9_circle
+  - token_10_circle
+  - token_11_circle
+  - token_12_circle
   - token_1_text
   - token_2_text
   - token_3_text
@@ -25,6 +28,9 @@ TEMPLATE_narrow_charter_default:
   - token_7_text
   - token_8_text
   - token_9_text
+  - token_10_text
+  - token_11_text
+  - token_12_text
   - type_circle
   - type_text
 
@@ -246,7 +252,7 @@ token_8_text:
 
 token_9_circle:
   suppress: $["${token_9_text/text}" == ""]
-  x: 42
+  x: 188
   y: 103.67
   radius: 18
   width: 0.5
@@ -261,6 +267,60 @@ token_9_text:
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_9_circle/fill})]
+
+token_10_circle:
+  suppress: $["${token_10_text/text}" == ""]
+  x: 188
+  y: 42
+  radius: 18
+  width: 0.5
+  stroke: ${colour/xxp/BLACK}
+  fill:  ${colour/xxp/WHITE}
+
+token_10_text:
+  suppress: $["${token_10_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: 188
+  y: 38
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_10_circle/fill})]
+
+token_11_circle:
+  suppress: $["${token_11_text/text}" == ""]
+  x: 226
+  y: 72.835
+  radius: 18
+  width: 0.5
+  stroke: ${colour/xxp/BLACK}
+  fill:  ${colour/xxp/WHITE}
+
+token_11_text:
+  suppress: $["${token_11_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: 226
+  y: 68.835
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_11_circle/fill})]
+
+token_12_circle:
+  suppress: $["${token_12_text/text}" == ""]
+  x: 226
+  y: 134.505
+  radius: 18
+  width: 0.5
+  stroke: ${colour/xxp/BLACK}
+  fill:  ${colour/xxp/WHITE}
+
+token_12_text:
+  suppress: $["${token_12_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: 226
+  y: 130.505
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_12_circle/fill})]
 
 type_circle:
   suppress: $["${type_text/text}" == ""]

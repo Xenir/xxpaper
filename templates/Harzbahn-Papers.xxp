@@ -32,6 +32,12 @@ company:
       token_8_circle_y: 134.505
       token_9_circle_x: $[${token_8_circle/x} + 56]
       token_9_circle_y: 134.505
+      token_10_circle_x: ${token_1_circle/x}
+      token_10_circle_y: 78
+      token_11_circle_x: ${token_2_circle/x}
+      token_11_circle_y: 78
+      token_12_circle_x: ${token_3_circle/x}
+      token_12_circle_y: 78
       token_1_text_x: ${token_1_circle/x}
       token_1_text_y: 105
       token_2_text_x: ${token_2_circle/x}
@@ -50,6 +56,12 @@ company:
       token_8_text_y: 105
       token_9_text_x: ${token_9_circle/x}
       token_9_text_y: 105
+      token_10_text_x: ${token_10_circle/x}
+      token_10_text_y: 48.495
+      token_11_text_x: ${token_11_circle/x}
+      token_11_text_y: 48.495
+      token_12_text_x: ${token_12_circle/x}
+      token_12_text_y: 48.495
       token_1_text_size: 10
       token_2_text_size: 10
       token_3_text_size: 10
@@ -59,6 +71,9 @@ company:
       token_7_text_size: 10
       token_8_text_size: 10
       token_9_text_size: 10
+      token_10_text_size: 10
+      token_11_text_size: 10
+      token_12_text_size: 10
       token_1_text_text: 100/50M
       token_2_text_text: 100/50M
       token_3_text_text: 100/50M
@@ -133,9 +148,12 @@ company:
         token_7_text_text: 100/50M
         token_8_text_text: 100/50M
         token_9_text_text: 100/50M
-        token_7_circle_fill: ${colour/x11/gray80}
-        token_8_circle_fill: ${colour/x11/gray80}
-        token_9_circle_fill: ${colour/x11/gray80}
+        token_10_text_text: 100/50M
+        token_11_text_text: 100/50M
+        token_12_text_text: 100/50M
+        #token_7_circle_fill: ${colour/x11/gray80}
+        #token_8_circle_fill: ${colour/x11/gray80}
+        #token_9_circle_fill: ${colour/x11/gray80}
       charter:
         index:
       narrow_charter:
@@ -155,4 +173,3 @@ company:
             Gernrode
             -Harzgeroder
             Eisenbahn
-
