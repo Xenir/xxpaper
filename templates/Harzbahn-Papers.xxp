@@ -86,6 +86,37 @@ company:
       share_pct_text_x: 150
       share_num_text_text: 1 Share
       share_num_text_x: 75
+    index:
+      "1":
+        share_pct_text:
+          text:
+            "20/10%"
+        share_num_text:
+          text:
+            "1 Share"
+        share_desc_text:
+          text:
+        comment_text:
+          text:
+            President
+          size: 11
+          y: 24
+          typeface: ${DEFAULT/typeface}
+        token_1_embed:
+          suppress: False
+        token_2a_embed:
+          suppress: True
+        token_2b_embed:
+          suppress: True
+      "2":
+      "3":
+      "4":
+      "5":
+      "6":
+      "7":
+      "8":
+      "9":
+      "10":
 
   index:
     GHE:
@@ -124,34 +155,4 @@ company:
             Gernrode
             -Harzgeroder
             Eisenbahn
-        index:
-          "1":
-            share_pct_text:
-              text:
-                "20/10%"
-            share_num_text:
-              text:
-                "1 Share"
-            share_desc_text:
-              text:
-            comment_text:
-              text:
-                President
-              size: 11
-              y: 24
-              typeface: ${DEFAULT/typeface}
-            token_1_embed:
-              suppress: False
-            token_2a_embed:
-              suppress: True
-            token_2b_embed:
-              suppress: True
-          "2":
-          "3":
-          "4":
-          "5":
-          "6":
-          "7":
-          "8":
-          "9":
-          "10":
+
