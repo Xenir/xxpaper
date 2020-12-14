@@ -14,54 +14,54 @@ company:
       long_name_text_typeface: ${DEFAULT/typeface}
       comment_text_text: ""
       label_text_suppress: True
-      token_1_circle_x: 42
-      token_1_circle_y: 134.505
-      token_2_circle_x: $[${token_1_circle/x} + 56]
-      token_2_circle_y: 134.505
-      token_3_circle_x: $[${token_2_circle/x} + 56]
-      token_3_circle_y: 134.505
-      token_4_circle_x: $[${token_3_circle/x} + 56]
-      token_4_circle_y: 134.505
-      token_5_circle_x: $[${token_4_circle/x} + 56]
-      token_5_circle_y: 134.505
-      token_6_circle_x: $[${token_5_circle/x} + 56]
-      token_6_circle_y: 134.505
-      token_7_circle_x: $[${token_6_circle/x} + 56]
-      token_7_circle_y: 134.505
-      token_8_circle_x: $[${token_7_circle/x} + 56]
-      token_8_circle_y: 134.505
-      token_9_circle_x: $[${token_8_circle/x} + 56]
-      token_9_circle_y: 134.505
-      token_10_circle_x: ${token_1_circle/x}
-      token_10_circle_y: 78
-      token_11_circle_x: ${token_2_circle/x}
-      token_11_circle_y: 78
-      token_12_circle_x: ${token_3_circle/x}
-      token_12_circle_y: 78
-      token_1_text_x: ${token_1_circle/x}
-      token_1_text_y: 105
-      token_2_text_x: ${token_2_circle/x}
-      token_2_text_y: 105
-      token_3_text_x: ${token_3_circle/x}
-      token_3_text_y: 105
-      token_4_text_x: ${token_4_circle/x}
-      token_4_text_y: 105
-      token_5_text_x: ${token_5_circle/x}
-      token_5_text_y: 105
-      token_6_text_x: ${token_6_circle/x}
-      token_6_text_y: 105
-      token_7_text_x: ${token_7_circle/x}
-      token_7_text_y: 105
-      token_8_text_x: ${token_8_circle/x}
-      token_8_text_y: 105
-      token_9_text_x: ${token_9_circle/x}
-      token_9_text_y: 105
-      token_10_text_x: ${token_10_circle/x}
-      token_10_text_y: 48.495
-      token_11_text_x: ${token_11_circle/x}
-      token_11_text_y: 48.495
+      token_12_circle_x: 42
+      token_12_circle_y: 134.505
+      token_10_circle_x: $[${token_12_circle/x} + 46]
+      token_10_circle_y: ${token_12_circle/y}
+      token_8_circle_x: $[${token_10_circle/x} + 46]
+      token_8_circle_y: ${token_12_circle/y}
+      token_6_circle_x: $[${token_8_circle/x} + 46]
+      token_6_circle_y: ${token_12_circle/y}
+      token_4_circle_x: $[${token_6_circle/x} + 46]
+      token_4_circle_y: ${token_12_circle/y}
+      token_2_circle_x: $[${token_4_circle/x} + 46]
+      token_2_circle_y: ${token_12_circle/y}
+      token_11_circle_x: ${token_12_circle/x}
+      token_11_circle_y: $[${token_12_circle/y} - 56.505]
+      token_9_circle_x: ${token_10_circle/x}
+      token_9_circle_y: $[${token_10_circle/y} - 56.505]
+      token_7_circle_x: ${token_8_circle/x}
+      token_7_circle_y: $[${token_8_circle/y} - 56.505]
+      token_5_circle_x: ${token_6_circle/x}
+      token_5_circle_y: $[${token_6_circle/y} - 56.505]
+      token_3_circle_x: ${token_4_circle/x}
+      token_3_circle_y: $[${token_4_circle/y} - 56.505]
+      token_1_circle_x: ${token_2_circle/x}
+      token_1_circle_y: $[${token_2_circle/y} - 56.505]
       token_12_text_x: ${token_12_circle/x}
-      token_12_text_y: 48.495
+      token_12_text_y: $[${token_12_circle/y} - 29.505]
+      token_10_text_x: ${token_10_circle/x}
+      token_10_text_y: $[${token_10_circle/y} - 29.505]
+      token_8_text_x: ${token_8_circle/x}
+      token_8_text_y: $[${token_8_circle/y} - 29.505]
+      token_6_text_x: ${token_6_circle/x}
+      token_6_text_y: $[${token_6_circle/y} - 29.505]
+      token_4_text_x: ${token_4_circle/x}
+      token_4_text_y: $[${token_4_circle/y} - 29.505]
+      token_2_text_x: ${token_2_circle/x}
+      token_2_text_y: $[${token_2_circle/y} - 29.505]
+      token_11_text_x: ${token_11_circle/x}
+      token_11_text_y: $[${token_11_circle/y} - 29.505]
+      token_9_text_x: ${token_9_circle/x}
+      token_9_text_y: $[${token_9_circle/y} - 29.505]
+      token_7_text_x: ${token_7_circle/x}
+      token_7_text_y: $[${token_7_circle/y} - 29.505]
+      token_5_text_x: ${token_5_circle/x}
+      token_5_text_y: $[${token_5_circle/y} - 29.505]
+      token_3_text_x: ${token_3_circle/x}
+      token_3_text_y: $[${token_3_circle/y} - 29.505]
+      token_1_text_x: ${token_1_circle/x}
+      token_1_text_y: $[${token_1_circle/y} - 29.505]
       token_1_text_size: 10
       token_2_text_size: 10
       token_3_text_size: 10
@@ -80,7 +80,14 @@ company:
       token_4_text_text: 100/50M
       token_5_text_text: 100/50M
       token_6_text_text: 100/50M
+      token_7_text_text: 100/50M
+      token_8_text_text: 100/50M
+      token_9_text_text: 100/50M
+      token_10_text_text: 100/50M
+      token_11_text_text: 100/50M
+      token_12_text_text: 100/50M
       type_text_text: "5 Share"
+      type_circle_fill: ${colour/wikipedia/robin_egg_blue}
 
   share:
     share_num_text:
@@ -143,14 +150,8 @@ company:
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/hollasch/powder_blue}
         name_stripe_box_suppress: True
-        token_1_text_text: F20
-        token_2_text_text: H18
-        token_7_text_text: 100/50M
-        token_8_text_text: 100/50M
-        token_9_text_text: 100/50M
-        token_10_text_text: 100/50M
-        token_11_text_text: 100/50M
-        token_12_text_text: 100/50M
+        token_2_text_text: F20
+        token_1_text_text: H18
         #token_7_circle_fill: ${colour/x11/gray80}
         #token_8_circle_fill: ${colour/x11/gray80}
         #token_9_circle_fill: ${colour/x11/gray80}
