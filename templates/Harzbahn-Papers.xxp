@@ -392,11 +392,11 @@ company:
             -Blankenburger
             Eisenbahn
 
-    C:
+    CO:
       _:
         long_name_text_text: |
           Concordia
-        short_name_text_text: C
+        short_name_text_text: CO
         _major_fill_1: ${colour/wikipedia/pale_green}
         _major_fill_2: ${colour/wikipedia/msu_green}
         _minor_fill_1: ${colour/wikipedia/msu_green}
@@ -440,11 +440,11 @@ company:
           share_pct_text_text: 50/20/10%
           share_pct_text_x: 140
 
-    M:
+    MO:
       _:
         long_name_text_text: |
           Montania
-        short_name_text_text: M
+        short_name_text_text: MO
         _major_fill_1: ${colour/wikipedia/french_lime}
         _major_fill_2: ${colour/wikipedia/limerick}
         _minor_fill_1: ${colour/wikipedia/limerick}
@@ -464,11 +464,11 @@ company:
           share_pct_text_text: 50/20/10%
           share_pct_text_x: 140
 
-    S:
+    SB:
       _:
         long_name_text_text: |
           Schachtbau
-        short_name_text_text: S
+        short_name_text_text: SB
         _major_fill_1: ${colour/x11/lightpink}
         _minor_fill_1: ${colour/x11/salmon}
         _major_fill_2: ${colour/x11/salmon}
@@ -488,11 +488,11 @@ company:
           share_pct_text_text: 50/20/10%
           share_pct_text_x: 140
 
-    U:
+    UN:
       _:
         long_name_text_text: |
           Union
-        short_name_text_text: S
+        short_name_text_text: UN
         _major_fill_1: ${colour/wikipedia/rich_lavender}
         _minor_fill_1: ${colour/wikipedia/royal_purple}
         _major_fill_2: ${colour/wikipedia/royal_purple}
