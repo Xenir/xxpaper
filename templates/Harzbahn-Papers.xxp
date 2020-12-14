@@ -186,8 +186,8 @@ company:
         _major_fill: ${colour/wikipedia/amber_sae_ece}
         _minor_fill: ${colour/x11/white}
         _related_fill: ${colour/wikipedia/pink_orange}
-        token_1_text_text: A19
-        token_2_text_text: C15
+        token_1_text_text: C15
+        token_2_text_text: A19
         token_3_circle_fill: ${colour/wikipedia/wisteria}
         token_4_circle_fill: ${colour/wikipedia/wisteria}
         token_5_circle_fill: ${colour/wikipedia/wisteria}
@@ -212,3 +212,39 @@ company:
             Halberstadt
             -Blankenburger
             Eisenbahn
+
+    KEZ:
+      _:
+        long_name_text_text: |
+          Kleinbahn Ellrich-Zorge
+        short_name_text_text: KEZ
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray43}
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_7_text_text: H4
+        token_8_text_text: F4
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+        token_10_circle_fill: ${colour/wikipedia/wisteria}
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (8)]
+      share:
+        long_name_text:
+          text: |
+            Kleinbahn
+            Ellrich-Zorge
+        share_pct_text:
+          fill: ${colour/xxp/BLACK}
