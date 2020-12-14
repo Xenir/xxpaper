@@ -150,11 +150,14 @@ company:
         _minor_fill: ${_/_major_fill}
         _related_fill: ${colour/hollasch/powder_blue}
         name_stripe_box_suppress: True
-        token_2_text_text: F20
-        token_1_text_text: H18
-        #token_7_circle_fill: ${colour/x11/gray80}
-        #token_8_circle_fill: ${colour/x11/gray80}
-        #token_9_circle_fill: ${colour/x11/gray80}
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: H18
+        token_6_text_text: F20
+        token_5_circle_fill: ${colour/x11/gray80}
+        token_7_circle_fill: ${colour/x11/gray80}
+        token_8_circle_fill: ${colour/x11/gray80}
       charter:
         index:
       narrow_charter:
