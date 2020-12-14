@@ -391,3 +391,27 @@ company:
             Wernigerode
             -Blankenburger
             Eisenbahn
+
+    C:
+      _:
+        long_name_text_text: |
+          Concordia
+        short_name_text_text: C
+        _major_fill_1: ${colour/wikipedia/pale_green}
+        _major_fill_2: ${colour/wikipedia/msu_green}
+        _minor_fill_1: ${colour/wikipedia/msu_green}
+        _minor_fill_2: ${colour/wikipedia/pale_green}
+        _related_fill: ${colour/wikipedia/mountain_meadow}
+      charter:
+        index:
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140
