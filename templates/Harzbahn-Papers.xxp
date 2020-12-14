@@ -286,3 +286,36 @@ company:
             Nordhausen
             -Wernigeroder
             Eisenbahn
+
+    QLB:
+      _:
+        long_name_text_text: |
+          Quedlinburger Lokalbahn
+        short_name_text_text: QLB
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/hollasch/tomato}
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_8_text_text: D20
+        token_7_circle_fill: ${colour/wikipedia/wisteria}
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (8)]
+      share:
+        long_name_text:
+          text: |
+            Quedlinburger
+            Lokalbahn
