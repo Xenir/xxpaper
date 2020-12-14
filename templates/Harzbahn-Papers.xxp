@@ -248,3 +248,41 @@ company:
             Ellrich-Zorge
         share_pct_text:
           fill: ${colour/xxp/BLACK}
+
+    NWE:
+      _:
+        long_name_text_text: |
+          Nordhausen-Wernigeroder Eisenbahn
+        short_name_text_text: NWE
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: I7
+        token_6_text_text: A9
+        token_5_text_text: F6
+        token_7_circle_fill: ${colour/wikipedia/wisteria}
+        token_8_circle_fill: ${colour/wikipedia/wisteria}
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (11)]
+      share:
+        long_name_text:
+          text: |
+            Nordhausen
+            -Wernigeroder
+            Eisenbahn
