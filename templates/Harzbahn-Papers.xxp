@@ -319,3 +319,36 @@ company:
           text: |
             Quedlinburger
             Lokalbahn
+
+    SHE:
+      _:
+        long_name_text_text: |
+          Sudharzeisenbahn
+        short_name_text_text: SHE
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_7_text_text: H2
+        token_8_text_text: D4
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+        token_10_circle_fill: ${colour/wikipedia/wisteria}
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (8)]
