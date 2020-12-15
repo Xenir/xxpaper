@@ -1,10 +1,4 @@
-narrow_charter_tile_y: $[10 * 72 / 2.0]
-narrow_charter_tile_y_max: $[${narrow_charter_tile/y} - (2 * ${narrow_charter_tile/margin})]
-narrow_charter_tile_y_num: 2
-
 company:
-  _:
-
   token:
     short_name_text:
       typeface: ${DEFAULT/typeface_secondary}
@@ -515,8 +509,9 @@ company:
 marker:
   short_name_text:
     typeface: ${DEFAULT/typeface_secondary}
+
   index:
-    KeyWest:
+    HW50:
       token:
         _:
           short_name_text: HW +50
