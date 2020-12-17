@@ -518,14 +518,479 @@ marker:
     HW50:
       token:
         _:
-          short_name_text: HW +50
           upper_text_text: "HW"
           lower_text_text: "+50"
+          upper_text_y_inset: -3
           upper_text_fill: $[black_or_white (${_/_major_fill})]
           lower_text_fill: $[black_or_white (${_/_minor_fill})]
           _major_fill: ${colour/x11/gold}
           _minor_fill: ${colour/x11/gold}
           name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index: "$[index_of (1)]"
+
+    mine1:
+      token:
+        _:
+          upper_text_text: "1"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "10"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine2:
+      token:
+        _:
+          upper_text_text: "2"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine3:
+      token:
+        _:
+          upper_text_text: "3"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine4:
+      token:
+        _:
+          upper_text_text: "4"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine5:
+      token:
+        _:
+          upper_text_text: "5"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "10"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine6:
+      token:
+        _:
+          upper_text_text: "6"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine7:
+      token:
+        _:
+          upper_text_text: "7"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine8:
+      token:
+        _:
+          upper_text_text: "8"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine9:
+      token:
+        _:
+          upper_text_text: "9"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine10:
+      token:
+        _:
+          upper_text_text: "10"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine11:
+      token:
+        _:
+          upper_text_text: "11"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine12:
+      token:
+        _:
+          upper_text_text: "12"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine13:
+      token:
+        _:
+          upper_text_text: "13"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine14:
+      token:
+        _:
+          upper_text_text: "14"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine15:
+      token:
+        _:
+          upper_text_text: "15"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    indPM:
+      token:
+        _:
+          upper_text_text: "PM"
+          lower_text_text: "+40"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index: "$[index_of (1)]"
+
+    indSB1:
+      token:
+        _:
+          upper_text_text: "SB"
+          lower_text_text: "+50"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index: "$[index_of (1)]"
+
+    indSB2:
+      token:
+        _:
+          upper_text_text: "SB"
+          lower_text_text: "+60"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index: "$[index_of (1)]"
+
+    indSM:
+      token:
+        _:
+          upper_text_text: "SM"
+          lower_text_text: "+50"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        index: "$[index_of (1)]"
+
+    indZW:
+      token:
+        _:
+          upper_text_text: "ZW"
+          lower_text_text: "+70"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
         EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
         index: "$[index_of (1)]"

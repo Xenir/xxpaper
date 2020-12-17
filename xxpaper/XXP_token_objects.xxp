@@ -1036,6 +1036,8 @@ upper_text:
   y: $[(${token_interior_box/y} / 2) + (${upper_text/size} / 2)]
   h_center: 0
   v_center: 0
+  x_inset: 0
+  y_inset: 0
   size: 11
   fill: $[black_or_white (${name_stripe_box/fill})]
 
@@ -1045,5 +1047,7 @@ lower_text:
   y: $[(${token_interior_box/y} / 2) - (${lower_text/size})]
   h_center: 0
   v_center: 0
+  x_inset: 0
+  y_inset: 0
   size: 11
   fill: $[black_or_white (${name_stripe_box/fill})]
