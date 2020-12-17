@@ -527,7 +527,7 @@ marker:
           _minor_fill: ${colour/x11/gold}
           name_stripe_box_suppress: True
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index: "$[index_of (1)]"
 
     mine1:
@@ -544,7 +544,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -569,7 +569,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -594,7 +594,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -619,7 +619,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -644,7 +644,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -669,7 +669,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -694,7 +694,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -719,7 +719,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -744,7 +744,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -769,7 +769,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -794,7 +794,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -819,7 +819,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -844,7 +844,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -869,7 +869,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -894,7 +894,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index:
           "1":
             lower_text:
@@ -920,7 +920,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
         index: "$[index_of (1)]"
 
     indSB1:
@@ -938,7 +938,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
         index: "$[index_of (1)]"
 
     indSB2:
@@ -956,7 +956,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
         index: "$[index_of (1)]"
 
     indSM:
@@ -974,7 +974,7 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
         index: "$[index_of (1)]"
 
     indZW:
@@ -992,5 +992,133 @@ marker:
           name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
           name_stripe_box_width: 0.0
         ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
-        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
         index: "$[index_of (1)]"
+
+    S2:
+      token:
+        _:
+          upper_text_text: "S2"
+          lower_text_text: "50M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_YELLOW}
+          _minor_fill: ${colour/xxp/TRAIN_YELLOW}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S3:
+      token:
+        _:
+          upper_text_text: "S3"
+          lower_text_text: "100M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_GREEN}
+          _minor_fill: ${colour/xxp/TRAIN_GREEN}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S4:
+      token:
+        _:
+          upper_text_text: "S4"
+          lower_text_text: "150M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BLUE}
+          _minor_fill: ${colour/xxp/TRAIN_BLUE}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S5:
+      token:
+        _:
+          upper_text_text: "S5"
+          lower_text_text: "200M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BROWN}
+          _minor_fill: ${colour/xxp/TRAIN_BROWN}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    M2:
+      token:
+        _:
+          short_name_text_text: "M2"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_YELLOW}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M3:
+      token:
+        _:
+          short_name_text_text: "M3"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_GREEN}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M4:
+      token:
+        _:
+          short_name_text_text: "M4"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BLUE}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M5:
+      token:
+        _:
+          short_name_text_text: "M5"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BROWN}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
