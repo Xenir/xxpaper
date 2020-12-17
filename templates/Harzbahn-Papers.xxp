@@ -1,7 +1,7 @@
 company:
   token:
     short_name_text:
-      typeface: ${DEFAULT/typeface_secondary}
+      typeface: ${DEFAULT/typeface}
 
   narrow_charter:
     _:
@@ -508,19 +508,24 @@ company:
 
 marker:
   short_name_text:
-    typeface: ${DEFAULT/typeface_secondary}
+    typeface: ${DEFAULT/typeface}
+  upper_text:
+    typeface: ${DEFAULT/typeface}
+  lower_text:
+    typeface: ${DEFAULT/typeface}
 
   index:
     HW50:
       token:
         _:
           short_name_text: HW +50
-          short_name_text_text: HW +50
-          short_name_text_fill: $[black_or_white (${_/_major_fill})]
-          short_name_text_size: 8
-          short_name_text_x_inset: 0
-          _major_fill: ${colour/x11/darkgoldenrod2}
+          upper_text_text: "HW"
+          lower_text_text: "+50"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_minor_fill})]
+          _major_fill: ${colour/x11/gold}
+          _minor_fill: ${colour/x11/gold}
           name_stripe_box_suppress: True
-        ELEMENTS: ${TEMPLATE_solid/.}
-        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
         index: "$[index_of (1)]"
