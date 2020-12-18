@@ -506,6 +506,77 @@ company:
           share_pct_text_text: 50/20/10%
           share_pct_text_x: 140
 
+    MHE:
+      _:
+        long_name_text_text: |
+          Magdeburg
+          -Halberstädter
+          Eisenbahn
+        short_name_text_text: MHE
+        long_name_text_typeface: ${DEFAULT/typeface}
+        _major_fill: ${colour/xxp/WHITE}
+        _minor_fill: ${colour/x11/gray55}
+        _related_fill: ${colour/x11/gray88}
+      charter:
+        index:
+      minor_charter:
+        _:
+          
+          label_text_text: 
+          comment_text_text: |
+              Initial stock value: 120
+              Starts with a size 1 standard train.
+              Always operates last in every OR.
+              Pays out a dividend of 100x size of the train.
+              Does not pay maintenence costs.
+              In the last OR of every set, acquires a new train
+              (for free) from the bank, replacing the old one.
+              After MHE has acquired a 5T, it stops buying trains
+              and the share value does not change anymore.
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 10%
+          share_pct_text_x: 150
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          share_num_text_text: 1 Share
+          share_num_text_x: 75
+        index:
+          "1":
+            share_pct_text:
+              text:
+                "10%"
+            share_num_text:
+              text:
+                "1 Share"
+            comment_text:
+              text:
+            share_desc_text:
+              text:
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+
 marker:
   short_name_text:
     typeface: ${DEFAULT/typeface}
