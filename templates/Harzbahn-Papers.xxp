@@ -1194,6 +1194,29 @@ marker:
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: $[index_of (15)]
 
+    size5:
+      token:
+        _:
+          short_name_text_text: "5 Share"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/robin_egg_blue}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (12)]
+
+    size10:
+      token:
+        _:
+          short_name_text_text: "10 Share"
+          short_name_text_size: 8
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/wisteria}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (12)]
+
 train:
   long_name_text:
     typeface: ${DEFAULT/typeface}
