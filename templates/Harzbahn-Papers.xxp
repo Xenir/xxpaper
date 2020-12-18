@@ -88,6 +88,9 @@ company:
       long_name_text_typeface: ${DEFAULT/typeface}
       label_text_text:
       comment_text_text:
+      type_text_text: "2 Share"
+      type_circle_fill: ${colour/wikipedia/pink}
+      long_name_text_x: 130
 
   share:
     share_num_text:
@@ -537,6 +540,8 @@ company:
         index:
       minor_charter:
         _:
+          type_text_text: "10 Share"
+          type_circle_fill: ${colour/wikipedia/wisteria}
           comment_text_text: |
               Initial stock value: 120
               Starts with a size 1 standard train.
