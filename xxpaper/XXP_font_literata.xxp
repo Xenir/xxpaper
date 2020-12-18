@@ -10,5 +10,5 @@ DEFAULT:
   typeface_bold: "Literata-Bold"
   typeface_bold_italic: "Literata-BoldItalic"
   typeface_bold_oblique: ${DEFAULT/typeface_bold_italic}
-  typeface_italic: "Literata-Italic"
+  typeface_italic: "Literata-MediumItalic"
   typeface_oblique: ${DEFAULT/typeface_italic}

@@ -521,14 +521,13 @@ company:
         index:
       minor_charter:
         _:
-          
           label_text_text: 
           comment_text_text: |
               Initial stock value: 120
               Starts with a size 1 standard train.
               Always operates last in every OR.
               Pays out a dividend of 100x size of the train.
-              Does not pay maintenence costs.
+              Does not pay maintenance costs.
               In the last OR of every set, acquires a new train
               (for free) from the bank, replacing the old one.
               After MHE has acquired a 5T, it stops buying trains
@@ -1197,8 +1196,111 @@ marker:
 train:
   long_name_text:
     typeface: ${DEFAULT/typeface}
+  cost_text:
+    size: 12
 
   index:
+    1T:
+      _:
+        asset_interior_box_fill_p: LIGHT_YELLOW
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "1"
+        cost_text_text: |
+            Train: 100M
+        rusted_text_text: |
+            Maintenance:
+            Phase 3: 50M
+            Phase 4-5: 100M
+            Phase D: 150M
+        rusted_text_y: 6
+        rust_bar_box_y: 50
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: |
+                MHE
+            cost_text:
+              text:
+          "2":
+
+    2T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "2"
+        cost_text_text: |
+            Train: 250M
+            Machine: 150M
+        rusted_text_text: |
+            Maintenance:
+            Phase 4-5: 100M
+            Phase D: 150M
+        rusted_text_y: 11
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (10)]"
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "3"
+        cost_text_text: |
+            Train: 450M
+            Machine: 300M
+        rusted_text_text: |
+            Maintenance:
+            Phase D: 150M
+        rusted_text_y: 16
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (7)]"
+
+    4T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "4"
+        cost_text_text: |
+            Train: 500M
+            Machine: 750M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (3)]"
+
+    5T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "5"
+        cost_text_text: |
+            Train: 1200M
+            Machine: 800M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (14)]"
+
+    DT:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "D"
+        cost_text_text: |
+            Train: 250M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (7)]"
+
     P1:
       _:
         asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
@@ -1210,7 +1312,7 @@ train:
         size: 128
         y: 40
       model:
-        index:  "$[index_of (1)]"
+        index: "$[index_of (1)]"
 
     P2:
       _:
@@ -1223,7 +1325,7 @@ train:
         size: 128
         y: 40
       model:
-        index:  "$[index_of (1)]"
+        index: "$[index_of (1)]"
 
     P3:
       _:
@@ -1236,7 +1338,7 @@ train:
         size: 128
         y: 40
       model:
-        index:  "$[index_of (1)]"
+        index: "$[index_of (1)]"
 
     P4:
       _:
@@ -1249,7 +1351,7 @@ train:
         size: 128
         y: 40
       model:
-        index:  "$[index_of (1)]"
+        index: "$[index_of (1)]"
 
     P5:
       _:
@@ -1262,4 +1364,4 @@ train:
         size: 128
         y: 40
       model:
-        index:  "$[index_of (1)]"
+        index: "$[index_of (1)]"
