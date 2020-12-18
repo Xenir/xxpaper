@@ -100,6 +100,7 @@ company:
       type_bar_box_fill: ${colour/wikipedia/golden_yellow}
       share_pct_text_text: 20/10%
       share_pct_text_x: 150
+      share_pct_text_fill: ${colour/xxp/BLACK}
       share_num_text_text: 1 Share
       share_num_text_x: 75
     index:
@@ -408,7 +409,7 @@ company:
       share:
         _:
           share_pct_text_text: 50/20/10%
-          share_pct_text_x: 140
+          share_pct_text_x: 140.5
 
     HW:
       _:
@@ -432,7 +433,7 @@ company:
       share:
         _:
           share_pct_text_text: 50/20/10%
-          share_pct_text_x: 140
+          share_pct_text_x: 140.5
 
     MO:
       _:
@@ -456,7 +457,7 @@ company:
       share:
         _:
           share_pct_text_text: 50/20/10%
-          share_pct_text_x: 140
+          share_pct_text_x: 140.7
 
     SB:
       _:
@@ -480,7 +481,7 @@ company:
       share:
         _:
           share_pct_text_text: 50/20/10%
-          share_pct_text_x: 140
+          share_pct_text_x: 140.5
 
     UN:
       _:
@@ -504,7 +505,7 @@ company:
       share:
         _:
           share_pct_text_text: 50/20/10%
-          share_pct_text_x: 140
+          share_pct_text_x: 140.5
 
     MHE:
       _:
@@ -542,7 +543,7 @@ company:
       share:
         _:
           share_pct_text_text: 10%
-          share_pct_text_x: 150
+          share_pct_text_x: 159.3
           side_bar_lsplit_box_suppress: True
           side_bar_rsplit_box_suppress: True
           type_bar_box_suppress: True
