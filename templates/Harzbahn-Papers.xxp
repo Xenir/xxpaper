@@ -91,6 +91,8 @@ company:
       type_text_text: "2 Share"
       type_circle_fill: ${colour/wikipedia/pink}
       long_name_text_x: 130
+      outside_box_radius: 0
+      title_box_radius: 0
 
   share:
     share_num_text:
@@ -461,6 +463,7 @@ company:
       charter:
         index:
       minor_charter:
+        outside_box_x: 150
         index: $[index_of (1)]
       token:
         _:
@@ -542,6 +545,8 @@ company:
         _:
           type_text_text: "10 Share"
           type_circle_fill: ${colour/wikipedia/wisteria}
+          outside_box_radius: 30
+          title_box_radius: 30
           comment_text_text: |
               Initial stock value: 120
               Starts with a size 1 standard train.
@@ -605,6 +610,23 @@ marker:
     typeface: ${DEFAULT/typeface}
 
   index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/x11/gold}
+      middle_circle:
+        fill: ${colour/x11/limegreen}
+      inner_circle:
+        fill: ${colour/x11/sienna3}
+
     HW50:
       token:
         _:
