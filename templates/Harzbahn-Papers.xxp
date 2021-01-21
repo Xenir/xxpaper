@@ -87,12 +87,18 @@ company:
     _:
       long_name_text_typeface: ${DEFAULT/typeface}
       label_text_text:
-      comment_text_text:
       type_text_text: "2 Share"
       type_circle_fill: ${colour/wikipedia/pink}
       long_name_text_x: 130
       outside_box_radius: 0
       title_box_radius: 0
+      comment_text_text: |
+        NOTE: Generated only to be used
+        as a part of a bigger company charter
+        (created outside xxp).
+        May be safely removed from the
+        xxp file for printing.
+      comment_text_fill: ${colour/x11/red}
 
   share:
     share_num_text:
@@ -399,6 +405,10 @@ company:
       charter:
         index:
       narrow_charter:
+        _:
+          comment_text_text: | 
+            Has a built-in local train with no maintenance costs.
+            The local train services Quedlinburg (D20) only.
         index: $[index_of (1)]
       token:
         _:
@@ -663,14 +673,13 @@ company:
           title_box_radius: 30
           comment_text_text: |
               Initial stock value: 120
-              Starts with a size 1 standard train.
               Always operates last in every OR.
-              Pays out a dividend of 100x size of the train.
-              Does not pay maintenance costs.
+              Dividend: 100x size of the train. No maintenance costs.
               In the last OR of every set, acquires a new train
               (for free) from the bank, replacing the old one.
-              After MHE has acquired a 5T, it stops buying trains
-              and the share value does not change anymore.
+              After MHE has acquired a 5T, the share value
+              does not change anymore.
+          comment_text_fill: ${colour/xxp/BLACK}
         index: $[index_of (1)]
       token:
         _:
