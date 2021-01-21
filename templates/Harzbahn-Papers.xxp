@@ -146,6 +146,23 @@ company:
       "9":
       "10":
 
+  concession:
+    _:
+      cost_text_text: "Min. price: 100M"
+      cost_text_typeface: ${DEFAULT/typeface}
+      closes_text_typeface: ${DEFAULT/typeface}
+      bid_text_text: ""
+      long_name_text_size: 12
+      long_name_text_x: 86
+      long_name_text_y: 78
+      long_name_text_typeface: ${DEFAULT/typeface}
+      bottom_bar_box_y: 13
+      power_text_h_center: 1
+      power_text_x_inset: 4
+      power_text_size: 8
+      token_embed_x_inset: 130
+      token_embed_y_inset: 30
+
   index:
     GHE:
       _:
@@ -164,6 +181,20 @@ company:
         token_5_circle_fill: ${colour/wikipedia/wisteria}
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_8_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 1"
+          long_name_text_text: |
+              GHE Concession
+          power_text_text: |
+              Concession route: F20-H18
+              Concession route cost: 150M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -198,6 +229,20 @@ company:
         token_4_circle_fill: ${colour/wikipedia/wisteria}
         token_5_circle_fill: ${colour/wikipedia/wisteria}
         token_6_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 1"
+          long_name_text_text: |
+              HBE Concession
+          power_text_text: |
+              Concession route: A19-C15
+              Concession route cost: 0M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -237,6 +282,20 @@ company:
         token_8_text_text: F4
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              KEZ Concession
+          power_text_text: |
+              Concession route: F4-H4
+              Concession route cost: 100M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -273,6 +332,20 @@ company:
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_8_circle_fill: ${colour/wikipedia/wisteria}
         token_9_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              NWE Concession
+          power_text_text: |
+              Concession route: A9-F6-I7
+              Concession route cost: 500M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -310,6 +383,19 @@ company:
         token_8_text_text: D20
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_9_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 4"
+          long_name_text_text: |
+              QLB Concession
+          power_text_text: |
+              No concession route.
+
+              Has a built-in compulsory local train.
+
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -345,6 +431,20 @@ company:
         token_8_text_text: D4
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              SHE Concession
+          power_text_text: |
+              Concession route: D4-I12
+              Concession route cost: 300M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
@@ -378,6 +478,20 @@ company:
         token_8_text_text: A9
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 4 (3)"
+          long_name_text_text: |
+              WBE Concession
+          power_text_text: |
+              Concession route: A9-C15
+              Concession route cost: 0M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
       charter:
         index:
       narrow_charter:
