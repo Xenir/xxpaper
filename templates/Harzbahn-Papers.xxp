@@ -92,13 +92,7 @@ company:
       long_name_text_x: 130
       outside_box_radius: 0
       title_box_radius: 0
-      comment_text_text: |
-        NOTE: Generated only to be used
-        as a part of a bigger company charter
-        (created outside xxp).
-        May be safely removed from the
-        xxp file for printing.
-      comment_text_fill: ${colour/x11/red}
+      comment_text_text:
 
   share:
     share_num_text:
@@ -562,6 +556,10 @@ company:
       charter:
         index:
       minor_charter:
+        _:
+          comment_text_text: |
+            Can only purchase Vor-Harzher mines.
+          comment_text_size: 10
         index: $[index_of (1)]
       token:
         _:
