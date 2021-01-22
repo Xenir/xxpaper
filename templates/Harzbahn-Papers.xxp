@@ -397,7 +397,8 @@ company:
           power_text_text: |
               No concession route.
 
-              Has a built-in compulsory local train.
+              Has a built-in
+              compulsory local train.
 
               If not used by the end of SR,
               discarded without compensation.
