@@ -1,6 +1,7 @@
 train:
   long_name_text:
-      typeface: ${DEFAULT/typeface}
+    typeface: ${DEFAULT/typeface}
+    size: 52
 
   index:
     A1-2,9T:
@@ -10,9 +11,6 @@ train:
         rust_bar_box_fill_p: BLUE
         rusted_text_text: "Rusted by C"
         cost_text_text_p: £200
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index:
           "1":
@@ -32,9 +30,6 @@ train:
         rust_bar_box_fill_p: BLUE
         rusted_text_text: "Rusted by C"
         cost_text_text_p: £250
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index:
           "1":
@@ -59,9 +54,6 @@ train:
         cost_text_text_p: £100
         top_note_text_text: "Surplus"
         note_text_text: "Runs at least twice"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index:
           "1":
@@ -80,9 +72,6 @@ train:
         cost_text_text_p: £270
         top_left_note_text_text: "A10"
         top_left_note_text_x: 12
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -98,9 +87,6 @@ train:
           may be upgraded
           to 3+2 for £130
         top_left_note_text_text: "B1"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -114,9 +100,6 @@ train:
         note_text_text: "Upgraded from B1"
         top_left_note_text_text: "B1u"
         top_left_note_text_x: 12
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -128,14 +111,11 @@ train:
         rusted_text_text: "Rusts after 2 runs"
         cost_text_text_p: £300
         note_text_text: |
-          When rusts, the
+          When rusted, the
           owner gets
           £150 rebate
         top_note_text_text: "Surplus"
         top_left_note_text_text: "B2"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -148,9 +128,6 @@ train:
         cost_text_text_p: £250
         top_left_note_text_text: "B3"
         note_text_text: "Runs at least twice"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -163,9 +140,6 @@ train:
         cost_text_text_p: £150
         top_left_note_text_text: "B4"
         top_note_text_text: "Surplus"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -176,9 +150,6 @@ train:
         rust_bar_box_fill_p: RED
         rusted_text_text: "Rusted by E"
         cost_text_text_p: £300
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index:
           "1":
@@ -200,9 +171,6 @@ train:
         rusted_text_text: "Rusted by F"
         cost_text_text_p: £300
         top_left_note_text_text: "B7"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -214,9 +182,6 @@ train:
         rusted_text_text: "Rusted by F"
         cost_text_text_p: £300
         top_left_note_text_text: "B8"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -232,9 +197,6 @@ train:
           First run for £0
           Fell into the sea
           on delivery
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -247,9 +209,6 @@ train:
         cost_text_text_p: £330
         top_left_note_text_text: "B11"
         top_left_note_text_x: 12
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -261,9 +220,6 @@ train:
         rusted_text_text: "Rusted by G"
         cost_text_text_p: £400
         top_left_note_text_text: "C1"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -275,9 +231,6 @@ train:
         rusted_text_text: "Rusted by F"
         cost_text_text_p: £350
         top_left_note_text_text: "C2"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index:
           "1":
@@ -305,9 +258,6 @@ train:
         cost_text_text_p: £150
         top_left_note_text_text: "C3"
         top_note_text_text: "Surplus"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -320,9 +270,6 @@ train:
         cost_text_text_p: £200
         top_left_note_text_text: "C6"
         top_note_text_text: "Surplus"
-      long_name_text:
-        typeface: ${DEFAULT/typeface}
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -335,8 +282,6 @@ train:
         rusted_text_text: "Rusted by G"
         top_left_note_text_text: "D"
         top_left_note_text_x: 8
-      long_name_text:
-        size: 42
       model:
         index: $[index_of (2)]
 
@@ -349,8 +294,6 @@ train:
         rusted_text_text: Permanent
         top_left_note_text_text: "E"
         top_left_note_text_x: 8
-      long_name_text:
-        size: 42
       model:
         index: $[index_of (2)]
 
@@ -363,8 +306,6 @@ train:
         rusted_text_text: Permanent
         top_left_note_text_text: "F"
         top_left_note_text_x: 8
-      long_name_text:
-        size: 42
       model:
         index:
           "1":
@@ -381,8 +322,6 @@ train:
         rusted_text_text: Permanent
         top_left_note_text_text: "G"
         top_left_note_text_x: 8
-      long_name_text:
-        size: 42
       model:
         index: $[index_of (1)]
 
@@ -395,7 +334,5 @@ train:
         rusted_text_text: Permanent
         top_left_note_text_text: "H"
         top_left_note_text_x: 8
-      long_name_text:
-        size: 42
       model:
         index: $[index_of (12)]
