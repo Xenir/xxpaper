@@ -178,6 +178,9 @@ company:
         token_3_text_text: ""
         token_4_text_text: H18
         token_6_text_text: F20
+        token_5_inside_text_text: "10 Share"
+        token_7_inside_text_text: "10 Share"
+        token_8_inside_text_text: "10 Share"
         token_5_circle_fill: ${colour/wikipedia/wisteria}
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_8_circle_fill: ${colour/wikipedia/wisteria}
@@ -225,6 +228,10 @@ company:
         _related_fill: ${colour/wikipedia/pink_orange}
         token_1_text_text: C15
         token_2_text_text: A19
+        token_3_inside_text_text: "10 Share"
+        token_4_inside_text_text: "10 Share"
+        token_5_inside_text_text: "10 Share"
+        token_6_inside_text_text: "10 Share"
         token_3_circle_fill: ${colour/wikipedia/wisteria}
         token_4_circle_fill: ${colour/wikipedia/wisteria}
         token_5_circle_fill: ${colour/wikipedia/wisteria}
@@ -280,6 +287,8 @@ company:
         token_6_text_text: ""
         token_7_text_text: H4
         token_8_text_text: F4
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
       concession:
@@ -329,6 +338,9 @@ company:
         token_4_text_text: I7
         token_6_text_text: A9
         token_5_text_text: F6
+        token_7_inside_text_text: "10 Share"
+        token_8_inside_text_text: "10 Share"
+        token_9_inside_text_text: "10 Share"
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_8_circle_fill: ${colour/wikipedia/wisteria}
         token_9_circle_fill: ${colour/wikipedia/wisteria}
@@ -381,6 +393,8 @@ company:
         token_5_text_text: ""
         token_6_text_text: ""
         token_8_text_text: D20
+        token_7_inside_text_text: "10 Share"
+        token_9_inside_text_text: "10 Share"
         token_7_circle_fill: ${colour/wikipedia/wisteria}
         token_9_circle_fill: ${colour/wikipedia/wisteria}
       concession:
@@ -434,6 +448,8 @@ company:
         token_6_text_text: ""
         token_7_text_text: H2
         token_8_text_text: D4
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
       concession:
@@ -481,6 +497,8 @@ company:
         token_6_text_text: ""
         token_7_text_text: C15
         token_8_text_text: A9
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
         token_9_circle_fill: ${colour/wikipedia/wisteria}
         token_10_circle_fill: ${colour/wikipedia/wisteria}
       concession:

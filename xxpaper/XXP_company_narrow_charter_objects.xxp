@@ -31,6 +31,18 @@ TEMPLATE_narrow_charter_default:
   - token_10_text
   - token_11_text
   - token_12_text
+  - token_1_inside_text
+  - token_2_inside_text
+  - token_3_inside_text
+  - token_4_inside_text
+  - token_5_inside_text
+  - token_6_inside_text
+  - token_7_inside_text
+  - token_8_inside_text
+  - token_9_inside_text
+  - token_10_inside_text
+  - token_11_inside_text
+  - token_12_inside_text
   - type_circle
   - type_text
 
@@ -340,3 +352,123 @@ type_text:
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${type_circle/fill})]
+
+token_1_inside_text:
+  suppress: $["${token_1_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_1_circle/x}
+  y: $[${token_1_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_1_circle/fill})]
+
+token_2_inside_text:
+  suppress: $["${token_2_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_2_circle/x}
+  y: $[${token_2_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_2_circle/fill})]
+
+token_3_inside_text:
+  suppress: $["${token_3_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_3_circle/x}
+  y: $[${token_3_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_3_circle/fill})]
+
+token_4_inside_text:
+  suppress: $["${token_4_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_4_circle/x}
+  y: $[${token_4_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_4_circle/fill})]
+
+token_5_inside_text:
+  suppress: $["${token_5_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_5_circle/x}
+  y: $[${token_5_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_5_circle/fill})]
+
+token_6_inside_text:
+  suppress: $["${token_6_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_6_circle/x}
+  y: $[${token_6_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_6_circle/fill})]
+
+token_7_inside_text:
+  suppress: $["${token_7_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_7_circle/x}
+  y: $[${token_7_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_7_circle/fill})]
+
+token_8_inside_text:
+  suppress: $["${token_8_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_8_circle/x}
+  y: $[${token_8_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_8_circle/fill})]
+
+token_9_inside_text:
+  suppress: $["${token_9_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_9_circle/x}
+  y: $[${token_9_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_9_circle/fill})]
+
+token_10_inside_text:
+  suppress: $["${token_10_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_10_circle/x}
+  y: $[${token_10_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_10_circle/fill})]
+
+token_11_inside_text:
+  suppress: $["${token_11_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_11_circle/x}
+  y: $[${token_11_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_11_circle/fill})]
+
+token_12_inside_text:
+  suppress: $["${token_11_inside_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  x: ${token_12_circle/x}
+  y: $[${token_12_circle/y} - 3]
+  size: 8
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${token_12_circle/fill})]
