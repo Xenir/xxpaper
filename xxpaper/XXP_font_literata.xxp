@@ -3,12 +3,12 @@ xxpaper:
     - Literata-Medium.ttf
     - Literata-Bold.ttf
     - Literata-BoldItalic.ttf
-    - Literata-MediumItalic.ttf
+    - Literata-Italic.ttf
 
 DEFAULT:
   typeface: "Literata-Medium"
   typeface_bold: "Literata-Bold"
   typeface_bold_italic: "Literata-BoldItalic"
   typeface_bold_oblique: ${DEFAULT/typeface_bold_italic}
-  typeface_italic: "Literata-MediumItalic"
+  typeface_italic: "Literata-Italic"
   typeface_oblique: ${DEFAULT/typeface_italic}
