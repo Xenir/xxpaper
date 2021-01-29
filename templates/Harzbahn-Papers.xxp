@@ -604,7 +604,6 @@ company:
       charter:
         index:
       minor_charter:
-        outside_box_x: 150
         index: $[index_of (1)]
       token:
         _:
