@@ -13,6 +13,8 @@ TEMPLATE_minor_charter_default:
   - token_1_text
   - token_2_text
   - token_3_text
+  - type_circle
+  - type_text
 
 outside_box:
   x_inset: 10
@@ -140,3 +142,22 @@ token_3_text:
   h_center: 0
   v_center: 0
   fill: $[black_or_white (${token_3_circle/fill})]
+
+type_circle:
+  suppress: $["${type_text/text}" == ""]
+  x: 220
+  y: 192.67
+  radius: 18
+  width: 0.5
+  stroke: ${colour/xxp/BLACK}
+  fill:  ${colour/xxp/WHITE}
+
+type_text:
+  suppress: $["${type_text/text}" == ""]
+  typeface: ${DEFAULT/typeface}
+  size: 8
+  x: 220
+  y: 189.67
+  h_center: 0
+  v_center: 0
+  fill: $[black_or_white (${type_circle/fill})]

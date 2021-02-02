@@ -209,6 +209,22 @@ TEMPLATE_wedges_embed:
   - name_stripe_box
   - short_name_text
 
+TEMPLATE_two_halves_two_lines:
+  - token_interior_box
+  - top_half_box
+  - bottom_half_box
+  - name_stripe_box
+  - upper_text
+  - lower_text
+
+TEMPLATE_two_halves_two_lines_embed:
+  - token_interior_box
+  - top_half_box
+  - bottom_half_box
+  - name_stripe_box
+  - upper_text
+  - lower_text
+
 ul_quarter_box:
   x: $[${token_interior_box/x} / 2.0]
   y: $[${token_interior_box/y} / 2]
@@ -1013,3 +1029,25 @@ cutline_circle:
   radius: 18
   width: ${DEFAULT/cutline_width}
   stroke: ${colour/xxp/BLACK}
+
+upper_text:
+  typeface: ${DEFAULT/typeface_bold}
+  x: $[${token_interior_box/x} / 2]
+  y: $[(${token_interior_box/y} / 2) + (${upper_text/size} / 2)]
+  h_center: 0
+  v_center: 0
+  x_inset: 0
+  y_inset: 0
+  size: 11
+  fill: $[black_or_white (${name_stripe_box/fill})]
+
+lower_text:
+  typeface: ${DEFAULT/typeface_bold}
+  x: $[${token_interior_box/x} / 2]
+  y: $[(${token_interior_box/y} / 2) - (${lower_text/size})]
+  h_center: 0
+  v_center: 0
+  x_inset: 0
+  y_inset: 0
+  size: 11
+  fill: $[black_or_white (${name_stripe_box/fill})]

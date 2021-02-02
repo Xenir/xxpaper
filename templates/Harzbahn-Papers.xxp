@@ -1,0 +1,1571 @@
+company:
+  token:
+    short_name_text:
+      typeface: ${DEFAULT/typeface}
+
+  narrow_charter:
+    _:
+      long_name_text_typeface: ${DEFAULT/typeface}
+      comment_text_text: ""
+      label_text_suppress: True
+      token_12_circle_x: 42
+      token_12_circle_y: 134.505
+      token_10_circle_x: $[${token_12_circle/x} + 46]
+      token_10_circle_y: ${token_12_circle/y}
+      token_8_circle_x: $[${token_10_circle/x} + 46]
+      token_8_circle_y: ${token_12_circle/y}
+      token_6_circle_x: $[${token_8_circle/x} + 46]
+      token_6_circle_y: ${token_12_circle/y}
+      token_4_circle_x: $[${token_6_circle/x} + 46]
+      token_4_circle_y: ${token_12_circle/y}
+      token_2_circle_x: $[${token_4_circle/x} + 46]
+      token_2_circle_y: ${token_12_circle/y}
+      token_11_circle_x: ${token_12_circle/x}
+      token_11_circle_y: $[${token_12_circle/y} - 56.505]
+      token_9_circle_x: ${token_10_circle/x}
+      token_9_circle_y: $[${token_10_circle/y} - 56.505]
+      token_7_circle_x: ${token_8_circle/x}
+      token_7_circle_y: $[${token_8_circle/y} - 56.505]
+      token_5_circle_x: ${token_6_circle/x}
+      token_5_circle_y: $[${token_6_circle/y} - 56.505]
+      token_3_circle_x: ${token_4_circle/x}
+      token_3_circle_y: $[${token_4_circle/y} - 56.505]
+      token_1_circle_x: ${token_2_circle/x}
+      token_1_circle_y: $[${token_2_circle/y} - 56.505]
+      token_12_text_x: ${token_12_circle/x}
+      token_12_text_y: $[${token_12_circle/y} - 29.505]
+      token_10_text_x: ${token_10_circle/x}
+      token_10_text_y: $[${token_10_circle/y} - 29.505]
+      token_8_text_x: ${token_8_circle/x}
+      token_8_text_y: $[${token_8_circle/y} - 29.505]
+      token_6_text_x: ${token_6_circle/x}
+      token_6_text_y: $[${token_6_circle/y} - 29.505]
+      token_4_text_x: ${token_4_circle/x}
+      token_4_text_y: $[${token_4_circle/y} - 29.505]
+      token_2_text_x: ${token_2_circle/x}
+      token_2_text_y: $[${token_2_circle/y} - 29.505]
+      token_11_text_x: ${token_11_circle/x}
+      token_11_text_y: $[${token_11_circle/y} - 29.505]
+      token_9_text_x: ${token_9_circle/x}
+      token_9_text_y: $[${token_9_circle/y} - 29.505]
+      token_7_text_x: ${token_7_circle/x}
+      token_7_text_y: $[${token_7_circle/y} - 29.505]
+      token_5_text_x: ${token_5_circle/x}
+      token_5_text_y: $[${token_5_circle/y} - 29.505]
+      token_3_text_x: ${token_3_circle/x}
+      token_3_text_y: $[${token_3_circle/y} - 29.505]
+      token_1_text_x: ${token_1_circle/x}
+      token_1_text_y: $[${token_1_circle/y} - 29.505]
+      token_1_text_size: 10
+      token_2_text_size: 10
+      token_3_text_size: 10
+      token_4_text_size: 10
+      token_5_text_size: 10
+      token_6_text_size: 10
+      token_7_text_size: 10
+      token_8_text_size: 10
+      token_9_text_size: 10
+      token_10_text_size: 10
+      token_11_text_size: 10
+      token_12_text_size: 10
+      token_1_text_text: 100/50M
+      token_2_text_text: 100/50M
+      token_3_text_text: 100/50M
+      token_4_text_text: 100/50M
+      token_5_text_text: 100/50M
+      token_6_text_text: 100/50M
+      token_7_text_text: 100/50M
+      token_8_text_text: 100/50M
+      token_9_text_text: 100/50M
+      token_10_text_text: 100/50M
+      token_11_text_text: 100/50M
+      token_12_text_text: 100/50M
+      type_text_text: "5 Share"
+      type_circle_fill: ${colour/wikipedia/robin_egg_blue}
+
+  minor_charter:
+    _:
+      long_name_text_typeface: ${DEFAULT/typeface}
+      label_text_text:
+      type_text_text: "2 Share"
+      type_circle_fill: ${colour/wikipedia/pink}
+      long_name_text_x: 130
+      outside_box_radius: 0
+      title_box_radius: 0
+      comment_text_text:
+
+  share:
+    share_num_text:
+        typeface: ${DEFAULT/typeface}
+    share_pct_text:
+        typeface: ${DEFAULT/typeface}
+    share_desc_text:
+        typeface: ${DEFAULT/typeface}
+    comment_text:
+        typeface: ${DEFAULT/typeface}
+    long_name_text:
+        typeface: ${DEFAULT/typeface}
+    _:
+      side_bar_lsplit_box_suppress: True
+      side_bar_rsplit_box_suppress: True
+      type_bar_box_fill: ${colour/wikipedia/golden_yellow}
+      share_pct_text_text: 20/10%
+      share_pct_text_x: 150
+      share_pct_text_fill: ${colour/xxp/BLACK}
+      share_num_text_text: 1 Share
+      share_num_text_x: 75
+    index:
+      "1":
+        share_pct_text:
+          text:
+            "20/10%"
+        share_num_text:
+          text:
+            "1 Share"
+        share_desc_text:
+          text:
+        comment_text:
+          text:
+            President
+          size: 11
+          y: 24
+          typeface: ${DEFAULT/typeface}
+        token_1_embed:
+          suppress: False
+        token_2a_embed:
+          suppress: True
+        token_2b_embed:
+          suppress: True
+      "2":
+      "3":
+      "4":
+      "5":
+      "6":
+      "7":
+      "8":
+      "9":
+      "10":
+
+  concession:
+    _:
+      cost_text_text: "Min. price: 100M"
+      cost_text_typeface: ${DEFAULT/typeface}
+      closes_text_typeface: ${DEFAULT/typeface}
+      bid_text_text: ""
+      long_name_text_size: 12
+      long_name_text_x: 86
+      long_name_text_y: 78
+      long_name_text_typeface: ${DEFAULT/typeface}
+      bottom_bar_box_y: 13
+      power_text_h_center: 1
+      power_text_x_inset: 4
+      power_text_size: 8
+      token_embed_x_inset: 130
+      token_embed_y_inset: 30
+
+  index:
+    GHE:
+      _:
+        long_name_text_text: |
+          Gernrode-Harzgeroder Eisenbahn
+        short_name_text_text: GHE
+        _major_fill: ${colour/wikipedia/light_sky_blue}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/powder_blue}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: H18
+        token_6_text_text: F20
+        token_5_inside_text_text: "10 Share"
+        token_7_inside_text_text: "10 Share"
+        token_8_inside_text_text: "10 Share"
+        token_5_circle_fill: ${colour/wikipedia/wisteria}
+        token_7_circle_fill: ${colour/wikipedia/wisteria}
+        token_8_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 1"
+          long_name_text_text: |
+              GHE Concession
+          power_text_text: |
+              Concession route: F20-H18
+              Concession route cost: 150M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (11)]
+      share:
+        long_name_text:
+          text: |
+            Gernrode
+            -Harzgeroder
+            Eisenbahn
+
+    HBE:
+      _:
+        long_name_text_text: |
+          Halberstadt-Blankenburger Eisenbahn
+        short_name_text_text: HBE
+        _major_fill: ${colour/wikipedia/amber_sae_ece}
+        _minor_fill: ${colour/x11/white}
+        _related_fill: ${colour/wikipedia/pink_orange}
+        token_1_text_text: C15
+        token_2_text_text: A19
+        token_3_inside_text_text: "10 Share"
+        token_4_inside_text_text: "10 Share"
+        token_5_inside_text_text: "10 Share"
+        token_6_inside_text_text: "10 Share"
+        token_3_circle_fill: ${colour/wikipedia/wisteria}
+        token_4_circle_fill: ${colour/wikipedia/wisteria}
+        token_5_circle_fill: ${colour/wikipedia/wisteria}
+        token_6_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 1"
+          long_name_text_text: |
+              HBE Concession
+          power_text_text: |
+              Concession route: A19-C15
+              Concession route cost: 0M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+          outer_circle_fill: ${_/_major_fill}
+          middle_circle_fill: ${_/_minor_fill}
+          inner_circle_fill: ${_/_major_fill}
+          inner_circle_radius: 9
+        ELEMENTS: ${TEMPLATE_bullseye/.}
+        EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
+        index: $[index_of (14)]
+      share:
+        long_name_text:
+          text: |
+            Halberstadt
+            -Blankenburger
+            Eisenbahn
+
+    KEZ:
+      _:
+        long_name_text_text: |
+          Kleinbahn Ellrich-Zorge
+        short_name_text_text: KEZ
+        _major_fill: ${colour/xxp/BLACK}
+        _minor_fill: ${colour/xxp/WHITE}
+        _related_fill: ${colour/x11/gray43}
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_7_text_text: H4
+        token_8_text_text: F4
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+        token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              KEZ Concession
+          power_text_text: |
+              Concession route: F4-H4
+              Concession route cost: 100M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (8)]
+      share:
+        long_name_text:
+          text: |
+            Kleinbahn
+            Ellrich-Zorge
+        share_pct_text:
+          fill: ${colour/xxp/BLACK}
+
+    NWE:
+      _:
+        long_name_text_text: |
+          Nordhausen-Wernigeroder Eisenbahn
+        short_name_text_text: NWE
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/D_GREEN}
+        _related_fill: ${colour/hollasch/cinnabar_green}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: I7
+        token_6_text_text: A9
+        token_5_text_text: F6
+        token_7_inside_text_text: "10 Share"
+        token_8_inside_text_text: "10 Share"
+        token_9_inside_text_text: "10 Share"
+        token_7_circle_fill: ${colour/wikipedia/wisteria}
+        token_8_circle_fill: ${colour/wikipedia/wisteria}
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              NWE Concession
+          power_text_text: |
+              Concession route: A9-F6-I7
+              Concession route cost: 500M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (11)]
+      share:
+        long_name_text:
+          text: |
+            Nordhausen
+            -Wernigeroder
+            Eisenbahn
+
+    QLB:
+      _:
+        long_name_text_text: |
+          Quedlinburger Lokalbahn
+        short_name_text_text: QLB
+        _major_fill: ${colour/x11/red}
+        _minor_fill: ${colour/xxp/BLACK}
+        _related_fill: ${colour/hollasch/tomato}
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_8_text_text: D20
+        token_7_inside_text_text: "10 Share"
+        token_9_inside_text_text: "10 Share"
+        token_7_circle_fill: ${colour/wikipedia/wisteria}
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 4"
+          long_name_text_text: |
+              QLB Concession
+          power_text_text: |
+              No concession route.
+
+              Has a built-in
+              compulsory local train.
+
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        _:
+          comment_text_text: | 
+            Has a built-in local train with no maintenance costs.
+            The local train services Quedlinburg (D20) only.
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (8)]
+      share:
+        long_name_text:
+          text: |
+            Quedlinburger
+            Lokalbahn
+
+    SHE:
+      _:
+        long_name_text_text: |
+          Südharzeisenbahn
+        short_name_text_text: SHE
+        _major_fill: ${colour/wikipedia/canary_yellow}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/wikipedia/icterine}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_7_text_text: H2
+        token_8_text_text: D4
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+        token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 3 (2)"
+          long_name_text_text: |
+              SHE Concession
+          power_text_text: |
+              Concession route: D4-I12
+              Concession route cost: 300M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (8)]
+
+    WBE:
+      _:
+        long_name_text_text: |
+          Wernigerode-Blankenburger Eisenbahn
+        short_name_text_text: WBE
+        _major_fill: ${colour/hollasch/brown_ochre}
+        _minor_fill: ${_/_major_fill}
+        _related_fill: ${colour/hollasch/brick}
+        name_stripe_box_suppress: True
+        token_1_text_text: ""
+        token_2_text_text: ""
+        token_3_text_text: ""
+        token_4_text_text: ""
+        token_5_text_text: ""
+        token_6_text_text: ""
+        token_7_text_text: C15
+        token_8_text_text: A9
+        token_9_inside_text_text: "10 Share"
+        token_10_inside_text_text: "10 Share"
+        token_9_circle_fill: ${colour/wikipedia/wisteria}
+        token_10_circle_fill: ${colour/wikipedia/wisteria}
+      concession:
+        _:
+          closes_text_text: "Activated in Phase 4 (3)"
+          long_name_text_text: |
+              WBE Concession
+          power_text_text: |
+              Concession route: A9-C15
+              Concession route cost: 0M
+
+              Presidency cannot change until
+              the compulsory train is bought.
+              If not used by the end of SR,
+              discarded without compensation.
+        index: "$[index_of (1)]"
+      charter:
+        index:
+      narrow_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -1
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (8)]
+      share:
+        long_name_text:
+          text: |
+            Wernigerode
+            -Blankenburger
+            Eisenbahn
+
+    CO:
+      _:
+        long_name_text_text: |
+          Concordia
+        short_name_text_text: CO
+        _major_fill_1: ${colour/wikipedia/pale_green}
+        _major_fill_2: ${colour/wikipedia/msu_green}
+        _minor_fill_1: ${colour/wikipedia/msu_green}
+        _minor_fill_2: ${colour/wikipedia/pale_green}
+        _related_fill: ${colour/wikipedia/mountain_meadow}
+      charter:
+        index:
+      minor_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140.5
+
+    HW:
+      _:
+        long_name_text_text: |
+          Harzer Werte
+        short_name_text_text: HW
+        _major_fill_1: ${colour/x11/gold}
+        _major_fill_2: ${colour/x11/darkgoldenrod2}
+        _minor_fill_1: ${colour/x11/darkgoldenrod2}
+        _minor_fill_2: ${colour/x11/gold}
+        _related_fill: ${colour/wikipedia/pastel_orange}
+      charter:
+        index:
+      minor_charter:
+        _:
+          comment_text_text: |
+            Can only purchase Vor-Harzher mines.
+          comment_text_size: 10
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140.5
+
+    MO:
+      _:
+        long_name_text_text: |
+          Montania
+        short_name_text_text: MO
+        _major_fill_1: ${colour/wikipedia/french_lime}
+        _major_fill_2: ${colour/wikipedia/limerick}
+        _minor_fill_1: ${colour/wikipedia/limerick}
+        _minor_fill_2: ${colour/wikipedia/french_lime}
+        _related_fill: ${colour/x11/darkolivegreen2}
+      charter:
+        index:
+      minor_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140.7
+
+    SB:
+      _:
+        long_name_text_text: |
+          Schachtbau
+        short_name_text_text: SB
+        _major_fill_1: ${colour/x11/lightpink}
+        _minor_fill_1: ${colour/x11/salmon}
+        _major_fill_2: ${colour/x11/salmon}
+        _minor_fill_2: ${colour/x11/lightpink}
+        _related_fill: ${colour/x11/lightcoral}
+      charter:
+        index:
+      minor_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140.5
+
+    UN:
+      _:
+        long_name_text_text: |
+          Union
+        short_name_text_text: UN
+        _major_fill_1: ${colour/wikipedia/rich_lavender}
+        _minor_fill_1: ${colour/wikipedia/royal_purple}
+        _major_fill_2: ${colour/wikipedia/royal_purple}
+        _minor_fill_2: ${colour/wikipedia/rich_lavender}
+        _related_fill: ${colour/wikipedia/plum_web}
+      charter:
+        index:
+      minor_charter:
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_chequer/.}
+        EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 50/20/10%
+          share_pct_text_x: 140.5
+
+    MHE:
+      _:
+        long_name_text_text: |
+          Magdeburg
+          -Halberstädter
+          Eisenbahn
+        short_name_text_text: MHE
+        _major_fill: ${colour/xxp/WHITE}
+        _minor_fill: ${colour/x11/gray55}
+        _related_fill: ${colour/x11/gray88}
+      charter:
+        index:
+      minor_charter:
+        _:
+          type_text_text: "10 Share"
+          type_circle_fill: ${colour/wikipedia/wisteria}
+          outside_box_radius: 30
+          title_box_radius: 30
+          comment_text_text: |
+              Initial stock value: 120
+              Always operates last in every OR.
+              Dividend: 100x size of the train. No maintenance costs.
+              In the last OR of every set, acquires a new train
+              (for free) from the bank, replacing the old one.
+              After MHE has acquired a 5T, the share value
+              does not change anymore.
+          comment_text_fill: ${colour/xxp/BLACK}
+        index: $[index_of (1)]
+      token:
+        _:
+          short_name_text_size: 8
+        ELEMENTS: ${TEMPLATE_cross/.}
+        EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
+        index: $[index_of (2)]
+      share:
+        _:
+          share_pct_text_text: 10%
+          share_pct_text_x: 159.3
+          side_bar_lsplit_box_suppress: True
+          side_bar_rsplit_box_suppress: True
+          type_bar_box_suppress: True
+          share_num_text_text: 1 Share
+          share_num_text_x: 75
+        index:
+          "1":
+            share_pct_text:
+              text:
+                "10%"
+            share_num_text:
+              text:
+                "1 Share"
+            comment_text:
+              text:
+            share_desc_text:
+              text:
+            token_1_embed:
+              suppress: False
+            token_2a_embed:
+              suppress: True
+            token_2b_embed:
+              suppress: True
+          "2":
+          "3":
+          "4":
+          "5":
+          "6":
+          "7":
+          "8":
+          "9":
+          "10":
+
+marker:
+  short_name_text:
+    typeface: ${DEFAULT/typeface}
+  upper_text:
+    typeface: ${DEFAULT/typeface}
+  lower_text:
+    typeface: ${DEFAULT/typeface}
+
+  index:
+    round:
+      token:
+        ELEMENTS:
+          - token_interior_box
+          - outer_circle
+          - middle_circle
+          - inner_circle
+
+        index: $[index_of (1)]
+
+      outer_circle:
+        fill: ${colour/x11/gold}
+      middle_circle:
+        fill: ${colour/x11/limegreen}
+      inner_circle:
+        fill: ${colour/x11/sienna3}
+
+    HW50:
+      token:
+        _:
+          upper_text_text: "HW"
+          lower_text_text: "+50"
+          upper_text_y_inset: -3
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_minor_fill})]
+          _major_fill: ${colour/x11/gold}
+          _minor_fill: ${colour/x11/gold}
+          name_stripe_box_suppress: True
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index: "$[index_of (1)]"
+
+    mine1:
+      token:
+        _:
+          upper_text_text: "1"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "10"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine2:
+      token:
+        _:
+          upper_text_text: "2"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine3:
+      token:
+        _:
+          upper_text_text: "3"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine4:
+      token:
+        _:
+          upper_text_text: "4"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine5:
+      token:
+        _:
+          upper_text_text: "5"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "10"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine6:
+      token:
+        _:
+          upper_text_text: "6"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine7:
+      token:
+        _:
+          upper_text_text: "7"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine8:
+      token:
+        _:
+          upper_text_text: "8"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine9:
+      token:
+        _:
+          upper_text_text: "9"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine10:
+      token:
+        _:
+          upper_text_text: "10"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine11:
+      token:
+        _:
+          upper_text_text: "11"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine12:
+      token:
+        _:
+          upper_text_text: "12"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine13:
+      token:
+        _:
+          upper_text_text: "13"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine14:
+      token:
+        _:
+          upper_text_text: "14"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "20"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    mine15:
+      token:
+        _:
+          upper_text_text: "15"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index:
+          "1":
+            lower_text:
+              text: "30"
+          "2":
+            lower_text:
+              text: "CLOSED"
+              size: 7
+              y_inset: -2
+
+    indPM:
+      token:
+        _:
+          upper_text_text: "PM"
+          lower_text_text: "+40"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}/.}
+        index: "$[index_of (1)]"
+
+    indSB1:
+      token:
+        _:
+          upper_text_text: "SB"
+          lower_text_text: "+50"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: "$[index_of (1)]"
+
+    indSB2:
+      token:
+        _:
+          upper_text_text: "SB"
+          lower_text_text: "+60"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: "$[index_of (1)]"
+
+    indSM:
+      token:
+        _:
+          upper_text_text: "SM"
+          lower_text_text: "+50"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: "$[index_of (1)]"
+
+    indZW:
+      token:
+        _:
+          upper_text_text: "ZW"
+          lower_text_text: "+70"
+          upper_text_fill: ${colour/wikipedia/hot_pink}
+          lower_text_fill: ${colour/wikipedia/hot_pink}
+          _major_fill: ${colour/resene/Sazerac}
+          _minor_fill: ${colour/x11/white}
+          name_stripe_box_y: 2
+          name_stripe_box_y_inset: $[(${token_interior_box/y} / 2) - 1]
+          name_stripe_box_fill: ${colour/wikipedia/hot_pink}
+          name_stripe_box_stroke: ${colour/wikipedia/hot_pink}
+          name_stripe_box_width: 0.0
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: "$[index_of (1)]"
+
+    S2:
+      token:
+        _:
+          upper_text_text: "S2"
+          lower_text_text: "50M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_YELLOW}
+          _minor_fill: ${colour/xxp/TRAIN_YELLOW}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S3:
+      token:
+        _:
+          upper_text_text: "S3"
+          lower_text_text: "100M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_GREEN}
+          _minor_fill: ${colour/xxp/TRAIN_GREEN}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S4:
+      token:
+        _:
+          upper_text_text: "S4"
+          lower_text_text: "150M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BLUE}
+          _minor_fill: ${colour/xxp/TRAIN_BLUE}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    S5:
+      token:
+        _:
+          upper_text_text: "S5"
+          lower_text_text: "200M"
+          upper_text_fill: $[black_or_white (${_/_major_fill})]
+          lower_text_fill: $[black_or_white (${_/_major_fill})]
+          upper_text_size: 14
+          lower_text_size: 11
+          upper_text_y_inset: -3
+          lower_text_y_inset: 1
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BROWN}
+          _minor_fill: ${colour/xxp/TRAIN_BROWN}
+        ELEMENTS: ${TEMPLATE_two_halves_two_lines/.}
+        EMBED_ELEMENTS: ${TEMPLATE_two_halves_two_lines_embed/.}
+        index: $[index_of (15)]
+
+    M2:
+      token:
+        _:
+          short_name_text_text: "M2"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_YELLOW}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M3:
+      token:
+        _:
+          short_name_text_text: "M3"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_GREEN}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M4:
+      token:
+        _:
+          short_name_text_text: "M4"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BLUE}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    M5:
+      token:
+        _:
+          short_name_text_text: "M5"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          short_name_text_size: 18
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -3
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/xxp/TRAIN_BROWN}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (15)]
+
+    size5:
+      token:
+        _:
+          short_name_text_text: "5 Share"
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/robin_egg_blue}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (12)]
+
+    size10:
+      token:
+        _:
+          short_name_text_text: "10 Share"
+          short_name_text_size: 8
+          short_name_text_fill: $[black_or_white (${_/_major_fill})]
+          name_stripe_box_suppress: True
+          _major_fill: ${colour/wikipedia/wisteria}
+        ELEMENTS: ${TEMPLATE_solid/.}
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+        index: $[index_of (12)]
+
+train:
+  long_name_text:
+    typeface: ${DEFAULT/typeface}
+  cost_text:
+    size: 12
+
+  index:
+    1T:
+      _:
+        asset_interior_box_fill_p: LIGHT_YELLOW
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "1"
+        cost_text_text: |
+            Train: 100M
+        rusted_text_text: |
+            Maintenance:
+            Phase 3: 50M
+            Phase 4-5: 100M
+            Phase D: 150M
+        rusted_text_y: 6
+        rust_bar_box_y: 50
+      model:
+        index:
+          "1":
+            top_note_text:
+              text: |
+                MHE
+            cost_text:
+              text:
+          "2":
+
+    2T:
+      _:
+        asset_interior_box_fill_p: YELLOW
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "2"
+        cost_text_text: |
+            Train: 250M
+            Machine: 150M
+        rusted_text_text: |
+            Maintenance:
+            Phase 4-5: 100M
+            Phase D: 150M
+        rusted_text_y: 11
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (10)]"
+
+    3T:
+      _:
+        asset_interior_box_fill_p: GREEN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "3"
+        cost_text_text: |
+            Train: 450M
+            Machine: 300M
+        rusted_text_text: |
+            Maintenance:
+            Phase D: 150M
+        rusted_text_y: 16
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (7)]"
+
+    4T:
+      _:
+        asset_interior_box_fill_p: BLUE
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "4"
+        cost_text_text: |
+            Train: 500M
+            Machine: 750M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (3)]"
+
+    5T:
+      _:
+        asset_interior_box_fill_p: BROWN
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "5"
+        cost_text_text: |
+            Train: 1200M
+            Machine: 800M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (14)]"
+
+    DT:
+      _:
+        asset_interior_box_fill_p: GRAY
+        rust_bar_box_fill_p: BLACK
+        long_name_text_text: "D"
+        cost_text_text: |
+            Train: 250M
+        rusted_text_text: |
+            No maintenance
+        rusted_text_y: 21
+        rust_bar_box_y: 50
+      model:
+        index: "$[index_of (7)]"
+
+    P1:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        long_name_text_text: "1"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 40
+      model:
+        index: "$[index_of (1)]"
+
+    P2:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        long_name_text_text: "2"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 40
+      model:
+        index: "$[index_of (1)]"
+
+    P3:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        long_name_text_text: "3"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 40
+      model:
+        index: "$[index_of (1)]"
+
+    P4:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        long_name_text_text: "4"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 40
+      model:
+        index: "$[index_of (1)]"
+
+    P5:
+      _:
+        asset_interior_box_fill: ${colour/wikipedia/medium_persian_blue}
+        rust_bar_box_fill: ${colour/wikipedia/medium_persian_blue}
+        long_name_text_text: "5"
+        cost_text_text:
+        rusted_text_text:
+      long_name_text:
+        size: 128
+        y: 40
+      model:
+        index: "$[index_of (1)]"
